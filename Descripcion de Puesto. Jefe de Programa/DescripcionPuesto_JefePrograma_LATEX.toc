@@ -1,0 +1,34 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Justificación de Creación del Puesto}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Contexto de Oportunidad Estratégica}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Propuesta de Valor del Puesto}{3}{}%
+\contentsline {section}{\numberline {2}Caracterización Institucional del Puesto}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Identificación Administrativa}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Contexto Programático}{4}{}%
+\contentsline {section}{\numberline {3}Marco Conceptual y Objetivo Estratégico}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Fundamentación Teórica del Puesto}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Objetivo Estratégico del Puesto}{5}{}%
+\contentsline {subsection}{\numberline {3.3}Indicadores de Desempeño del Puesto}{6}{}%
+\contentsline {section}{\numberline {4}Responsabilidades Principales}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Coordinación Técnica Integral}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Gestión de Equipos y Recursos}{7}{}%
+\contentsline {subsection}{\numberline {4.3}Coordinación Interinstitucional}{7}{}%
+\contentsline {section}{\numberline {5}Perfil del Puesto}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Requisitos Académicos y Experiencia}{8}{}%
+\contentsline {subsection}{\numberline {5.2}Competencias Técnicas Específicas}{8}{}%
+\contentsline {section}{\numberline {6}Condiciones Laborales}{9}{}%
+\contentsline {subsection}{\numberline {6.1}Condiciones Generales}{9}{}%
+\contentsline {subsection}{\numberline {6.2}Prestaciones y Beneficios}{9}{}%
+\contentsline {section}{\numberline {7}Marco Legal y Financiero del Puesto}{9}{}%
+\contentsline {subsection}{\numberline {7.1}Fundamento Jurídico del Financiamiento}{9}{}%
+\contentsline {subsection}{\numberline {7.2}Estructura de Rendición de Cuentas}{10}{}%
+\contentsline {section}{\numberline {8}Estructura del Equipo Técnico}{10}{}%
+\contentsline {subsection}{\numberline {8.1}Marco Organizacional del Equipo}{10}{}%
+\contentsline {subsection}{\numberline {8.2}Perfiles Técnicos del Equipo}{10}{}%
+\contentsline {subsection}{\numberline {8.3}Competencias Transversales del Equipo}{11}{}%
+\contentsline {section}{\numberline {9}Plan de Trabajo del Jefe de Programa}{11}{}%
+\contentsline {subsection}{\numberline {9.1}Cronograma de Implementación 2026-2030}{11}{}%
+\contentsline {subsection}{\numberline {9.2}Rutina de Trabajo Mensual}{12}{}%
+\contentsline {subsection}{\numberline {9.3}Indicadores de Desempeño Mensual}{12}{}%
+\contentsline {section}{\numberline {10}Conclusiones Técnicas}{12}{}%
+\contentsline {section}{\numberline {11}Validación Institucional}{13}{}%

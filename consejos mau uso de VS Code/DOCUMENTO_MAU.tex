@@ -1,0 +1,235 @@
+%==================================================================
+% VS Code para Análisis Financiero + Git & Copilot
+% Versión actualizada con explicación completa de Git y Copilot
+% Noviembre 2025
+%==================================================================
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,english]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+\usepackage{pdflscape}
+\usepackage{tikz}
+\usepackage{url}
+
+%==================================================================
+% BUSINESS COLORS
+%==================================================================
+\definecolor{businessblue}{RGB}{0,51,102}
+\definecolor{businessgreen}{RGB}{34,139,34}
+\definecolor{businessgray}{RGB}{128,128,128}
+\definecolor{businessgold}{RGB}{255,215,0}
+
+%==================================================================
+% MÁRGENES Y ENCABEZADO/PIE DE PÁGINA
+%==================================================================
+\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=3cm,headheight=15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\textbf{VS Code Financial Analysis Guide}}
+
+%==================================================================
+% PORTADA
+%==================================================================
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    {\LARGE\bfseries Visual Studio Code (VS Code)\\[0.4cm]
+    Aplicaciones en el Análisis Financiero Moderno\\[0.3cm]
+    + Guía Completa de Git y GitHub Copilot\\[1.2cm]}
+    
+    {\large Business Technical Report (Bilingual: Spanish – English)\\[0.8cm]
+    November 2025}\\[2cm]
+    
+    \vfill
+    {\normalsize Prepared for professional and educational purposes\\[0.4cm]
+    Financial Analysis Consulting}
+\end{titlepage}
+
+%==================================================================
+% ÍNDICE
+%==================================================================
+\clearpage
+\thispagestyle{empty}
+\vspace*{3cm}
+{\LARGE\bfseries Contenido}\\[2cm]
+\tableofcontents
+\clearpage
+\setcounter{page}{1}
+
+%==================================================================
+% VERSIÓN EN INGLÉS
+%==================================================================
+\selectlanguage{english}
+\section*{Executive Summary}
+\addcontentsline{toc}{section}{Executive Summary}
+
+Visual Studio Code has become one of the most powerful and versatile tools for modern financial analysts, quantitative researchers and finance professionals worldwide. Its combination of Git integration, thousands of extensions, Jupyter support and seamless Python/R environments makes it a superior alternative (or complement) to Excel and proprietary tools.
+
+\section{Core Applications in Financial Analysis}
+
+\begin{table}[H]
+\centering
+\caption{Main Uses of VS Code in Finance}
+\begin{tabular}{p{5cm}p{5cm}p{5cm}}
+\toprule
+\rowcolor{businessgreen!20}
+\textbf{Application Area} & \textbf{Key Tools in VS Code} & \textbf{Advantage vs Traditional Tools} \\
+\midrule
+Data Wrangling \& ETL            & Python + Pandas, Polars, Data Wrangler & Handles >500k rows without freezing \\
+Quantitative Modeling            & NumPy, SciPy, backtrader, vectorbt    & Fully versioned, auditable code \\
+Automated Financial Reporting    & Jupyter + Quarto \textrightarrow\ PDF/HTML           & Live-updating reports with Plotly \\
+Risk \& Portfolio Analytics      & PyPortfolioOpt, Riskfolio-Lib         & Advanced CVaR, stress testing \\
+API Integration                  & yfinance, Alpha Vantage, Bloomberg    & Real-time data pipelines \\
+Machine Learning for Finance     & scikit-learn, Prophet, LightGBM       & Forecasting \& fraud detection \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{What is Git and GitHub Copilot? (Full Explanation)}
+
+\begin{table}[H]
+\centering
+\caption{Git + GitHub + Copilot: The Perfect Trio}
+\small
+\begin{tabular}{p{3.8cm}p{4.5cm}p{5cm}}
+\toprule
+\rowcolor{businessgreen!20}
+\textbf{Tool} & \textbf{What it is (simple)} & \textbf{Benefit for Mauricio's work as a financial analyst} \\
+\midrule
+\textbf{Git} & Free version control system (like “track changes on steroids”) & Never lose a version of your LaTeX report or financial model again \\
+\textbf{GitHub} & Cloud storage for Git repositories (private and free) & Automatic backup + access from any computer + audit trail \\
+\textbf{GitHub Copilot} & AI assistant that writes code and LaTeX for you in real time & Writes 40–60\% of tables, sections, and Python scripts automatically \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Real Example with Your LaTeX Documents}
+You write in Spanish:
+\begin{verbatim}
+% Tabla de KPIs del Macroproyecto Renacimiento Ganadero Maya
+\end{verbatim}
+→ Press Tab → Copilot instantly generates the complete table with professional formatting.
+
+\subsection{60-Second Setup in VS Code}
+\begin{enumerate}
+    \item Open your project folder
+    \item Ctrl+Shift+P → “Git: Initialize Repository”
+    \item Ctrl+Shift+P → “GitHub: Publish to GitHub” (private)
+    \item Install “GitHub Copilot” extension and log in
+    \item Done! Every save = automatic commit + push
+\end{enumerate}
+
+%==================================================================
+% VERSIÓN EN ESPAÑOL
+%==================================================================
+\clearpage
+\selectlanguage{spanish}
+
+\section*{Resumen Ejecutivo}
+\addcontentsline{toc}{section}{Resumen Ejecutivo}
+
+Visual Studio Code (VS Code) se ha convertido en una de las herramientas más potentes y versátiles para analistas financieros modernos, investigadores cuantitativos y profesionales del sector financiero, especialmente en entornos altamente regulados como Bruselas.
+
+\section{¿Qué es Git y GitHub Copilot? (Explicación completa)}
+
+\begin{table}[H]
+\centering
+\caption{Git + GitHub + Copilot: El trío perfecto}
+\small
+\begin{tabular}{p{3.8cm}p{4.5cm}p{5cm}}
+\toprule
+\rowcolor{businessgreen!20}
+\textbf{Herramienta} & \textbf{Qué es (en palabras simples)} & \textbf{Beneficio para el trabajo de Mauricio como analista financiero} \\
+\midrule
+\textbf{Git} & Sistema gratuito de control de versiones & Nunca más pierdes una versión de tu documento LaTeX o modelo financiero \\
+\textbf{GitHub} & Almacén en la nube (privado y gratis) & Respaldo automático + acceso desde cualquier PC + historial legal \\
+\textbf{GitHub Copilot} & Asistente IA que escribe código y LaTeX por ti & Genera 40–60\% de tablas, secciones y scripts Python automáticamente \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ejemplo real con tus documentos LaTeX del Renacimiento Ganadero Maya}
+Tú solo escribes:
+\begin{verbatim}
+% Tabla de indicadores clave de desempeño 2030
+\end{verbatim}
+→ Pulsas Tab → Copilot genera instantáneamente la tabla completa con formato profesional.
+
+\subsection{Configuración en 60 segundos dentro de VS Code}
+\begin{enumerate}
+    \item Abre la carpeta de tu proyecto
+    \item Ctrl+Shift+P → “Git: Initialize Repository”
+    \item Ctrl+Shift+P → “GitHub: Publish to GitHub” (elige privado)
+    \item Instala la extensión “GitHub Copilot” e inicia sesión
+    \item ¡Listo! Cada guardado es un commit + push automático
+\end{enumerate}
+
+\section{Rutina de Autoaprendizaje (30–60 min diarios)}
+
+\begin{table}[H]
+\centering
+\caption{Rutina de Autoaprendizaje Recomendada (30–60 min diarios)}
+\begin{tabular}{ll}
+\toprule
+\rowcolor{businessgold!20}
+\textbf{Día} & \textbf{Actividad + Recurso recomendado (2025)} \\
+\midrule
+Lunes    & Instalación VS Code + Python + Jupyter – Microsoft Learn \\
+Martes   & Dominio de Pandas con datos reales – Wes McKinney \\
+Miércoles & Dashboards financieros con Plotly – Corey Schafer \\
+Jueves   & Modelos de valoración – Nedav Davani (YouTube) \\
+Viernes  & Backtesting cuantitativo – Udemy 2025 \\
+Sábado   & Proyecto real: replicar reporte mensual bancario \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Meta:} Con sólo 30–60 minutos diarios durante 8–10 semanas, cualquier profesional puede convertirse en un analista cuantitativo de alto valor.
+
+\section{Top 5 Video Courses (updated 2025)}
+\begin{enumerate}
+    \item "Python for Finance and Trading – 2025 Edition" – The PyCoach (YouTube)
+    \item "VS Code for Data Analysts" – Microsoft Learn (official)
+    \item "Quantitative Finance with Python" – Nedav Davani (YouTube series)
+    \item Udemy: "Python for Financial Analysis and Algorithmic Trading" – Jose Portilla
+    \item DataCamp: "Modern Financial Modeling with VS Code \& Quarto"
+\end{enumerate}
+
+\textbf{Recursos Adicionales:}
+\begin{itemize}
+    \item \textbf{Documentación oficial VS Code:} \url{https://code.visualstudio.com/docs}
+    \item \textbf{GitHub Copilot Documentation:} \url{https://docs.github.com/copilot}
+    \item \textbf{LaTeX Project:} \url{https://www.latex-project.org/help/documentation/}
+\end{itemize}
+
+\section{Conclusión}
+
+Para un analista financiero que ya domina Excel y Power BI, adoptar VS Code con Python, Jupyter y Quarto representa el salto natural hacia la analítica financiera moderna: mayor automatización, reproducibilidad, cumplimiento regulatorio y capacidad de trabajar con datasets masivos.
+
+\vspace{2cm}
+\begin{center}
+    \large\textit{"El futuro del análisis financiero ya no está en hojas de cálculo,\\
+    está en código abierto, versionado y colaborativo."}
+\end{center}
+
+\end{document}
