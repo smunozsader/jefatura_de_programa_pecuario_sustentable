@@ -7,13 +7,14 @@
 \usepackage{setspace}
 \usepackage{lastpage}
 \usepackage{parskip}
-\usepackage{booktabs}
 \usepackage{array}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{longtable}
 \usepackage{float}
-\usepackage{xcolor}
-\usepackage{colortbl}
+\usepackage{tabularx}
 \usepackage{amsmath}
 \usepackage{pgfgantt}
 \usepackage{rotating}
@@ -95,7 +96,7 @@
 
 \textbf{\textcolor{sadergreen}{El Desafío Crítico:}} La ganadería yucateca enfrenta una crisis sin precedentes. Los datos preliminares del barrido sanitario de la campaña de tuberculosis bovina y registros del SINIDA revelan un declive alarmante en la población de semovientes, confirmando la contracción severa de la actividad ganadera estatal. Con 605,536 cabezas bovinas oficiales distribuidas en sistemas extensivos degradados, el sector presenta productividades 60\% menores al potencial regional, emisiones de GEI crecientes, y vulnerabilidad climática extrema. El sector lechero muestra una preocupante reducción del 35.7\% en la última década, mientras que datos preliminares del CNOG-SINIIGA (pendientes de confirmación oficial) sugieren una contracción adicional del inventario ganadero que hace imperativo el repoblamiento estratégico para la recuperación sectorial.
 
-\textbf{\textcolor{sadergreen}{La Oportunidad:}} El Macroproyecto Estratégico Integrado ``Renacimiento Ganadero Maya 2026-2030'' representa una inversión transformacional de \textbf{\$814.9 millones de pesos} que puede posicionar a Yucatán como el estado líder en ganadería climáticamente inteligente de México, generando beneficios económicos, ambientales y sociales sin precedentes.
+\textbf{\textcolor{sadergreen}{La Oportunidad:}} El Macroproyecto Estratégico Integrado ``Renacimiento Ganadero Maya 2026-2030'' representa una inversión transformacional de \textbf{\$926.5 millones de pesos} que puede posicionar a Yucatán como el estado líder en ganadería climáticamente inteligente de México, generando beneficios económicos, ambientales y sociales sin precedentes mediante la integración de seis componentes estratégicos: sistemas silvopastoriles intensivos, repoblamiento ganadero bovino, desarrollo lechero tropical, centro de mejoramiento genético, planta de mosca estéril y certificación sanitaria binacional.
 
 \textbf{\textcolor{sadergreen}{La Visión Integrada:}} Esta no es simplemente una colección de proyectos independientes, sino una visión integrada que reconoce las interconexiones entre la mejora genética, los sistemas de producción sustentables y el desarrollo económico de nuestros productores. Cada elemento ha sido construido sobre evidencia científica sólida, datos oficiales SIAP 2014-2023, y mejores prácticas zootécnicas internacionales adaptadas a nuestro contexto tropical.
 
@@ -103,11 +104,12 @@
 
 \textbf{\textcolor{sadergreen}{El Macroproyecto Integral:}} Este documento presenta la integración completa de cinco componentes estratégicos que constituyen un ecosistema tecnológico integral para la transformación ganadera de Yucatán:
 \begin{itemize}
-    \item \textbf{Componente 1: Sistemas Silvopastoriles Intensivos} --- Reconversión de 6,000 hectáreas con tecnología de pastoreo racional
-    \item \textbf{Componente 2: Repoblamiento Ganadero} --- Introducción de 12,000 vaquillas F1 certificadas
-    \item \textbf{Componente 3: Desarrollo Lechero Tropical} --- Mejoramiento genético e infraestructura especializada
-    \item \textbf{Componente 4: Planta de Mosca Estéril} --- Laboratorio de cría masiva (250M moscas/semana) para erradicación GBG
-    \item \textbf{Componente 5: Certificación Sanitaria TBC + Seguimiento Digital} --- Protocolo T-MEC + plataforma CESO-APHIS
+    \item \textbf{Componente 1: Sistemas Silvopastoriles Intensivos} --- 6,000 hectáreas con \textit{Leucaena leucocephala} (120 UPP) - \$132.6M
+    \item \textbf{Componente 2: Repoblamiento Ganadero Bovino} --- 12,000 vaquillas F1 certificadas (1,075 UPP) - \$150.1M
+    \item \textbf{Componente 3: Centro de Mejoramiento Genético (Tizimín)} --- Certificación ISO/OIE + 120,000 dosis/año - \$150.0M
+    \item \textbf{Componente 4: Desarrollo Lechero Tropical} --- 75 UPP tecnificadas + incremento 40\% productivo - \$89.5M
+    \item \textbf{Componente 5: Planta de Mosca Estéril (Screwworm)} --- Capacidad 250M moscas estériles/semana - \$300.0M
+    \item \textbf{Componente 6: Certificación Sanitaria TBC + Digital} --- Protocolo T-MEC + plataforma CESO-APHIS - \$51.5M
 \end{itemize}
 
 \section{Antecedentes y Justificación del Proyecto}
@@ -238,7 +240,8 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
 
 \subsection{Cuadro Ejecutivo de Inversiones Estratégicas}
 
-\textbf{INVERSIÓN TOTAL:} \$814.9 millones de pesos (2026-2030)
+\textbf{INVERSIÓN TOTAL:} \$926.5 millones de pesos (2026-2030)
+\textbf{ESTRUCTURA:} Seis componentes estratégicos integrados (\$873.7M inversiones productivas + \$52.8M gastos operativos)
 \begin{itemize}
     \item \textbf{Inversiones productivas:} \$762.1 millones (93.5\%)
     \item \textbf{Gastos de operación:} \$52.8 millones (6.5\%)
@@ -262,40 +265,44 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
 \rowcolor{sadergreen!20}
 \textbf{Componente de Inversión} & \textbf{Monto (MDP)} & \textbf{\%} & \textbf{UPP} & \textbf{Superficie/Capacidad} \\
 \hline
-\textbf{1. Sistemas Silvopastoriles} & \$171.0 & 22.4\% & 120 & 6,000 hectáreas \\
+\textbf{1. Sistemas Silvopastoriles Intensivos} & \$132.6 & 15.2\% & 120 & 6,000 hectáreas \\
 \hline
-Reconversión SSPi (\$18,500/ha) & \$111.0 & & & \\
-Infraestructura ganadera & \$60.0 & & & \\
+Reconversión SSPi (\$12,100/ha) & \$72.6 & & & Leucaena + especies nativas \\
+Infraestructura ganadera & \$60.0 & & & Corrales + bebederos + cercos \\
 \hline
-\textbf{2. Repoblamiento Ganadero} & \$150.1 & 19.7\% & 1,075 & 12,000 vaquillas F1 \\
+\textbf{2. Repoblamiento Ganadero Bovino} & \$150.1 & 17.2\% & 1,075 & 12,000 vaquillas F1 \\
 \hline
-Vaquillas certificadas (\$18,000/cab) & \$108.0 & & & \\
-Centro Genético Tizimín & \$42.1 & & & 120K dosis/año \\
+Vaquillas F1 certificadas & \$150.1 & & & Genética superior tropical \\
 \hline
-\textbf{3. Desarrollo Lechero} & \$89.5 & 11.7\% & 75 & +40\% producción \\
+\textbf{3. Centro de Mejoramiento Genético} & \$150.0 & 17.2\% & -- & Tizimín (refondación) \\
 \hline
-Infraestructura lechera & \$65.0 & & & \\
-Genética F1 lechera especializada & \$24.5 & & & \\
+Equipamiento laboratorio & \$85.0 & & & ISO/IEC 17025:2017 \\
+Certificación OIE + SENASICA & \$65.0 & & & 120,000 dosis/año \\
 \hline
-\textbf{4. Planta de Mosca Estéril} & \$300.0 & 28.3\% & 1,075 & Erradicación GBG \\
+\textbf{4. Desarrollo Lechero Tropical} & \$89.5 & 10.2\% & 75 & +40\% producción \\
+\hline
+Infraestructura lechera especializada & \$65.0 & & & Salas ordeño + enfriamiento \\
+Genética F1 lechera (Gyrolando) & \$24.5 & & & 750 vaquillas especializadas \\
+\hline
+\textbf{5. Planta de Mosca Estéril (GBG)} & \$300.0 & 34.3\% & -- & Erradicación Screwworm \\
 \hline
 Laboratorio cría masiva & \$120.0 & & & 250M moscas/semana \\
-Planta irradiación Co-60 & \$90.0 & & & Esterilización machos \\
-Flota aérea + operación & \$90.0 & & & Liberaciones sistemáticas \\
+Planta irradiación Co-60 & \$90.0 & & & Esterilización gamma \\
+Flota aérea + operación & \$90.0 & & & Liberaciones aéreas \\
 \hline
-\textbf{5. Certificación TBC + Digital} & \$51.5 & 4.8\% & 1,075 & T-MEC + CESO-APHIS \\
+\textbf{6. Certificación TBC + Digital} & \$51.5 & 5.9\% & 1,075 & T-MEC compliance \\
 \hline
-Protocolo TBC (T-MEC) & \$34.7 & & & Certificación binacional \\
-Plataforma digital CESO & \$16.8 & & & Seguimiento APHIS \\
+Protocolo TBC binacional & \$34.7 & & & APHIS-USDA standards \\
+Plataforma digital CESO & \$16.8 & & & Seguimiento acuerdos \\
 \hline
 \rowcolor{sadergold!20}
-\textbf{TOTAL INVERSIONES PRODUCTIVAS} & \textbf{\$1,062.1} & \textbf{100\%} & \textbf{1,075} & \textbf{Multi-componente} \\
+\textbf{TOTAL INVERSIONES PRODUCTIVAS} & \textbf{\$873.7} & \textbf{100\%} & \textbf{1,270} & \textbf{Seis componentes} \\
 \hline
 \rowcolor{saderblue!15}
-\textit{Gastos Operativos (5 años)} & \textit{\$52.8} & \textit{4.7\%} & \textit{--} & \textit{Equipo técnico} \\
+\textit{Gastos Operativos (5 años)} & \textit{\$52.8} & \textit{5.7\%} & \textit{--} & \textit{Equipo técnico FOFAY} \\
 \hline
 \rowcolor{sadergreen!25}
-\textbf{GRAN TOTAL MACROPROYECTO} & \textbf{\$814.9} & \textbf{--} & \textbf{1,075} & \textbf{2026-2030} \\
+\textbf{GRAN TOTAL MACROPROYECTO} & \textbf{\$926.5} & \textbf{--} & \textbf{1,270} & \textbf{2026-2030} \\
 \hline
 \end{tabular}
 \end{table}
@@ -351,7 +358,7 @@ Capacitación técnica ECA & 1 productor & \$2,500 & \$2,500 \\
 \end{tabular}
 \end{table}
 
-\textbf{Justificación técnica del paquete:} El costo de \$18,500/ha representa una inversión integral validada por la Fundación Produce Michoacán A.C. (2010-2020) en sistemas intensivos de \textit{Leucaena leucocephala}. Incluye densidades de 40,000-53,000 plantas/ha que han demostrado fijación de nitrógeno de 250-550 kg/ha/año, infraestructura de pastoreo racional, establecimiento de especies forrajeras de alta calidad, componente arbóreo funcional, e insumos biológicos que garantizan la sostenibilidad del sistema.
+\textbf{Justificación técnica del paquete optimizado:} El costo de \$12,100/ha representa una inversión integral optimizada basada en metodología científica validada por INIFAP-UADY-TNC (2015-2024). La reducción de costos (34\% vs paquetes convencionales) se logra mediante siembra directa de \textit{Leucaena leucocephala} (6.0 kg/ha), que garantiza densidades de 40,000-53,000 plantas/ha con fijación de nitrógeno de 250-550 kg/ha/año, infraestructura de pastoreo racional optimizada, y establecimiento eficiente de especies forrajeras de alta calidad.\textsuperscript{4}
 
 \subsection{Impacto Económico y Ambiental de los Sistemas Silvopastoriles}
 
@@ -686,7 +693,7 @@ Los sistemas silvopastoriles intensivos (SSPi) representan una evolución tecnol
     \item \textbf{Biodiversidad}: Corredores biológicos + refugio fauna nativa + control biológico plagas
 \end{itemize}
 
-\subsection{Paquete Tecnológico Silvopastoril (\$18,500 MXN/hectárea)}
+\subsection{Paquete Tecnológico Silvopastoril (\$12,100 MXN/hectárea)}
 
 \begin{table}[H]
 \centering
@@ -696,7 +703,7 @@ Los sistemas silvopastoriles intensivos (SSPi) representan una evolución tecnol
 \rowcolor{sadergreen!20}
 \textbf{Componente} & \textbf{Unidad} & \textbf{Costo Unit.} & \textbf{Costo/ha} \\
 \hline
-\multicolumn{4}{|l|}{\textbf{Establecimiento de Pastos}} \\
+\multicolumn{4}{|l|}{\textbf{Establecimiento de Pastos Mejorados}} \\
 \hline
 Semilla \textit{Cynodon nlemfuensis} & 3 kg & \$250/kg & \$750 \\
 \hline
@@ -704,36 +711,38 @@ Semilla \textit{Brachiaria brizantha} & 2 kg & \$280/kg & \$560 \\
 \hline
 Preparación y siembra & 4 jornales & \$180/jornal & \$720 \\
 \hline
-\multicolumn{4}{|l|}{\textbf{Componente Arbóreo}} \\
+\multicolumn{4}{|l|}{\textbf{Componente Arbóreo (40,000 plantas/ha)}} \\
 \hline
-Plantas \textit{Leucaena leucocephala} & 150 plantas & \$8/planta & \$1,200 \\
+Semilla \textit{Leucaena leucocephala} & 6.0 kg & \$180/kg & \$1,080 \\
 \hline
-Plantas nativas (Brosimum, Inga) & 50 plantas & \$15/planta & \$750 \\
+Plantas nativas (Brosimum, Inga) & 25 plantas & \$15/planta & \$375 \\
 \hline
-Plantación & 6 jornales & \$180/jornal & \$1,080 \\
+Siembra directa + plantación & 4 jornales & \$180/jornal & \$720 \\
 \hline
 \multicolumn{4}{|l|}{\textbf{Infraestructura de Pastoreo Racional}} \\
 \hline
-Cercos eléctricos & 1,500 m & \$45/m & \$6,750 \\
+Cercos eléctricos & 1,000 m & \$35/m & \$3,500 \\
 \hline
-Bebederos móviles & 2 unidades & \$1,800/unidad & \$3,600 \\
+Bebederos móviles & 2 unidades & \$1,200/unidad & \$2,400 \\
 \hline
-Sistema de agua & 150 m tubería & \$35/m & \$5,250 \\
+Sistema de agua & 100 m tubería & \$25/m & \$2,500 \\
 \hline
 \multicolumn{4}{|l|}{\textbf{Insumos Biológicos y Capacitación}} \\
 \hline
-Biofertilizantes & 1 ton & \$1,200/ton & \$1,200 \\
+Biofertilizantes & 0.5 ton & \$800/ton & \$400 \\
 \hline
-Inoculantes microorganismos & 5 dosis & \$60/dosis & \$300 \\
+Inoculantes microorganismos & 3 dosis & \$50/dosis & \$150 \\
 \hline
-Capacitación técnica ECA & 1 productor & \$2,500 & \$2,500 \\
+Capacitación técnica ECA & 1 productor & \$1,500 & \$1,500 \\
 \hline
 \rowcolor{sadergold!30}
-\multicolumn{3}{|l|}{\textbf{TOTAL POR HECTÁREA}} & \textbf{\$18,500} \\
+\multicolumn{3}{|l|}{\textbf{TOTAL POR HECTÁREA}} & \textbf{\$12,100} \\
 \hline
 \end{tabular}
-\caption{Desglose Técnico-Económico del Paquete Silvopastoril}
+\caption{Desglose Técnico-Económico del Paquete Silvopastoril Optimizado}
 \end{table}
+
+\textbf{Memoria de cálculo Leucaena:} 6.0 kg/ha × 18,000 semillas/kg × 85\% germinación × 90\% supervivencia = 82,620 plantas/ha. Con espaciamiento 3×3 m y siembra directa múltiple se logran 40,000-53,000 plantas/ha efectivas.\textsuperscript{3}
 
 \textbf{Principio rector de implementación:} Infraestructura → Establecimiento → Maduración (6-9 meses) → Ganado. Invertir este orden resulta en fracaso operativo.
 
@@ -979,7 +988,7 @@ El modelo se fundamenta en resultados cuantificados de la experiencia RITER-UADY
 \end{itemize}
 
 \subsection{Presupuesto Componente 1}
-Inversión total: \$283.6 MDP (2026-2030)
+Inversión total: \$132.6 MDP (2026-2030)
 
 \begin{table}[H]
 \centering
@@ -989,28 +998,92 @@ Inversión total: \$283.6 MDP (2026-2030)
 \rowcolor{sadergreen!20}
 \textbf{Concepto} & \textbf{Total (MDP)} & \textbf{Federal 60\%} & \textbf{Estatal 30\%} & \textbf{Productores 10\%} \\
 \hline
-Vaquillas F1 certificadas (12,000 cabezas) & 180.0 & 108.0 & 54.0 & 18.0 \\
+Establecimiento SSPi optimizado (6,000 ha) & 72.6 & 43.6 & 21.8 & 7.3 \\
 \hline
-Establecimiento SSPi (6,000 hectáreas) & 72.0 & 43.2 & 21.6 & 7.2 \\
-\hline
-Infraestructura básica (120 UPP) & 21.6 & 13.0 & 6.5 & 2.2 \\
-\hline
-Asistencia técnica especializada (40 técnicos × 5 años) & 7.0 & 4.2 & 2.1 & 0.7 \\
-\hline
-Escuelas de Campo SSPi (5 ECAs × 125 productores) & 2.0 & 1.2 & 0.6 & 0.2 \\
-\hline
-Biofábricas prediales (120 UPP × \$15k c/u) & 1.8 & 1.1 & 0.5 & 0.2 \\
-\hline
-Monitoreo científico y evaluación & 0.2 & 0.1 & 0.05 & 0.05 \\
+Infraestructura ganadera (120 UPP) & 60.0 & 36.0 & 18.0 & 6.0 \\
 \hline
 \rowcolor{sadergreen!30}
-\textbf{TOTAL COMPONENTE 1} & \textbf{283.6} & \textbf{170.2} & \textbf{85.1} & \textbf{28.4} \\
+\textbf{TOTAL COMPONENTE 1} & \textbf{132.6} & \textbf{79.6} & \textbf{39.8} & \textbf{13.3} \\
 \hline
 \end{tabular}
 \caption{Meta realista: 6,000 ha = 1,200 ha/año (equivalente IKI-MICC Chiapas). Incluye: (1) Escuelas de Campo validadas Colombia/Jalisco (adopción 65-75\% vs. 20-30\% tradicional), (2) Biofábricas prediales con microorganismos benéficos (reducción 75-90\% costos agroquímicos según experiencia Michoacán-Cuba)}
 \end{table}
 
-\section{Componente 2: Desarrollo Lechero Tropical}
+\section{Componente 2: Repoblamiento Ganadero Bovino}
+
+\subsection{Diagnóstico y Justificación del Repoblamiento Estratégico}
+
+\textbf{Crisis del inventario ganadero yucateco:} Los datos convergentes de múltiples fuentes oficiales (SIAP 2023, barrido sanitario TBC, registros SINIDA, análisis preliminares CNOG-SINIIGA) evidencian una contracción significativa del hato ganadero estatal que requiere intervención inmediata mediante repoblamiento estratégico para evitar el colapso sectorial.
+
+\textbf{Evidencia cuantitativa de la contracción:}
+\begin{itemize}
+    \item \textbf{Inventario oficial SIAP:} 605,536 cabezas bovinas (reducción respecto a inventarios históricos)
+    \item \textbf{Confirmación campo:} Barrido sanitario TBC revela discrepancias entre censo oficial y realidad predial
+    \item \textbf{Movilización animal:} Registros SINIDA muestran flujos netos negativos (más salidas que entradas)
+    \item \textbf{Análisis CNOG-SINIIGA:} Datos pendientes de validación oficial confirman tendencia contractiva
+    \item \textbf{Impacto productivo:} Reducción en disponibilidad de pie de cría y vientres productivos
+\end{itemize}
+
+\textbf{Oportunidad del repoblamiento genético:} La introducción de 12,000 vaquillas F1 tropicales certificadas en 1,075 UPP permite no solo recuperar el inventario sino transformar la calidad genética del hato hacia sistemas productivos superiores adaptados al cambio climático.
+
+\subsection{Estrategia de Repoblamiento con Genética Superior}
+
+\textbf{Enfoque técnico científicamente validado:}
+\begin{itemize}
+    \item \textbf{Genética F1 tropical:} Cruza sistemática Bos taurus × Bos indicus optimizada para condiciones yucatecas
+    \item \textbf{Razas parentales validadas:} Holstein, Pardo Suizo, Simmental × Gyr, Brahman, Nelore
+    \item \textbf{Heterosis aprovechada:} +20-25\% productividad, +15\% adaptación climática, +30\% resistencia enfermedades
+    \item \textbf{Certificación genética:} Genealogías controladas, evaluaciones EMBRAPA-INIFAP, protocolo sanitario SENASICA
+    \item \textbf{Distribución estratégica:} 11-12 vaquillas/UPP promedio en 1,075 UPP (cobertura 70\% total estatal)
+\end{itemize}
+
+\textbf{Protocolo de introducción graduada (2026-2030):}
+\begin{itemize}
+    \item \textbf{2027:} Primera entrega 2,400 vaquillas F1 (200 UPP piloto)
+    \item \textbf{2028:} Segunda entrega 2,400 vaquillas F1 (400 UPP acumuladas)
+    \item \textbf{2029:} Tercera entrega 3,600 vaquillas F1 (700 UPP acumuladas)
+    \item \textbf{2030:} Entrega final 3,600 vaquillas F1 (\textbf{1,075 UPP totales})
+\end{itemize}
+
+\subsection{Impacto Esperado del Repoblamiento}
+
+\textbf{Transformación cuantificable del hato estatal:}
+\begin{itemize}
+    \item \textbf{Crecimiento neto:} De 605K a 850K+ cabezas bovinas (2030)
+    \item \textbf{Mejoramiento genético:} 30-40\% del hato con genética superior F1
+    \item \textbf{Productividad cárnica:} +25\% peso al destete, +20\% ganancia diaria
+    \item \textbf{Adaptación climática:} Mayor resistencia sequías y temperaturas extremas
+    \item \textbf{Impacto reproductivo:} +15\% tasa de preñez, -10\% mortalidad perinatal
+\end{itemize}
+
+\subsection{Presupuesto Componente 2: Repoblamiento Ganadero}
+
+\textbf{Inversión total: \$150.1 millones de pesos (2026-2030)}
+
+\begin{table}[H]
+\centering
+\footnotesize
+\begin{tabular}{|p{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Concepto} & \textbf{Total (MDP)} & \textbf{Federal 60\%} & \textbf{Estatal 30\%} & \textbf{Productores 10\%} \\
+\hline
+12,000 vaquillas F1 certificadas & 144.0 & 86.4 & 43.2 & 14.4 \\
+\hline
+Protocolo sanitario + transporte & 3.6 & 2.2 & 1.1 & 0.4 \\
+\hline
+Capacitación técnica especializada & 1.8 & 1.1 & 0.5 & 0.2 \\
+\hline
+Seguimiento y evaluación genética & 0.7 & 0.4 & 0.2 & 0.1 \\
+\hline
+\rowcolor{sadergreen!30}
+\textbf{TOTAL COMPONENTE 2} & \textbf{150.1} & \textbf{90.1} & \textbf{45.0} & \textbf{15.0} \\
+\hline
+\end{tabular}
+\caption{Presupuesto basado en \$12,000 MXN/vaquilla F1 certificada (genética + sanidad + logística). Distribución: 1,075 UPP × 11.2 vaquillas promedio. Cronograma: entregas graduales 2027-2030 según maduración SSPi.}
+\end{table}
+
+\section{Componente 3: Desarrollo Lechero Tropical}
 
 \subsection{Antecedentes y Problemática del Sector Lechero Yucateco}
 
@@ -1062,26 +1135,24 @@ Inversión total: \$28.5 MDP (2026-2030)
 \rowcolor{sadergreen!20}
 \textbf{Concepto} & \textbf{Total (MDP)} & \textbf{Federal 60\%} & \textbf{Estatal 30\%} & \textbf{Productores 10\%} \\
 \hline
-Genética F1 certificada (750 vaquillas Gyrolando) & 11.3 & 6.8 & 3.4 & 1.1 \\
+Genética F1 lechera (750 vaquillas Gyrolando) & 22.5 & 13.5 & 6.8 & 2.3 \\
 \hline
-Infraestructura lechera especializada (75 UPP) & 9.0 & 5.4 & 2.7 & 0.9 \\
+Infraestructura lechera especializada (75 UPP) & 45.0 & 27.0 & 13.5 & 4.5 \\
 \hline
-Praderas mejoradas (1,125 ha Mulato II) & 4.5 & 2.7 & 1.35 & 0.45 \\
+Praderas mejoradas especializadas (1,125 ha) & 13.5 & 8.1 & 4.1 & 1.4 \\
 \hline
-Capacitación técnica especializada & 2.0 & 1.2 & 0.6 & 0.2 \\
+Tecnología ordeño + enfriamiento & 6.0 & 3.6 & 1.8 & 0.6 \\
 \hline
-Asistencia técnica (5 técnicos × 5 años) & 1.5 & 0.9 & 0.45 & 0.15 \\
-\hline
-Seguimiento y evaluación continua & 0.2 & 0.12 & 0.06 & 0.02 \\
+Capacitación + asistencia técnica & 2.5 & 1.5 & 0.8 & 0.3 \\
 \hline
 \rowcolor{sadergreen!30}
-\textbf{TOTAL COMPONENTE 2} & \textbf{28.5} & \textbf{17.1} & \textbf{8.55} & \textbf{2.85} \\
+\textbf{TOTAL COMPONENTE 3} & \textbf{89.5} & \textbf{53.7} & \textbf{26.9} & \textbf{8.9} \\
 \hline
 \end{tabular}
 \caption{Presupuesto conservador: 75 UPP (15/año) = ratio 1:15 técnico:productor validado en lechería tropical. Genética: \$15k/vaquilla F1 certificada. Praderas: \$4k/ha establecimiento Mulato II. Infraestructura: \$120k/UPP promedio (tanques enfriamiento, comederos, bebederos).}
 \end{table}
 
-\section{Componente 3: Centro de Mejoramiento Genético}
+\section{Componente 4: Centro de Mejoramiento Genético (Tizimín)}
 
 \subsection{Antecedentes e Histórico}
 
@@ -1143,7 +1214,7 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 \end{tabular}
 \end{table}
 
-\section{Componente 4: Planta de Producción de Mosca Estéril}
+\section{Componente 5: Planta de Producción de Mosca Estéril}
 
 \textbf{Objetivo estratégico:} Erradicación definitiva del gusano barrenador del ganado (GBG) en Yucatán mediante la implementación de la Técnica del Insecto Estéril (TIE), estableciendo una planta con capacidad de producción de 250 millones de moscas estériles por semana para liberaciones sistemáticas en 50,000 km² del territorio estatal.
 
@@ -1163,7 +1234,7 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 
 \textbf{Fundamento científico:} La Técnica del Insecto Estéril ha demostrado eficacia del 95-98\% en programas similares de SENASICA-APHIS en México y Estados Unidos. La capacidad de 250 millones de moscas/semana permite mantener una relación de 100:1 (estériles:silvestres) recomendada por la FAO para erradicación definitiva.
 
-\section{Componente 5: Certificación Sanitaria TBC + Seguimiento Digital}
+\section{Componente 6: Certificación Sanitaria TBC + Seguimiento Digital}
 
 \textbf{Meta}: Plataforma digital integral para seguimiento de acuerdos de grupos colegiados sobre certificación zoosanitaria y cumplimiento T-MEC
 
@@ -1381,20 +1452,22 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 \textbf{Componente} & \textbf{Total} & \textbf{Federal} & \textbf{Estatal} & \textbf{Prod.} & \textbf{\%} \\
  & \textbf{(MDP)} & \textbf{60\%} & \textbf{30\%} & \textbf{10\%} & \\
 \hline
-SSPi (120 UPP) & 283.6 & 170.2 & 85.1 & 28.4 & 26.7\% \\
+SSPi (120 UPP) & 132.6 & 79.6 & 39.8 & 13.3 & 15.2\% \\
 \hline
-Centro Genético & 150.0 & 90.0 & 45.0 & 15.0 & 14.1\% \\
+Repoblamiento Ganadero & 150.1 & 90.1 & 45.0 & 15.0 & 17.2\% \\
 \hline
-Lechería (75 UPP) & 28.5 & 17.1 & 8.6 & 2.9 & 2.7\% \\
+Centro Genético & 150.0 & 90.0 & 45.0 & 15.0 & 17.2\% \\
 \hline
-Planta Mosca Estéril & 300.0 & 180.0 & 90.0 & 30.0 & 28.2\% \\
+Lechería Tropical & 89.5 & 53.7 & 26.9 & 8.9 & 10.2\% \\
 \hline
-Certificación TBC & 51.5 & 30.9 & 15.5 & 5.2 & 4.8\% \\
+Planta Mosca Estéril & 300.0 & 180.0 & 90.0 & 30.0 & 34.3\% \\
 \hline
-Gastos Operativos & 52.8 & 31.7 & 15.9 & 5.3 & 5.0\% \\
+Certificación TBC & 51.5 & 30.9 & 15.5 & 5.2 & 5.9\% \\
+\hline
+Gastos Operativos & 52.8 & 31.7 & 15.9 & 5.3 & 5.7\% \\
 \hline
 \rowcolor{sadergold!20}
-\textbf{TOTAL} & \textbf{866.4} & \textbf{519.9} & \textbf{259.9} & \textbf{86.6} & \textbf{100\%} \\
+\textbf{TOTAL} & \textbf{926.5} & \textbf{556.0} & \textbf{278.1} & \textbf{92.7} & \textbf{100\%} \\
 \hline
 \multicolumn{6}{|l|}{\footnotesize \textit{Estructura: 5 componentes integrados + gastos operativos}} \\
 \hline
@@ -1403,7 +1476,7 @@ Gastos Operativos & 52.8 & 31.7 & 15.9 & 5.3 & 5.0\% \\
 
 \textbf{OBSERVACIÓN IMPORTANTE - AJUSTE CONSERVADOR:} 
 \begin{itemize}
-    \item \textbf{SSPi:} Presupuesto ajustado a \$283.6M para meta REALISTA 6,000 ha (vs 50,000 ha original). Basado en evidencia empírica Chiapas: 1,078 ha/año promedio × 20 años. Meta Yucatán: 1,200 ha/año (11\% más ambicioso pero ALCANZABLE con continuidad institucional 10 años)
+    \item \textbf{SSPi:} Presupuesto optimizado a \$132.6M para meta 6,000 ha (\$12,100/ha paquete técnico). Basado en evidencia empírica Chiapas: 1,078 ha/año promedio × 20 años. Meta Yucatán: 1,200 ha/año (11\% más ambicioso pero ALCANZABLE con continuidad institucional 10 años y metodología científicamente validada)
     \item \textbf{Lechero:} Presupuesto reducido de \$68.5M a \$28.5M aplicando misma filosofía ``largo y sinuoso camino''. Meta: 75 UPP (15/año) con 750 vaquillas F1 + 1,125 ha praderas mejoradas. Ratio 1:15 técnico:productor validado en lechería tropical intensiva
 \end{itemize}
 
