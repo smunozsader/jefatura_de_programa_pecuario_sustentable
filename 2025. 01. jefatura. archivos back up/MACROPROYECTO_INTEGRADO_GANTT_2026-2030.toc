@@ -1,0 +1,83 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen Ejecutivo}{3}{}%
+\contentsline {section}{\numberline {2}Antecedentes y Justificación del Proyecto}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Situación Actual de la Ganadería Yucateca}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Alineación con Políticas Públicas y Presupuesto Federal}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Marco Presupuestal Federal 2026 - Ganadería Sustentable}{5}{}%
+\contentsline {subsection}{\numberline {2.4}Focalización Territorial Basada en Análisis de Pareto}{5}{}%
+\contentsline {section}{\numberline {3}Inversiones Principales y Metas Físicas}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Cuadro Ejecutivo de Inversiones Estratégicas}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Paquete Tecnológico Silvopastoril (\$18,500 MXN/hectárea)}{8}{}%
+\contentsline {subsection}{\numberline {3.3}Impacto Económico y Ambiental de los Sistemas Silvopastoriles}{9}{}%
+\contentsline {subsection}{\numberline {3.4}Fundamentos Zootécnicos y Científicos}{9}{}%
+\contentsline {subsection}{\numberline {3.5}Esquema de Financiamiento Tripartito}{10}{}%
+\contentsline {section}{\numberline {4}Metas Físicas y Resultados Esperados}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Sistemas Silvopastoriles Intensivos: Reconversión Territorial Estratégica}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Repoblamiento Ganadero Estratégico}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Desarrollo Lechero Tropical Sustentable}{12}{}%
+\contentsline {subsection}{\numberline {4.4}Componente 4: Planta de Producción de Mosca Estéril}{13}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}Infraestructura Técnica Requerida}{13}{}%
+\contentsline {subsection}{\numberline {4.5}Componente 5: Certificación Sanitaria TBC + Seguimiento Digital}{14}{}%
+\contentsline {subsection}{\numberline {4.6}Cronograma de Implementación 2026-2030}{14}{}%
+\contentsline {subsection}{\numberline {4.7}Presupuesto Detallado y Esquema Financiero}{15}{}%
+\contentsline {subsection}{\numberline {4.8}Beneficios Cuantificados y Retorno de Inversión}{15}{}%
+\contentsline {section}{\numberline {5}Marco Conceptual y Justificación Científica}{16}{}%
+\contentsline {subsection}{\numberline {5.1}Fundamentos de los Sistemas Silvopastoriles Intensivos}{16}{}%
+\contentsline {subsection}{\numberline {5.2}Paquete Tecnológico Silvopastoril (\$18,500 MXN/hectárea)}{17}{}%
+\contentsline {subsection}{\numberline {5.3}Metodología de Transferencia Tecnológica}{17}{}%
+\contentsline {subsection}{\numberline {5.4}Diagnóstico Basado en Datos Oficiales SIAP}{17}{}%
+\contentsline {subsection}{\numberline {5.5}Fundamentación Zootécnica}{18}{}%
+\contentsline {section}{\numberline {6}Componente 1: Sistemas Silvopastoriles Intensivos}{18}{}%
+\contentsline {subsection}{\numberline {6.1}Antecedentes y Diagnóstico de la Ganadería Extensiva Tradicional}{18}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Caracterización Técnica del Sistema Ganadero Actual}{18}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Dinámica Degradativa del Pastoreo Extensivo Tradicional}{19}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}El Potencial Transformador de los Sistemas Silvopastoriles Intensivos}{20}{}%
+\contentsline {subsection}{\numberline {6.2}La Revolución Silvopastoril: Una Respuesta Integral}{22}{}%
+\contentsline {subsection}{\numberline {6.3}Objetivos de Transformación Territorial}{22}{}%
+\contentsline {subsection}{\numberline {6.4}Lecciones de Masificación SSPi: El Largo y Sinuoso Camino}{23}{}%
+\contentsline {subsection}{\numberline {6.5}Estrategia de Adopción: Escuelas de Campo Silvopastoriles}{24}{}%
+\contentsline {subsection}{\numberline {6.6}Biofábricas Prediales: Producción de Bioinsumos con Microorganismos Benéficos}{24}{}%
+\contentsline {subsection}{\numberline {6.7}Modelo Zootécnico Validado Científicamente}{25}{}%
+\contentsline {subsection}{\numberline {6.8}Presupuesto Componente 1}{26}{}%
+\contentsline {section}{\numberline {7}Componente 2: Desarrollo Lechero Tropical}{26}{}%
+\contentsline {subsection}{\numberline {7.1}Antecedentes y Problemática del Sector Lechero Yucateco}{26}{}%
+\contentsline {subsection}{\numberline {7.2}Estrategia Integral de Transformación Lechera}{27}{}%
+\contentsline {subsection}{\numberline {7.3}Objetivos Cuantificables y Metas de Impacto}{27}{}%
+\contentsline {subsection}{\numberline {7.4}Fundamentos Técnicos y Científicos}{28}{}%
+\contentsline {subsection}{\numberline {7.5}Presupuesto Componente 2}{28}{}%
+\contentsline {section}{\numberline {8}Componente 3: Centro de Mejoramiento Genético}{29}{}%
+\contentsline {subsection}{\numberline {8.1}Antecedentes e Histórico}{29}{}%
+\contentsline {subsection}{\numberline {8.2}Objetivos de Excelencia y Certificación Internacional}{29}{}%
+\contentsline {subsection}{\numberline {8.3}Red de Investigación y Colaboración Científica}{29}{}%
+\contentsline {subsection}{\numberline {8.4}Presupuesto Componente 3}{30}{}%
+\contentsline {section}{\numberline {9}Componente 4: Planta de Producción de Mosca Estéril}{30}{}%
+\contentsline {section}{\numberline {10}Componente 5: Certificación Sanitaria TBC + Seguimiento Digital}{31}{}%
+\contentsline {section}{\numberline {11}Cronograma GANTT Integrado 2026-2030}{33}{}%
+\contentsline {subsection}{\numberline {11.1}Diagrama de Flujo Temporal por Componentes}{33}{}%
+\contentsline {section}{\numberline {12}Cronograma Detallado por Trimestres}{33}{}%
+\contentsline {subsection}{\numberline {12.1}2026 - Año de Fundamentación}{33}{}%
+\contentsline {subsection}{\numberline {12.2}2027 - Año de Consolidación}{34}{}%
+\contentsline {subsection}{\numberline {12.3}2028 - Año de Expansión y Certificación}{34}{}%
+\contentsline {subsection}{\numberline {12.4}2029-2030 - Consolidación y Expansión}{35}{}%
+\contentsline {section}{\numberline {13}Presupuesto Consolidado del Macroproyecto}{36}{}%
+\contentsline {section}{\numberline {14}Indicadores de Impacto Cuantificables}{36}{}%
+\contentsline {subsection}{\numberline {14.1}Métricas Zootécnicas Verificables}{36}{}%
+\contentsline {subsection}{\numberline {14.2}Impacto Ambiental Medible}{36}{}%
+\contentsline {subsection}{\numberline {14.3}Impacto Socioeconómico}{37}{}%
+\contentsline {section}{\numberline {15}Validación Científica y Seguimiento}{37}{}%
+\contentsline {subsection}{\numberline {15.1}Convenios de Investigación Aplicada}{37}{}%
+\contentsline {subsection}{\numberline {15.2}Metodología de Evaluación}{37}{}%
+\contentsline {section}{\numberline {16}Marco Técnico y Tecnológico}{37}{}%
+\contentsline {subsection}{\numberline {16.1}Enfoque Zootécnico Integral}{37}{}%
+\contentsline {subsection}{\numberline {16.2}Tecnologías de Vanguardia Aplicadas}{38}{}%
+\contentsline {subsection}{\numberline {16.3}Aprovechamiento de Infraestructura Existente}{38}{}%
+\contentsline {section}{\numberline {17}Conclusiones}{38}{}%
+\contentsline {section}{\numberline {18}Cronograma de Ejecución Trimestral Detallado}{39}{}%
+\contentsline {section}{\numberline {19}Bibliografía Científica}{39}{}%
+\contentsline {section}{Anexo: Verificación de Carga Animal}{41}{}%
+\contentsline {section}{\numberline {20}Estructura del Equipo Técnico Especializado}{45}{}%
+\contentsline {subsection}{\numberline {20.1}Justificación del Equipo Multidisciplinario}{45}{}%
+\contentsline {subsection}{\numberline {20.2}Estructura Organizacional y Costos}{46}{}%
+\contentsline {subsection}{\numberline {20.3}Mecanismo de Financiamiento vía FOFAY}{46}{}%
+\contentsline {section}{Anexo I: Memoria de Cálculo - Gastos Operativos}{47}{}%
+\contentsline {section}{Anexo II: Análisis de Pareto - Concentración Ganadera}{51}{}%

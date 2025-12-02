@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.25)  1 DEC 2025 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.25)  1 DEC 2025 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -354,8 +354,12 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count315
+) (Ingeniero_Agronomo_Senior_LATEX.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 8.
 )
-No file Ingeniero_Agronomo_Senior_LATEX.aux.
 \openout1 = `Ingeniero_Agronomo_Senior_LATEX.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -374,8 +378,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
 LaTeX Font Info:    ... okay on input line 36.
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 36.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -449,13 +452,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-No file Ingeniero_Agronomo_Senior_LATEX.toc.
+(Ingeniero_Agronomo_Senior_LATEX.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
 \tf@toc=\write3
 \openout3 = `Ingeniero_Agronomo_Senior_LATEX.toc'.
 
-[1
+ [1
 
 ]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 85.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [2]
 Underfull \hbox (badness 6876) in paragraph at lines 114--115
 []|\OT1/cmr/m/n/12 Metodolog^^S^^Pas par-ti-ci-pa-ti-vas y ex-ten-si^^Son
  []
@@ -511,19 +522,12 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-06>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package lastpage Warning: Rerun to get the references right on input line 383.
-
  ) 
 Here is how much of TeX's memory you used:
- 6366 strings out of 467871
- 103855 string characters out of 5418375
- 548226 words of memory out of 5000000
- 35156 multiletter control sequences out of 15000+600000
+ 6372 strings out of 467871
+ 104251 string characters out of 5418375
+ 548304 words of memory out of 5000000
+ 35158 multiletter control sequences out of 15000+600000
  633939 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,15n,65p,621b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -534,9 +538,10 @@ ic/amsfonts/cm/cmr12.pfb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmr17.pfb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/smuno/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Ingeniero_Agronomo_Senior_LATEX.pdf (9 pages, 157200 bytes).
+Output written on Ingeniero_Agronomo_Senior_LATEX.pdf (10 pages, 158649 bytes).
+
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

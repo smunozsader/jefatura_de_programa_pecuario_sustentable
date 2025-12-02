@@ -1,0 +1,25 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen Ejecutivo}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Parámetros Técnicos del Proyecto}{3}{}%
+\contentsline {section}{\numberline {2}Presupuesto del Proyecto (Anual)}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Estructura de Costos y Financiamiento}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Indicadores Técnicos del Proyecto}{4}{}%
+\contentsline {section}{\numberline {3}Componentes del Proyecto}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Modernización Tecnológica}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Capacitación Intensiva}{5}{}%
+\contentsline {subsection}{\numberline {3.3}COMPONENTE NUEVO: Desarrollo de Mercados}{6}{}%
+\contentsline {section}{\numberline {4}Fundamentos Técnicos del Proyecto}{6}{}%
+\contentsline {subsection}{\numberline {4.1}Caracterización del Sector Lácteo Yucateco}{6}{}%
+\contentsline {subsection}{\numberline {4.2}Enfoque de Desarrollo de Mercados}{7}{}%
+\contentsline {subsection}{\numberline {4.3}Cronograma de Implementación (2026-2030)}{7}{}%
+\contentsline {section}{\numberline {5}Resultados Esperados}{8}{}%
+\contentsline {subsection}{\numberline {5.1}Impactos Cuantificables (5 años) - BASADOS EN DATOS SIAP}{8}{}%
+\contentsline {subsection}{\numberline {5.2}Impactos Cualitativos}{9}{}%
+\contentsline {section}{\numberline {6}Análisis Costo-Beneficio}{9}{}%
+\contentsline {subsection}{\numberline {6.1}Inversión Total 5 Años: \$68.5M MXN}{9}{}%
+\contentsline {subsection}{\numberline {6.2}Riesgo Mitigado}{10}{}%
+\contentsline {section}{\numberline {7}Recomendaciones para Implementación}{10}{}%
+\contentsline {subsection}{\numberline {7.1}Estudios Previos (3 meses)}{10}{}%
+\contentsline {subsection}{\numberline {7.2}Alianzas Estratégicas}{10}{}%
+\contentsline {subsection}{\numberline {7.3}Indicadores de Seguimiento}{11}{}%
+\contentsline {section}{\numberline {8}Conclusiones}{11}{}%

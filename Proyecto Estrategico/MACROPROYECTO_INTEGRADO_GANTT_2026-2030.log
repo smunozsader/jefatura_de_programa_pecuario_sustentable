@@ -1,0 +1,4267 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.25)  1 DEC 2025 18:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex
+(MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count283
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2083.
+\U@D=\dimen149
+\l@unhyphenated=\language79
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count284
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4175.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex)
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 4298.
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks19
+\es@quotdepth=\count285
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) 
+on input line 4.
+LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1)
+ on input line 4.
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks21
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip51
+\f@nch@offset@elh=\skip52
+\f@nch@offset@erh=\skip53
+\f@nch@offset@olh=\skip54
+\f@nch@offset@orh=\skip55
+\f@nch@offset@elf=\skip56
+\f@nch@offset@erf=\skip57
+\f@nch@offset@olf=\skip58
+\f@nch@offset@orf=\skip59
+\f@nch@height=\skip60
+\f@nch@footalignment=\skip61
+\f@nch@widthL=\skip62
+\f@nch@widthC=\skip63
+\f@nch@widthR=\skip64
+\@temptokenb=\toks22
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern
+.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count289
+) 
+)) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count290
+)) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box53
+\extrarowheight=\dimen161
+\NC@list=\toks23
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box54
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks24
+\minrowclearance=\skip67
+\rownum=\count291
+) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count292
+\@cmidlb=\count293
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count294
+\@lastruleclass=\count295
+\@thisrulewidth=\dimen174
+) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip68
+\multirow@cntb=\count296
+\multirow@dima=\skip69
+\bigstrutjot=\dimen175
+) (C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count297
+\LTcapwidth=\dimen176
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count298
+\LT@rows=\count299
+\c@LT@tables=\count300
+\c@LT@chunks=\count301
+\LT@p@ftn=\toks25
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks26
+\float@box=\box60
+\@float@everytoks=\toks27
+\@floatcapt=\box61
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count303
+\TX@ftn=\toks28
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks29
+\ex@=\dimen182
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen183
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count304
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count305
+\leftroot@=\count306
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count307
+\DOTSCASE@=\count308
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box62
+\strutbox@=\box63
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen184
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count309
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count310
+\dotsspace@=\muskip17
+\c@parentequation=\count311
+\dspbrk@lvl=\count312
+\tag@help=\toks30
+\row@=\count313
+\column@=\count314
+\maxfields@=\count315
+\andhelp@=\toks31
+\eqnshift@=\dimen185
+\alignsep@=\dimen186
+\tagshift@=\dimen187
+\tagwidth@=\dimen188
+\totwidth@=\dimen189
+\lineht@=\dimen190
+\@envbody=\toks32
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgfgantt\pgfgantt.sty
+Package: pgfgantt 2024/06/19 v5.0a Draw Gantt diagrams with TikZ
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen191
+\pgfutil@tempdimb=\dimen192
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box64
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen193
+\pgf@y=\dimen194
+\pgf@xa=\dimen195
+\pgf@ya=\dimen196
+\pgf@xb=\dimen197
+\pgf@yb=\dimen198
+\pgf@xc=\dimen199
+\pgf@yc=\dimen256
+\pgf@xd=\dimen257
+\pgf@yd=\dimen258
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count316
+\c@pgf@countb=\count317
+\c@pgf@countc=\count318
+\c@pgf@countd=\count319
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count320
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count321
+\pgfsyssoftpath@bigbuffer@items=\count322
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count323
+\pgfmath@box=\box65
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count324
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen260
+\pgf@picmaxx=\dimen261
+\pgf@picminy=\dimen262
+\pgf@picmaxy=\dimen263
+\pgf@pathminx=\dimen264
+\pgf@pathmaxx=\dimen265
+\pgf@pathminy=\dimen266
+\pgf@pathmaxy=\dimen267
+\pgf@xx=\dimen268
+\pgf@xy=\dimen269
+\pgf@yx=\dimen270
+\pgf@yy=\dimen271
+\pgf@zx=\dimen272
+\pgf@zy=\dimen273
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen274
+\pgf@path@lasty=\dimen275
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen276
+\pgf@shorten@start@additional=\dimen277
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count325
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen278
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen279
+\pgf@pt@y=\dimen280
+\pgf@pt@temp=\dimen281
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen282
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen283
+\pgf@sys@shading@range@num=\count326
+\pgf@shadingcount=\count327
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box69
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box70
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen284
+\pgf@nodesepend=\dimen285
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen286
+\pgffor@skip=\dimen287
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count328
+\pgfplotmarksize=\dimen288
+)
+\tikz@lastx=\dimen289
+\tikz@lasty=\dimen290
+\tikz@lastxsaved=\dimen291
+\tikz@lastysaved=\dimen292
+\tikz@lastmovetox=\dimen293
+\tikz@lastmovetoy=\dimen294
+\tikzleveldistance=\dimen295
+\tikzsiblingdistance=\dimen296
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count329
+\tikznumberofchildren=\count330
+\tikznumberofcurrentchild=\count331
+\tikz@fig@count=\count332
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count333
+\pgfmatrixcurrentcolumn=\count334
+\pgf@matrix@numberofcolumns=\count335
+)
+\tikz@expandcount=\count336
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.code.tex
+File: pgflibraryarrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\arrowsize=\dimen297
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@layerbox@background=\box75
+\pgf@layerboxsaved@background=\box76
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+arypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+pgflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfcalend
+ar.sty
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfcale
+ndar.code.tex
+File: pgfcalendar.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfcalendarcurrentjulian=\count337
+\pgf@cal@easter@Y=\count338
+\pgf@cal@easter@G=\count339
+\pgf@cal@easter@C=\count340
+\pgf@cal@easter@X=\count341
+\pgf@cal@easter@Z=\count342
+\pgf@cal@easter@D=\count343
+\pgf@cal@easter@E=\count344
+\pgf@cal@easter@N=\count345
+\pgf@cal@easter@M=\count346
+\pgf@cal@easter@julianday=\count347
+))
+\gtt@currentline=\count348
+\gtt@lasttitleline=\count349
+\gtt@currgrid=\count350
+\gtt@chartwidth=\count351
+\gtt@lasttitleslot=\count352
+\gtt@elementid=\count353
+\gtt@today@slot=\count354
+\gtt@startjulian=\count355
+\gtt@endjulian=\count356
+\gtt@chartid=\count357
+\gtt@vrule@slot=\count358
+\gtt@calendar@slots=\count359
+\gtt@calendar@weeknumber=\count360
+\gtt@calendar@startofweek=\count361
+\gtt@left@slot=\count362
+\gtt@right@slot=\count363
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count364
+\rotFPtop=\skip77
+\rotFPbot=\skip78
+\rot@float@box=\box77
+\rot@mess@toks=\toks46
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip79
+\RaggedLeftLeftskip=\skip80
+\RaggedRightLeftskip=\skip81
+\CenteringRightskip=\skip82
+\RaggedLeftRightskip=\skip83
+\RaggedRightRightskip=\skip84
+\CenteringParfillskip=\skip85
+\RaggedLeftParfillskip=\skip86
+\RaggedRightParfillskip=\skip87
+\JustifyingParfillskip=\skip88
+\CenteringParindent=\skip89
+\RaggedLeftParindent=\skip90
+\RaggedRightParindent=\skip91
+\JustifyingParindent=\skip92
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count365
+) (MACROPROYECTO_INTEGRADO_GANTT_2026-2030.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 8.
+)
+\openout1 = `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 443.57848pt, 85.35826pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=443.57848pt
+* \textheight=652.70622pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-46.1381pt
+* \headheight=20.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count366
+\scratchdimen=\dimen298
+\scratchbox=\box78
+\nofMPsegments=\count367
+\nofMParguments=\count368
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count369
+\MPscratchDim=\dimen299
+\MPnumerator=\count370
+\makeMPintoPDFobject=\count371
+\everyMPtoPDFconversion=\toks48
+)
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\smuno\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<logo_sader.png, id=4, 1204.5pt x 230.8625pt>
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 48.
+(pdftex.def)             Requested size: 110.8946pt x 21.25227pt.
+ [1
+
+{C:/Users/smuno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_sader
+.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+(MACROPROYECTO_INTEGRADO_GANTT_2026-2030.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [1
+
+]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 65.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [2])
+\tf@toc=\write4
+\openout4 = `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.toc'.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 86.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [3]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 112.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [3
+
+]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 141.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [4]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+[]|\OT1/cmr/m/n/10 Convenios Con-cer-ta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
+[]|\OT1/cmr/m/n/10 Bienestar Pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+[]|\OT1/cmr/m/n/10 Convenios Coor-di-na-
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 190.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[5]
+Overfull \hbox (1.31047pt too wide) in paragraph at lines 213--233
+ [][] 
+ []
+
+
+Overfull \hbox (1.03856pt too wide) in paragraph at lines 237--238
+[]\OT1/cmr/bx/n/12 Infraestructura es-trat^^Segi-ca cen-tra-li-za-da: \OT1/cmr/
+m/n/12 Ti-zim^^S^^Pn co-mo epi-cen-tro ope-ra-ti-vo (35.2$ $%
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 238.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 270--270
+[]|\OT1/cmr/m/n/10 Reconversi^^Son SS-Pi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]|\OT1/cmr/bx/n/10 4. De-sa-rro-llo Le-che-ro
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\OT1/cmr/bx/n/10 5. Plan-ta de Mos-ca
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 299--299
+[]|\OT1/cmr/bx/n/10 TOTAL IN-VER-SIO-NES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\OT1/cmr/bx/n/10 GRAN TO-TAL MA-
+ []
+
+
+Overfull \hbox (9.60835pt too wide) in paragraph at lines 263--308
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 309.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[7]
+Overfull \hbox (12.47076pt too wide) in paragraph at lines 310--310
+[]\OT1/cmr/bx/n/14.4 Paquete Tec-nol^^Sogi-co Sil-vo-pas-to-ril (\TS1/cmr/bx/n/
+14.4 $\OT1/cmr/bx/n/14.4 55,573 MXN/hect^^Sarea) 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 360.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[8]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 403.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [9]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 424.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [10]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 452.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [11]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 478.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [12]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 539.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [13]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 572.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [14]
+Overfull \hbox (6.33788pt too wide) in paragraph at lines 583--584
+[]\OT1/cmr/bx/n/12 Protocolo TBC (\TS1/cmr/bx/n/12 $\OT1/cmr/bx/n/12 34.7 MDP):
+ \OT1/cmr/m/n/12 Cer-ti-fi-ca-ci^^Son 1,075 UPP ba-jo est^^Sanda-res APHIS-
+ []
+
+
+Overfull \hbox (3.6884pt too wide) in paragraph at lines 584--585
+[]\OT1/cmr/bx/n/12 Plataforma Di-gi-tal CE-SO (\TS1/cmr/bx/n/12 $\OT1/cmr/bx/n/
+12 16.8 MDP): \OT1/cmr/m/n/12 Sis-te-ma web ceso-aphis-yuc.web.app
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 625.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[15]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 684.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [16]
+Overfull \hbox (12.47076pt too wide) in paragraph at lines 696--696
+[]\OT1/cmr/bx/n/14.4 Paquete Tec-nol^^Sogi-co Sil-vo-pas-to-ril (\TS1/cmr/bx/n/
+14.4 $\OT1/cmr/bx/n/14.4 55,573 MXN/hect^^Sarea) 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 744.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[17]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 767.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [18]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 809.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [19]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 836.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [20]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 860.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [21]
+Overfull \hbox (15.66342pt too wide) in paragraph at lines 875--876
+[]\OT1/cmr/bx/n/12 Mejora de es-truc-tu-ra y fun-ci^^Son del sue-lo: \OT1/cmr/m
+/n/12 El pi-so-teo con-tro-la-do (al-ta intensidad-
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 887.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[22]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 908.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [23]
+! Misplaced \crcr.
+\tbl_crcr:n ...l_count_missing_cells:n {#1}}\crcr 
+                                                  
+l.938 \end{tabular}
+                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Too many }'s.
+\endarray ...le:n {math/luamml/array/save}\egroup 
+                                                  \tag_socket_use:n {tbl/fin...
+l.938 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Too many }'s.
+\endarray ...tbl_restore_outer_cell_data: \egroup 
+                                                  \tag_socket_use:n {math/lu...
+l.938 \end{tabular}
+                   
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.938 \end{tabular}
+                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: \begin{document} ended by \end{tabular}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.938 \end{tabular}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.938 \end{tabular}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.938 \end{tabular}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 \caption
+              {Especies nativas forrajeras prioritarias (selección de 11 va...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\caption ... \endcsname \fi \fi \@dblarg {\@tempf 
+                                                  \@captype }
+l.939 \caption
+              {Especies nativas forrajeras prioritarias (selección de 11 va...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\caption ...e \fi \fi \@dblarg {\@tempf \@captype 
+                                                  }
+l.939 \caption
+              {Especies nativas forrajeras prioritarias (selección de 11 va...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Too many }'s.
+\@endfloatbox ...pagefalse \outer@nobreak \egroup 
+                                                  \color@endbox 
+l.940 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+! Extra \endgroup.
+\color@endgroup ->\endgraf \@endpefalse \endgroup 
+                                                  
+l.940 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.940 \end{table}
+                 
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.940 \end{table}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+\end  ...end#1\endcsname \@checkend {#1}\endgroup 
+                                                  \UseHook {env/#1/after}\if...
+l.940 \end{table}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 949.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[24]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.996 ...{4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.997 \hline
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--999
+[]|\OT1/cmr/bx/n/10 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--999
+[]|\OT1/cmr/bx/n/10 Federal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--999
+[]|\OT1/cmr/bx/n/10 Estatal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+[]|\OT1/cmr/bx/n/10 Productores
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1000 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1002 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1003--1003
+[]|\OT1/cmr/m/n/10 Infraestructura ga-na-de-ra
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1004 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1007 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1010.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[25]
+Overfull \hbox (0.34766pt too wide) in paragraph at lines 1012--1012
+[]\OT1/cmr/bx/n/17.28 Componente 2: Re-po-bla-mien-to Ga-na-de-ro Bo-vino 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1033.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[26]
+Overfull \hbox (18.29001pt too wide) in paragraph at lines 1036--1037
+[]\OT1/cmr/bx/n/12 Certificaci^^Son gen^^Seti-ca: \OT1/cmr/m/n/12 Ge-nea-log^^S
+^^Pas con-tro-la-das, eva-lua-cio-nes EMBRAPA-INIFAP,
+ []
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1066 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1067 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+[]|\OT1/cmr/bx/n/10 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+[]|\OT1/cmr/bx/n/10 Federal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1069
+[]|\OT1/cmr/bx/n/10 Estatal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+[]|\OT1/cmr/bx/n/10 Productores
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1070 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1072 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1074 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1076 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1077
+[]|\OT1/cmr/m/n/10 Seguimiento y eva-lua-ci^^Son
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1078 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1081 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1085.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[27]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1101.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [28]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1127.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [29]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1133 ...4.5cm}|p{1.8cm}|p{2cm}|p{2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1134 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
+[]|\OT1/cmr/bx/n/10 Total
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
+[]|\OT1/cmr/bx/n/10 Federal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1136
+[]|\OT1/cmr/bx/n/10 Estatal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+[]|\OT1/cmr/bx/n/10 Productores
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1137 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1139 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1141 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1143 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1145 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1146--1146
+[]|\OT1/cmr/m/n/10 Capacitaci^^Son + asis-ten-cia
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1147 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1150 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1172.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[30]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1200 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1201 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1204 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1210 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1213 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (48.7338pt too wide) in paragraph at lines 1200--1215
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1216.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[31]
+Overfull \hbox (4.754pt too wide) in paragraph at lines 1219--1220
+[]\OT1/cmr/bx/n/12 Objetivo es-trat^^Segi-co: \OT1/cmr/m/n/12 Erra-di-ca-ci^^So
+n de-fi-ni-ti-va del gu-sano ba-rre-na-dor del ga-na-do (GBG)
+ []
+
+
+Overfull \hbox (8.28804pt too wide) in paragraph at lines 1223--1224
+[]\OT1/cmr/bx/n/12 Impacto sa-ni-ta-rio y econ^^Somi-co: \OT1/cmr/m/n/12 La err
+a-di-ca-ci^^Son del GBG eli-mi-nar^^Sa p^^Serdi-das econ^^Somi-
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1236.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[32]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1272.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [33]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1291 ...m}|p{2.2cm}|p{2.2cm}|p{2.2cm}|p{2.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1292 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (7.66791pt too wide) in paragraph at lines 1294--1294
+[]|\OT1/cmr/bx/n/10.95 Componente/A~no| 
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1295 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1296--1296
+[]|\OT1/cmr/bx/n/10.95 Desarrollo Le-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1297--1297
+[]|\OT1/cmr/m/n/10.95 Selecci^^Son
+ []
+
+
+Overfull \hbox (1.27914pt too wide) in paragraph at lines 1300--1300
+[]|\OT1/cmr/m/n/10.95 Optimizaci^^Son| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1302
+[]|\OT1/cmr/bx/n/10.95 Meta
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1302 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1303--1303
+[]|\OT1/cmr/bx/n/10.95 Silvopastoriles
+ []
+
+
+Overfull \hbox (13.35454pt too wide) in paragraph at lines 1305--1305
+[]|\OT1/cmr/m/n/10.95 Establecimiento| 
+ []
+
+
+Overfull \hbox (3.77328pt too wide) in paragraph at lines 1306--1306
+[]|\OT1/cmr/m/n/10.95 Consolidaci^^Son| 
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1309 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (4.1687pt too wide) in paragraph at lines 1311--1311
+[]|\OT1/cmr/m/n/10.95 Remodelaci^^Son| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1316
+[]|\OT1/cmr/bx/n/10.95 120K do-
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1316 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (35.25002pt too wide) in paragraph at lines 1291--1318
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1336.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[34]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1375.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [35]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1424.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [36]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1449 \begin{tabular}{|p{4.2cm}|c|c|c|c|c|}
+                                            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1450 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1454 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1456 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1458 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1460 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1462 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1464 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1466 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1468 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1471 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1472 ...onentes integrados + gastos operativos}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1472 ...onentes integrados + gastos operativos}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1473 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1488.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[37]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1526.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [38]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1568.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [39]
+Overfull \hbox (2.35161pt too wide) in paragraph at lines 1569--1570
+[]\OT1/cmr/bx/n/12 Investigaci^^Son co-la-bo-ra-ti-va: \OT1/cmr/m/n/12 Red de c
+on-ve-nios acad^^Semi-cos pa-ra eva-lua-ci^^Son t^^Secni-
+ []
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1584 ...}{|p{1.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1584 ...}{|p{1.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1584 ...}{|p{1.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1584 ...}{|p{1.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1584 ...}{|p{1.3cm}|p{4.2cm}|p{4.2cm}|p{4.2cm}|}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1585 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.96254pt too wide) in paragraph at lines 1587--1587
+[]|\OT1/cmr/bx/n/10 Per^^S^^Podo| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+[]|\OT1/cmr/bx/n/10 Centro Gen^^Seti-co Ti-
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1588 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 1590--1590
+[]|\OT1/cmr/m/n/10 Diagn^^Sosti-co t^^Secni-co 6,000
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1590--1591
+[]|\OT1/cmr/m/n/10 Evaluaci^^Son in-fra-es-truc-tu-ra
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1591 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1592--1592
+[]|\OT1/cmr/m/n/10 Adquisici^^Son gen^^Seti-ca F1
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1593 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1595 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1596--1596
+[]|\OT1/cmr/m/n/10 Establecimiento pra-de-ras
+ []
+
+
+Underfull \hbox (badness 2809) in paragraph at lines 1596--1596
+[]|\OT1/cmr/m/n/10 Establecimiento 1,200 ha
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1597 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1598--1599
+[]|\OT1/cmr/m/n/10 Capacitaci^^Son Em-bra-pa
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1599 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 1600--1601
+[]|\OT1/cmr/m/n/10 Auditor^^S^^Pas ISO-17025 ini-
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1601 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1603 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 1604--1604
+[]|\OT1/cmr/bx/n/10 2da en-tre-ga: 500 F1
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1605 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 1606--1607
+[]|\OT1/cmr/m/n/10 Producci^^Son pre-certificada
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1607 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1609 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1610--1610
+[]|\OT1/cmr/bx/n/10 4ta en-tre-ga: 2,000 F1
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1611 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1612
+[]|\OT1/cmr/m/n/10 3,800 ha ope-ran-do (80
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
+[]|\OT1/cmr/m/n/10 80,000 do-sis cer-ti-fi-ca-das
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1613 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1614--1614
+[]|\OT1/cmr/bx/n/10 5ta en-tre-ga: 3,000 F1
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1615 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 1616--1616
+[]|\OT1/cmr/bx/n/10 6ta en-tre-ga: 3,000 F1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1617
+[]|\OT1/cmr/m/n/10 Convenios ex-por-ta-ci^^Son
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1617 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 3907) in paragraph at lines 1618--1618
+[]|\OT1/cmr/m/n/10 5,400 ha ope-ran-do (108
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1619 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 1620--1620
+[]|\OT1/cmr/m/n/10 Verificaci^^Son cap-tu-ra car-
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1621 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1622--1622
+[]|\OT1/cmr/m/n/10 Sostenibilidad econ^^Somi-ca
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1623 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
+[]|\OT1/cmr/m/n/10 T2-T4
+ []
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1624 ...LUACIÓN FINAL INTEGRADA MACROPROYECTO}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1624 ...LUACIÓN FINAL INTEGRADA MACROPROYECTO}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1625 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.9146pt too wide) in paragraph at lines 1584--1627
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1628.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[40]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1635.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [41]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1649.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [42]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1663 \begin{tabular}{|l|c|}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1663 \begin{tabular}{|l|c|}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1663 \begin{tabular}{|l|c|}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1664 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1667 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1673 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1694.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[43
+
+]
+Overfull \hbox (1.12346pt too wide) in paragraph at lines 1695--1696
+[]\OT1/cmr/bx/n/12 Captura de car-bono: \OT1/cmr/m/n/12 Ra^^S^^Pces m^^Sas pro-
+fun-das (es-ti-mu-la-das por pas-to-reo intensivo-
+ []
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1731 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1732 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1735 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1741 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1744 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1750.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[44]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1764 \begin{tabular}{|l|c|l|}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1764 \begin{tabular}{|l|c|l|}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1764 \begin{tabular}{|l|c|l|}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1764 \begin{tabular}{|l|c|l|}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1765 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1768 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1771 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1773 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1775 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1777 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1780 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (56.3524pt too wide) in paragraph at lines 1764--1782
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1801.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[45]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1832.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [46]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1863 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1863 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1863 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1863 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1863 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1864 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1867 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1876 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1880 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.0788pt too wide) in paragraph at lines 1863--1882
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1883.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[47]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1896.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [48]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1911 \begin{tabular}{|p{4.5cm}|c|c|p{6cm}|}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1911 \begin{tabular}{|p{4.5cm}|c|c|p{6cm}|}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1911 \begin{tabular}{|p{4.5cm}|c|c|p{6cm}|}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1911 \begin{tabular}{|p{4.5cm}|c|c|p{6cm}|}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1911 \begin{tabular}{|p{4.5cm}|c|c|p{6cm}|}
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1912 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1915 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1918 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1920 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1922 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1924 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1925--1926
+[]|\OT1/cmr/m/n/10 3 veh^^S^^Pcu-los es-pe-cia-li-za-dos \TS1/cmr/m/n/10 �
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1926 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1929 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1931 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1933 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1935 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1938 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1940 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1942 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1944 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1946 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1948 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1951 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1953 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1955 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1957 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1960 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1961--1962
+[]|\OT1/cmr/m/n/10 24 ta-lle-res/a~no \TS1/cmr/m/n/10 � $\OT1/cmr/m/n/10 15,000
+/ta-ller
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1962 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1963--1964
+[]|\OT1/cmr/m/n/10 2 gi-ras/a~no \TS1/cmr/m/n/10 � $\OT1/cmr/m/n/10 90,000 (na-
+cio-
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1964 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1965--1966
+[]|\OT1/cmr/m/n/10 Cursos es-pe-cia-li-za-ci^^Son, cer-ti-fi-ca-cio-nes
+ []
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1966 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1970 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.63861pt too wide) in paragraph at lines 1911--1972
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1973.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[49]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 1977.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [50]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1992 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1992 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1992 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1992 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.1992 \begin{tabular}{|l|c|c|c|}
+                                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1993 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1996 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.1998 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2000 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2002 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2004 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2006 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2008 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 2029.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[51]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 2054.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [52]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2077 \begin{tabular}{|c|l|c|r|r|r|r|r|}
+                                         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2078 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2081 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2093 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2095 ...mn{2}{|l|}{\textbf{TOTAL 11 MUNICIPIOS}}
+                                                   & \textbf{Mix} & \textbf{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2095 ...mn{2}{|l|}{\textbf{TOTAL 11 MUNICIPIOS}}
+                                                   & \textbf{Mix} & \textbf{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2096 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.10721pt too wide) in paragraph at lines 2077--2098
+ [][] 
+ []
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 2104.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[53
+
+]
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2130 \begin{tabular}{|l|c|c|c|l|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2131 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2135 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2139 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2142 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2145 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2148 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2158 \begin{tabular}{|l|r|r|r|r|}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2159 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2162 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2168 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2171 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2172 ...se: 106 municipios totales en Yucatán}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2172 ...se: 106 municipios totales en Yucatán}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2173 ...ios (10.4\%) concentran 80\% actividad}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> {\CT@arc@ 
+                     \vline }
+l.2173 ...ios (10.4\%) concentran 80\% actividad}}
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hline ... \hrule \let \@width \@height {\CT@arc@ 
+                                                  \vline }\futurelet \reserv...
+l.2174 \hline
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 2177.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+[54]
+File: logo_sader.png Graphic file (type png)
+<use logo_sader.png>
+Package pdftex.def Info: logo_sader.png  used on input line 2204.
+(pdftex.def)             Requested size: 79.6678pt x 15.26726pt.
+ [55] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(MACROPROYECTO_INTEGRADO_GANTT_2026-2030.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-06>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 18611 strings out of 467871
+ 383518 string characters out of 5418375
+ 812352 words of memory out of 5000000
+ 47124 multiletter control sequences out of 15000+600000
+ 640082 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 99i,16n,108p,1318b,708s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
+1095.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcti1200.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcbx1440.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcti1000.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\smuno\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\smuno\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1200.pk> <C:\Users\smuno\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/smuno/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/smun
+o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/U
+sers/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.p
+fb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr10.pfb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/smuno/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/smuno/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/smuno/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/smuno/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/s
+muno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C
+:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt
+12.pfb>
+Output written on MACROPROYECTO_INTEGRADO_GANTT_2026-2030.pdf (57 pages, 433670
+ bytes).
+PDF statistics:
+ 312 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen Ejecutivo}{3}{}%
+\contentsline {section}{\numberline {2}Introducción}{3}{}%
+\contentsline {section}{\numberline {3}Justificación}{3}{}%
+\contentsline {section}{\numberline {4}Objetivo General}{3}{}%
+\contentsline {section}{\numberline {5}Objetivos Específicos}{3}{}%
+\contentsline {section}{\numberline {6}Diagnóstico Actual}{3}{}%
+\contentsline {section}{\numberline {7}Certificación OIE/ISO-17025}{4}{}%
+\contentsline {section}{\numberline {8}Componentes de Apoyo}{4}{}%
+\contentsline {section}{\numberline {9}Memoria de Cálculo}{4}{}%
+\contentsline {section}{\numberline {10}Tabla de Costos Centralizada}{4}{}%
+\contentsline {section}{\numberline {11}Memoria de Cálculo Detallada con Fuentes Reales}{4}{}%
+\contentsline {section}{\numberline {12}Impacto Esperado}{5}{}%
+\contentsline {section}{\numberline {13}Alineación con Directriz 4.1.1}{5}{}%
+\contentsline {section}{\numberline {14}Cronograma Tentativo (2026-2030)}{5}{}%
+\contentsline {section}{\numberline {15}Conclusiones}{5}{}%
+\contentsline {section}{\numberline {16}Bibliografía}{5}{}%
