@@ -13,13 +13,14 @@ This workspace contains documentation for a comprehensive agricultural strategic
 5. **Sterile Fly Plant (Screwworm Eradication)** - $300.0M (250M sterile flies/week capacity, Co-60 irradiation facility, aerial release fleet)
 6. **Tuberculosis Certification + Digital Platform** - $51.5M (T-MEC compliance, APHIS-USDA protocols, CESO digital traceability)
 
-### Updated Investment Breakdown (Corrected Values)
-- **Productive Investments**: $873.7M (94.3%)
-- **Operational Expenses**: $52.8M (5.7% - 8-person technical team via FOFAY)
-- **Total Project Value**: $926.5M (includes all 6 strategic components)
-- **Financing Schema**: 60% Federal ($555.9M) + 30% State ($277.9M) + 10% Producers ($92.7M)
+### Updated Investment Breakdown (Corrected Values with Hybrid Financing)
+- **Productive Investments**: $1,035.1M (95.1%)
+- **Operational Expenses**: $52.8M (4.9% - 8-person technical team via FOFAY)
+- **Total Project Value**: $1,087.9M (includes all 6 strategic components with hybrid financing)
+- **Hybrid Financing Schema**: $921.2M Tripartite Subsidy (60% Federal + 30% State + 10% Producers) + $166.7M Productive Credit (50% of SSPi component)
+- **SSPi Credit Model**: 50% credit financing ($27,787/ha) with 4.0:1 payment capacity ratio based on beef calf weaning system (+1,167% productivity increase)
 
-**CRITICAL NOTE**: The main LaTeX document now reflects all 6 strategic components with corrected values. The $926.5M total includes: SSPi optimization ($132.6M vs original $283.6M), all 6 distinct components, and operational costs, based on scientifically validated seed calculation optimization (6.0 kg/ha rate, $12,100/ha technical package cost).
+**CRITICAL NOTE**: The main LaTeX document now reflects all 6 strategic components with corrected values and hybrid financing model. The $1,087.9M total includes: SSPi realistic costing ($333.4M using recommended scenario $55,573/ha from technical calculation memory), all 6 distinct components, operational costs, and integrated credit financing model. Based on scientifically validated calculations with beef calf weaning economic model showing 4.0:1 payment capacity ratio for 50% credit financing of SSPi component.
 
 ### Key File Structure
 - `Proyecto Estrategico/`: Core strategic documents
@@ -81,7 +82,7 @@ This workspace contains documentation for a comprehensive agricultural strategic
 - **SADER**: Secretaría de Agricultura y Desarrollo Rural (federal agriculture ministry)
 - **SENASICA**: Animal health service (tuberculosis/screwworm programs)
 - **T-MEC**: Mexico-US-Canada trade agreement (USMCA)
-- **SSPi**: Sistemas Silvopastoriles Intensivos (intensive silvopastoral systems with Leucaena leucocephala at 40,000-53,000 plants/ha, 6.0 kg/ha seeding rate based on 18,000 seeds/kg, 85% germination, 90% survival rates)
+- **SSPi**: Sistemas Silvopastoriles Intensivos (intensive silvopastoral systems with Leucaena leucocephala at 40,000-53,000 plants/ha, 6.0 kg/ha seeding rate based on 18,000 seeds/kg, 85% germination, 90% survival rates) - $55,573/ha recommended scenario with 50% credit financing model
 - **GBG**: Gusano Barrenador del Ganado (screwworm)
 - **UPP**: Unidades de Producción Pecuaria (livestock production units)
 - **FOFAY**: Fideicomiso Fondo de Fomento Agropecuario Yucatán (operational financing mechanism)
@@ -98,8 +99,9 @@ This workspace contains documentation for a comprehensive agricultural strategic
 - Pareto-based territorial focusing: 80% resources in 11 municipalities (10.4% territory = 80.3% cattle concentration)
 
 ### Performance Metrics Framework
-- Physical targets: cattle population (605K → 1,005K head), land conversion (6,000 hectares SSPi), 1,075 UPP transformed
-- Financial targets: $150M+ USD annual exports by 2030, $776.5M total investment execution
+- Physical targets: cattle population (605K → 1,005K head), land conversion (6,000 hectares SSPi), 1,320 UPP transformed
+- Financial targets: $150M+ USD annual exports by 2030, $1,087.9M total investment execution with hybrid financing
+- Economic viability: Beef calf weaning model with 4.0:1 credit payment capacity ratio (+1,167% productivity increase)
 - Environmental targets: 765,000 ton CO₂eq carbon capture via intensive silvopastoral systems
 - Social inclusion: ≥35% women and youth beneficiaries with technical assistance via FOFAY
 - Technical targets: 250M sterile flies/week production capacity, T-MEC certification compliance

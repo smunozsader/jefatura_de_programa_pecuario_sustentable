@@ -8,8 +8,7 @@
 \usepackage{lastpage}
 \usepackage{parskip}
 \usepackage{array}
-\usepackage{xcolor}
-\usepackage{colortbl}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{longtable}
@@ -20,6 +19,14 @@
 \usepackage{rotating}
 \usepackage{pdflscape}
 \usepackage{ragged2e}
+\usepackage{subcaption}
+
+% Configuración de gráficos y mapas
+\graphicspath{{./maps/}{./}}
+
+% Configuración de tablas con colores
+\setlength{\arrayrulewidth}{0.5pt}
+\renewcommand{\arraystretch}{1.2}
 
 % Colores SADER
 \definecolor{saderblue}{RGB}{0,51,102}
@@ -53,23 +60,24 @@
     
     {\LARGE\bfseries Renacimiento Ganadero Maya\par}
     \vspace{0.8cm}
-    {\Large Integración de Cinco Componentes Estratégicos:\par}
+    {\Large Integración de Seis Componentes Estratégicos:\par}
     \vspace{0.3cm}
     {\normalsize • Sistemas Silvopastoriles Intensivos\par}
     {\normalsize • Repoblamiento Ganadero Estratégico\par}
     {\normalsize • Desarrollo Lechero Tropical\par}
-    {\normalsize • Planta de Mosca Estéril (Erradicación GBG)\par}
-    {\normalsize • Certificación Sanitaria TBC + Seguimiento Digital\par}
+    {\normalsize • Centro de Mejoramiento Genético\par}
+    {\normalsize • Meliponicultura Sustentable\par}
+    {\normalsize • Optimización de Plataforma Digital\par}
     \vspace{0.5cm}
     {\Large Yucatán 2026-2030\par}
     
     \vfill
     
-    {\normalsize Mérida, Yucatán, 27 de noviembre de 2025\par}
+    {\normalsize Mérida, Yucatán, 2 de diciembre de 2025\par}
     \vspace{0.2cm}
     {\normalsize MVZ SERGIO MUÑOZ DE ALBA MEDRANO\par}
     {\normalsize Prestador de Servicios Independiente\par}
-    {\normalsize Oficina Estatal de Representación en la Entidad Federativa Yucatán (OREF Yucatán)\par}
+    {\normalsize Oficina de Representación en la Entidad Federativa Yucatán (OREF Yucatán)\par}
     {\normalsize Secretaría de Agricultura y Desarrollo Rural (SADER)\par}
 \end{titlepage}
 
@@ -96,20 +104,20 @@
 
 \textbf{\textcolor{sadergreen}{El Desafío Crítico:}} La ganadería yucateca enfrenta una crisis sin precedentes. Los datos preliminares del barrido sanitario de la campaña de tuberculosis bovina y registros del SINIDA revelan un declive alarmante en la población de semovientes, confirmando la contracción severa de la actividad ganadera estatal. Con 605,536 cabezas bovinas oficiales distribuidas en sistemas extensivos degradados, el sector presenta productividades 60\% menores al potencial regional, emisiones de GEI crecientes, y vulnerabilidad climática extrema. El sector lechero muestra una preocupante reducción del 35.7\% en la última década, mientras que datos preliminares del CNOG-SINIIGA (pendientes de confirmación oficial) sugieren una contracción adicional del inventario ganadero que hace imperativo el repoblamiento estratégico para la recuperación sectorial.
 
-\textbf{\textcolor{sadergreen}{La Oportunidad:}} El Macroproyecto Estratégico Integrado ``Renacimiento Ganadero Maya 2026-2030'' representa una inversión transformacional de \textbf{\$926.5 millones de pesos} que puede posicionar a Yucatán como el estado líder en ganadería climáticamente inteligente de México, generando beneficios económicos, ambientales y sociales sin precedentes mediante la integración de seis componentes estratégicos: sistemas silvopastoriles intensivos, repoblamiento ganadero bovino, desarrollo lechero tropical, centro de mejoramiento genético, planta de mosca estéril y certificación sanitaria binacional.
+\textbf{\textcolor{sadergreen}{La Oportunidad:}} El Macroproyecto Estratégico Integrado ``Renacimiento Ganadero Maya 2026-2030'' representa una inversión optimizada de \textbf{\$1,087.9 millones de pesos} con esquema de financiamiento híbrido (\$921.2M subsidio tripartito + \$166.7M crédito productivo) que posiciona a Yucatán como el estado líder en ganadería climáticamente inteligente de México, generando beneficios económicos, ambientales y sociales mediante la integración eficiente de seis componentes estratégicos: sistemas silvopastoriles intensivos, repoblamiento ganadero bovino, desarrollo lechero tropical, centro de mejoramiento genético, meliponicultura sustentable maya, y plataforma digital de seguimiento sanitario.
 
 \textbf{\textcolor{sadergreen}{La Visión Integrada:}} Esta no es simplemente una colección de proyectos independientes, sino una visión integrada que reconoce las interconexiones entre la mejora genética, los sistemas de producción sustentables y el desarrollo económico de nuestros productores. Cada elemento ha sido construido sobre evidencia científica sólida, datos oficiales SIAP 2014-2023, y mejores prácticas zootécnicas internacionales adaptadas a nuestro contexto tropical.
 
-\textbf{\textcolor{sadergreen}{El Impacto Transformacional:}} 1,075 Unidades de Producción Pecuaria beneficiadas, incremento del 388\% en productividad ganadera (sistema becerros al destete), captura de 765,000 toneladas CO$_2$ equivalente, y generación de \textbf{\$150+ millones USD anuales en exportaciones} hacia 2030.
+\textbf{\textcolor{sadergreen}{El Impacto Transformacional:}} 1,320 Unidades de Producción Pecuaria beneficiadas + 500 productores meliponícolas, incremento del 388\% en productividad ganadera (sistema becerros al destete), captura de 765,000 toneladas CO$_2$ equivalente, desarrollo de cadena de valor meliponícola maya con 6 toneladas anuales de miel de abejas sin aguijón de alto valor, y generación de \textbf{\$150+ millones USD anuales en exportaciones} hacia 2030.
 
-\textbf{\textcolor{sadergreen}{El Macroproyecto Integral:}} Este documento presenta la integración completa de cinco componentes estratégicos que constituyen un ecosistema tecnológico integral para la transformación ganadera de Yucatán:
+\textbf{\textcolor{sadergreen}{El Macroproyecto Integral:}} Este documento presenta la integración completa de seis componentes estratégicos que constituyen un ecosistema tecnológico integral para la transformación agropecuaria de Yucatán:
 \begin{itemize}
-    \item \textbf{Componente 1: Sistemas Silvopastoriles Intensivos} --- 6,000 hectáreas con \textit{Leucaena leucocephala} (120 UPP) - \$132.6M
+    \item \textbf{Componente 1: Sistemas Silvopastoriles Intensivos} --- 6,000 hectáreas con \textit{Leucaena leucocephala} (120 UPP) - \$333.4M (escenario recomendado \$55,573/ha)
     \item \textbf{Componente 2: Repoblamiento Ganadero Bovino} --- 12,000 vaquillas F1 certificadas (1,075 UPP) - \$150.1M
     \item \textbf{Componente 3: Centro de Mejoramiento Genético (Tizimín)} --- Certificación ISO/OIE + 120,000 dosis/año - \$150.0M
     \item \textbf{Componente 4: Desarrollo Lechero Tropical} --- 75 UPP tecnificadas + incremento 40\% productivo - \$89.5M
-    \item \textbf{Componente 5: Planta de Mosca Estéril (Screwworm)} --- Capacidad 250M moscas estériles/semana - \$300.0M
-    \item \textbf{Componente 6: Certificación Sanitaria TBC + Digital} --- Protocolo T-MEC + plataforma CESO-APHIS - \$51.5M
+    \item \textbf{Componente 5: Meliponicultura Sustentable Maya} --- 500 beneficiarios (350 mujeres, 115 jóvenes) + 6 ton miel abejas sin aguijón/año - \$42.5M
+    \item \textbf{Componente 6: Plataforma Digital de Seguimiento Sanitario} --- Sistema CESO-APHIS optimizado + administrador - \$8.5M
 \end{itemize}
 
 \section{Antecedentes y Justificación del Proyecto}
@@ -119,7 +127,7 @@
 \textbf{Diagnóstico basado en datos oficiales múltiples fuentes:}
 \begin{itemize}
     \item \textbf{Inventario ganadero SIAP 2023:} 605,536 cabezas bovinas (99.4\% carne, 0.6\% leche)
-    \item \textbf{Declive poblacional documentado:} Datos del barrido sanitario TBC y SINIDA confirman contracción significativa del hato estatal
+    \item \textbf{Declive poblacional documentado:} Datos de SINIDA y registros oficiales confirman contracción significativa del hato estatal
     \item \textbf{Confirmación pendiente CNOG-SINIIGA:} Análisis oficial del padrón, movilizaciones e identificación individual en proceso de validación
     \item \textbf{Productividad limitada:} 1.2 UA/ha vs 2.8-3.0 UA/ha potencial con SSPi
     \item \textbf{Sector lechero en crisis:} Reducción 35.7\% en última década (5,220 → 3,356 cabezas)
@@ -127,7 +135,7 @@
     \item \textbf{Vulnerabilidad climática:} Sequías recurrentes y huracanes afectan 60\% superficie ganadera
 \end{itemize}
 
-\textbf{Urgencia del repoblamiento:} La convergencia de datos SIAP, barrido sanitario TBC, registros SINIDA y análisis preliminares CNOG-SINIIGA evidencia una contracción del inventario ganadero que requiere intervención inmediata mediante repoblamiento estratégico para evitar el colapso sectorial y garantizar la seguridad alimentaria estatal.
+\textbf{Urgencia del repoblamiento:} La convergencia de datos SIAP, registros SINIDA y análisis preliminares CNOG-SINIIGA evidencia una contracción del inventario ganadero que requiere intervención inmediata mediante repoblamiento estratégico para evitar el colapso sectorial y garantizar la seguridad alimentaria estatal.
 
 \textbf{Oportunidad estratégica:} La convergencia del T-MEC, programas federales de mitigación climática, y el Plan Estatal "Renacimiento Maya" crean una ventana de oportunidad única para transformar la ganadería yucateca hacia sistemas sostenibles y competitivos internacionalmente.
 
@@ -135,7 +143,7 @@
 
 \textbf{Marco normativo y presupuestal 2026:}
 \begin{itemize}
-    \item \textbf{T-MEC:} Certificación sanitaria binacional para acceso a mercados de EE.UU. y Canadá
+    \item \textbf{T-MEC:} Protocolos sanitarios para acceso a mercados de EE.UU. y Canadá
     \item \textbf{Estrategia Nacional de Mitigación:} Reducción 30\% emisiones GEI sector agropecuario
     \item \textbf{Plan Renacimiento Maya:} Directriz 4.1.1 - Modernización del sector primario
     \item \textbf{PEF 2026 - Ramo 20 SADER:} \$109,456 MDP presupuesto total (+5.2\% real vs 2025)
@@ -208,7 +216,7 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
 \textbf{Asignación presupuestaria basada en concentración Pareto:}
 \begin{table}[H]
 \centering
-\caption{Regionalización de Inversiones del Macroproyecto (\$814.9 MDP)}
+\caption{Regionalización de Inversiones del Macroproyecto (\$1,087.9 MDP)}
 \footnotesize
 \begin{tabular}{|l|c|c|c|c|}
 \hline
@@ -217,34 +225,36 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
  & \textbf{Real} & \textbf{Eficiente} & \textbf{(MDP)} & \textbf{Principal} \\
 \hline
 \rowcolor{saderblue!15}
-\textbf{UGROY (Oriente)} & 65.5\% & 65\% & \$529.7 & SSPi + Planta Mosca \\
- &  &  &  & + Centro Genético \\
+\textbf{UGROY (Oriente)} & 65.5\% & 65\% & \$707.1 & SSPi + Centro Genético \\
+ &  &  &  & (incluye crédito SSPi) \\
 \hline
-\textbf{UGRY (Centro)} & 14.8\% & 15\% & \$122.2 & Lechería Tropical \\
+\textbf{UGRY (Centro)} & 14.8\% & 15\% & \$163.2 & Lechería Tropical \\
  &  &  &  & + Diversificación \\
 \hline
-\textbf{Reserva Estratégica} & 19.7\% & 20\% & \$163.0 & Municipios Nivel 2 \\
+\textbf{Reserva Estratégica} & 19.7\% & 20\% & \$217.6 & Municipios Nivel 2 \\
  & (Nivel 2) &  &  & + Programas Transversales \\
 \hline
 \rowcolor{sadergold!30}
-\textbf{TOTAL} & \textbf{100\%} & \textbf{100\%} & \textbf{\$814.9} & \textbf{Focalización Pareto} \\
+\textbf{TOTAL} & \textbf{100\%} & \textbf{100\%} & \textbf{\$1,087.9} & \textbf{Focalización Pareto} \\
 \hline
 \end{tabular}
 \end{table}
 
 \textbf{Eficiencia de la focalización Pareto:} 80\% de recursos concentrados en 10\% de municipios maximiza impacto por peso invertido, mientras que el 20\% restante atiende municipios complementarios (niveles 12-20 del ranking Pareto) y programas transversales de capacitación y asistencia técnica.
 
-\textbf{Infraestructura estratégica centralizada:} Tizimín como epicentro operativo (35.2\% concentración) albergará la Planta de Mosca Estéril (\$300 MDP) y el Centro de Mejoramiento Genético refundado (\$42.1 MDP), optimizando costos logísticos y maximizando cobertura de servicios especializados hacia la región UGROY de mayor concentración ganadera.
+\textbf{Infraestructura estratégica centralizada:} Tizimín como epicentro operativo (35.2\% concentración) albergará el Centro de Mejoramiento Genético refundado (\$150.0 MDP), optimizando costos logísticos y maximizando cobertura de servicios especializados hacia la región UGROY de mayor concentración ganadera.
 
 \section{Inversiones Principales y Metas Físicas}
 
 \subsection{Cuadro Ejecutivo de Inversiones Estratégicas}
 
-\textbf{INVERSIÓN TOTAL:} \$926.5 millones de pesos (2026-2030)
-\textbf{ESTRUCTURA:} Seis componentes estratégicos integrados (\$873.7M inversiones productivas + \$52.8M gastos operativos)
+\textbf{INVERSIÓN TOTAL:} \$1,087.9 millones de pesos (2026-2030)
+\textbf{ESQUEMA FINANCIERO HÍBRIDO:} \$921.2M subsidio tripartito + \$166.7M crédito productivo SSPi
+\textbf{ESTRUCTURA:} Seis componentes estratégicos integrados (\$1,035.1M inversiones productivas + \$52.8M gastos operativos)
 \begin{itemize}
-    \item \textbf{Inversiones productivas:} \$762.1 millones (93.5\%)
-    \item \textbf{Gastos de operación:} \$52.8 millones (6.5\%)
+    \item \textbf{Inversiones productivas:} \$1,035.1 millones (95.1\%)
+    \item \textbf{Gastos de operación:} \$52.8 millones (4.9\%)
+    \item \textbf{Financiamiento híbrido SSPi:} \$166.7M subsidio + \$166.7M crédito productivo
 \end{itemize}
 
 \textbf{METAS FÍSICAS QUINQUENALES:}
@@ -253,6 +263,7 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
     \item \textbf{120 UPP con Sistemas Silvopastoriles} (6,000 hectáreas = 50 ha/UPP)
     \item \textbf{880 UPP atendidas} vía Centro Genético Tizimín (120,000 dosis/año)
     \item \textbf{75 UPP de desarrollo lechero} tropical especializado
+    \item \textbf{50 UPP meliponicultura} (500 productores: 350 mujeres, 115 jóvenes) + 6 ton miel abejas sin aguijón/año
     \item \textbf{+400,000 cabezas bovinas} de incremento del hato estatal proyectado
 \end{itemize}
 
@@ -265,7 +276,7 @@ Crédito Ganadero a la Palabra & 2,000 & 100\% & Ventanillas estatales \\
 \rowcolor{sadergreen!20}
 \textbf{Componente de Inversión} & \textbf{Monto (MDP)} & \textbf{\%} & \textbf{UPP} & \textbf{Superficie/Capacidad} \\
 \hline
-\textbf{1. Sistemas Silvopastoriles Intensivos} & \$132.6 & 15.2\% & 120 & 6,000 hectáreas \\
+\textbf{1. Sistemas Silvopastoriles Intensivos} & \$393.4 & 42.5\% & 120 & 6,000 hectáreas \\
 \hline
 Reconversión SSPi (\$55,573/ha) & \$333.4 & & & Leucaena + especies nativas \\
 Infraestructura ganadera & \$60.0 & & & Corrales + bebederos + cercos \\
@@ -279,30 +290,28 @@ Vaquillas F1 certificadas & \$150.1 & & & Genética superior tropical \\
 Equipamiento laboratorio & \$85.0 & & & ISO/IEC 17025:2017 \\
 Certificación OIE + SENASICA & \$65.0 & & & 120,000 dosis/año \\
 \hline
-\textbf{4. Desarrollo Lechero Tropical} & \$89.5 & 10.2\% & 75 & +40\% producción \\
+\textbf{4. Desarrollo Lechero Tropical} & \$89.5 & 16.9\% & 75 & +40\% producción \\
 \hline
 Infraestructura lechera especializada & \$65.0 & & & Salas ordeño + enfriamiento \\
 Genética F1 lechera (Gyrolando) & \$24.5 & & & 750 vaquillas especializadas \\
 \hline
-\textbf{5. Planta de Mosca Estéril (GBG)} & \$300.0 & 34.3\% & -- & Erradicación Screwworm \\
+\textbf{5. Meliponicultura Sustentable} & \$42.5 & 5.1\% & 50 & Abejas sin aguijón \\
 \hline
-Laboratorio cría masiva & \$120.0 & & & 250M moscas/semana \\
-Planta irradiación Co-60 & \$90.0 & & & Esterilización gamma \\
-Flota aérea + operación & \$90.0 & & & Liberaciones aéreas \\
+\textbf{6. Plataforma Digital Sanitaria} & \$8.5 & 1.0\% & 1,320 & Sistema CESO optimizado \\
 \hline
-\textbf{6. Certificación TBC + Digital} & \$51.5 & 5.9\% & 1,075 & T-MEC compliance \\
-\hline
-Protocolo TBC binacional & \$34.7 & & & APHIS-USDA standards \\
-Plataforma digital CESO & \$16.8 & & & Seguimiento acuerdos \\
+Administrador plataforma (5 años) & \$3.0 & & & Coordinación técnica \\
+Mejoras tecnológicas & \$2.5 & & & Integración APIs \\
+Infraestructura \& hosting & \$1.5 & & & Servidores dedicados \\
+Capacitación \& soporte & \$1.5 & & & 50+ usuarios \\
 \hline
 \rowcolor{sadergold!20}
-\textbf{TOTAL INVERSIONES PRODUCTIVAS} & \textbf{\$873.7} & \textbf{100\%} & \textbf{1,270} & \textbf{Seis componentes} \\
+\textbf{TOTAL INVERSIONES PRODUCTIVAS} & \textbf{\$834.3} & \textbf{100\%} & \textbf{1,320} & \textbf{Seis componentes} \\
 \hline
 \rowcolor{saderblue!15}
-\textit{Gastos Operativos (5 años)} & \textit{\$52.8} & \textit{5.7\%} & \textit{--} & \textit{Equipo técnico FOFAY} \\
+\textit{Gastos Operativos (5 años)} & \textit{\$52.8} & \textit{9.0\%} & \textit{--} & \textit{Equipo técnico OREF Yucatán} \\
 \hline
 \rowcolor{sadergreen!25}
-\textbf{GRAN TOTAL MACROPROYECTO} & \textbf{\$926.5} & \textbf{--} & \textbf{1,270} & \textbf{2026-2030} \\
+\textbf{GRAN TOTAL MACROPROYECTO} & \textbf{\$887.1} & \textbf{--} & \textbf{1,320} & \textbf{2026-2030} \\
 \hline
 \end{tabular}
 \end{table}
@@ -360,6 +369,8 @@ Capacitación técnica ECA & 1 productor & \$2,500 & \$2,500 \\
 
 \textbf{Justificación técnica del paquete recomendado:} El costo de \$55,573/ha representa el escenario técnicamente recomendado basado en metodología científica validada por INIFAP-UADY-TNC (2015-2024). Este balance óptimo costo-eficiencia incluye siembra directa de \textit{Leucaena leucocephala} (6.0 kg/ha), densidades de 40,000-53,000 plantas/ha con fijación de nitrógeno de 250-550 kg/ha/año, infraestructura de pastoreo racional completa, y establecimiento eficiente de especies forrajeras de alta calidad.\textsuperscript{4}
 
+\textbf{Modelo económico becerros al destete:} El sistema SSPi incrementa la productividad de 0.18 a 2.28 becerros comercializables/ha/año (+1,167\%), generando ingresos adicionales de \$16,509/ha/año. Con un esquema crediticio 50\% (\$27,787/ha, 8\% anual, 10 años), el ratio de capacidad de pago es 4.0:1, demostrando viabilidad financiera robusta para el productor.
+
 \subsection{Impacto Económico y Ambiental de los Sistemas Silvopastoriles}
 
 \begin{table}[H]
@@ -412,14 +423,14 @@ Payback inversión (años) & -- & 3.2 & -- \\
     \item \textbf{Parámetros zootécnicos validados:} Supervivencia 90\%, fertilidad 80\% (Brasil, Colombia)
     \item \textbf{Validación INIFAP:} Protocolos genética bovina y sanidad animal
     \item \textbf{Metodología EMBRAPA:} Transferencia tecnológica Brasil-México
-    \item \textbf{Estándares APHIS-USDA:} Certificación sanitaria binacional
+    \item \textbf{Estándares APHIS-USDA:} Protocolos sanitarios binacionales
 \end{itemize}
 
 \textbf{Calibración de metas realista:} La meta de 6,000 hectáreas SSPi (1,200 ha/año) está basada en análisis de 20 años de proyectos similares en Chiapas (promedio 1,078 ha/año), siendo 11\% más ambiciosa que el promedio histórico y equivalente al proyecto IKI-MICC más exitoso documentado.
 
 \subsection{Esquema de Financiamiento Tripartito}
 
-\textbf{Inversión total: \$814.9 millones de pesos (2026-2030)}
+\textbf{Inversión total: \$887.1 millones de pesos (2026-2030)}
 
 \textbf{Distribución de financiamiento federal PEF 2026:}
 \begin{itemize}
@@ -433,9 +444,57 @@ Payback inversión (años) & -- & 3.2 & -- \\
     \item \textbf{Productores (10\%):} \$81.5 millones en especie, mano de obra y mantenimiento
 \end{itemize}
 
-\textbf{Mecanismo FOFAY:} Los \$52.8 millones para gastos operativos se canalizarán vía Fideicomiso ``Fondo de Fomento Agropecuario de Yucatán'', siguiendo la metodología exitosa de ``Alianza para el Campo'' con optimización del equipo técnico (7 profesionales) generando \$5.6 millones de ahorro.
+\textbf{Mecanismo OREF Yucatán:} Los \$52.8 millones para gastos operativos se canalizarán vía prestaciones de servicios especializados contratados directamente por la Oficina de Representación en la Entidad Federativa Yucatán (OREF), optimizando la gestión técnica con un equipo de 8 profesionales especialistas y generando mayor eficiencia operativa.
 
 \textbf{Justificación del esquema 60-30-10:} Refleja la importancia estratégica nacional del proyecto, el compromiso estatal con desarrollo rural, y la capacidad de participación de pequeños productores sin comprometer su viabilidad económica. Este esquema está alineado con los mecanismos de concurrencia del PEF 2026, donde los programas federales de ganadería sustentable ({\textasciitilde}\$18,500 MDP) requieren aportación estatal promedio del 25\% bajo el Programa Especial Concurrente para el Desarrollo Rural Sustentable (PECDRS).
+
+\subsection{Modelo de Viabilidad Crediticia SSPi - Becerros al Destete}
+
+\textbf{Fundamento del modelo económico:} La implementación de sistemas silvopastoriles intensivos se basa en el sistema tradicional yucateco de producción de becerros al destete, validando la viabilidad del esquema crediticio propuesto.
+
+\begin{table}[H]
+\centering
+\caption{Comparativo Económico: Tradicional vs SSPi (Becerros al Destete)}
+\footnotesize
+\begin{tabular}{|l|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Indicador Productivo} & \textbf{Sistema Tradicional} & \textbf{Sistema SSPi} & \textbf{Incremento} \\
+\hline
+\textbf{Carga animal} & 0.4 UA/ha & 3.5 UA/ha & +775\% \\
+\hline
+\textbf{Índice de parición} & 45\% anual & 65\% anual & +44\% \\
+\hline
+\textbf{Peso al destete} & 150 kg (12 meses) & 200 kg (12 meses) & +33\% \\
+\hline
+\textbf{Mortalidad predestete} & 15\% & 8\% & -47\% \\
+\hline
+\rowcolor{saderblue!15}
+\textbf{Productividad} & 0.18 becerros/ha/año & 2.28 becerros/ha/año & \textbf{+1,167\%} \\
+\hline
+\textbf{Utilidad neta} & \$3,183/ha/año & \$19,692/ha/año & \textbf{+\$16,509} \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Esquema de financiamiento crediticio propuesto:}
+\begin{itemize}
+    \item \textbf{Costo SSPi}: \$55,573/ha (escenario recomendado memoria de cálculo)
+    \item \textbf{Esquema financiero}: 50\% crédito + 35\% subsidio + 15\% productor
+    \item \textbf{Crédito por hectárea}: \$27,787 (50\% del costo total)
+    \item \textbf{Condiciones crediticias}: 8\% anual, 10 años plazo, 3 años gracia
+    \item \textbf{Pago anual}: \$4,136/ha (años 4-13)
+\end{itemize}
+
+\textbf{Análisis de capacidad de pago:}
+\begin{itemize}
+    \item \textbf{Incremento utilidad neta SSPi}: \$16,509/ha/año
+    \item \textbf{Pago anual crédito}: \$4,136/ha/año
+    \item \textbf{Ratio capacidad de pago}: 4.0:1 (MUY SEGURO)
+    \item \textbf{Margen de seguridad}: El productor mantiene \$12,373/ha/año adicionales tras pago crediticio
+\end{itemize}
+
+\textcolor{sadergreen}{\textbf{CONCLUSIÓN:}} El modelo de becerros al destete con SSPi es financieramente viable y robusto, permitiendo al productor cubrir 4 veces el pago del crédito con los ingresos adicionales generados por el sistema.
 
 \textbf{Modelo de corresponsabilidad financiera ``pari passu'':} 
 \begin{itemize}
@@ -444,11 +503,13 @@ Payback inversión (años) & -- & 3.2 & -- \\
     \item \textbf{Productores (10\%):} \$46.21 millones mediante aportaciones organizadas
 \end{itemize}
 
-\textbf{Total inversión productiva:} \$1,062.1 millones + \$52.8 millones gastos de operación = \textbf{\$814.9 millones}
+\textbf{Total inversión productiva:} \$1,035.1 millones + \$52.8 millones gastos de operación = \textbf{\$1,087.9 millones}
+
+\textbf{Financiamiento crediticio integrado:} Del total de \$1,087.9M, el 50\% del componente SSPi (\$166.7M) se financia vía crédito FIRA con garantías del proyecto, mientras que el esquema tripartito (60-30-10) aplica al 50\% restante de SSPi y la totalidad de otros componentes.
 
 \section{Metas Físicas y Resultados Esperados}
 
-\textbf{Visión 2030:} Establecer a Yucatán como el primer estado de México con certificación sanitaria binacional completa (TBC libre + GBG libre) mediante un macroproyecto estratégico de \$814.9 millones que integra cinco componentes tecnológicos de vanguardia: 6,000 hectáreas de sistemas silvopastoriles intensivos con densidades científicamente validadas de \textit{Leucaena leucocephala} (40,000-53,000 plantas/ha), repoblamiento bovino con 12,000 vaquillas genéticamente superiores distribuidas en 1,075 UPP transformadas, incremento del 40\% en la producción láctea mediante 75 módulos tecnificados, construcción de la primera planta de mosca estéril del sureste (250 millones/semana) para erradicación definitiva del gusano barrenador, y protocolo digital APHIS-USDA que habilite exportaciones de \$150 millones USD anuales bajo estándares T-MEC. El proyecto aspira a posicionar a Yucatán como la plataforma agroexportadora del sureste mexicano, capturando 750,000 toneladas CO$_2$eq mediante silvopastoreo intensivo, incrementando 280\% la productividad forrajera, y consolidando un inventario bovino de 850,000 cabezas con trazabilidad individual y certificación OIE para acceso a mercados internacionales premium.
+\textbf{Visión 2030:} Establecer a Yucatán como el estado líder en ganadería sustentable de México mediante un macroproyecto estratégico optimizado de \$1,087.9 millones que integra seis componentes tecnológicos eficientemente articulados con esquema de financiamiento híbrido (subsidios + crédito productivo): 6,000 hectáreas de sistemas silvopastoriles intensivos con densidades científicamente validadas de \textit{Leucaena leucocephala} (40,000-53,000 plantas/ha), repoblamiento bovino con 12,000 vaquillas genéticamente superiores distribuidas en 1,075 UPP transformadas, incremento del 40\% en la producción láctea mediante 75 módulos tecnificados, centro de mejoramiento genético certificado ISO/OIE con capacidad de 120,000 dosis/año, y plataforma digital optimizada para seguimiento sanitario eficiente. El proyecto aspira a posicionar a Yucatán como la plataforma agroexportadora del sureste mexicano, capturando 750,000 toneladas CO$_2$eq mediante silvopastoreo intensivo, incrementando 280\% la productividad forrajera, y consolidando un inventario bovino de 850,000 cabezas con trazabilidad individual para acceso a mercados internacionales.
 
 \subsection{Sistemas Silvopastoriles Intensivos: Reconversión Territorial Estratégica}
 
@@ -533,57 +594,45 @@ Payback inversión (años) & -- & 3.2 & -- \\
     \item \textbf{Productividad objetivo}: 8-12 L/vaca/día (vs 4-6 L actual)
 \end{itemize}
 
-\subsection{Componente 4: Planta de Producción de Mosca Estéril}
+\subsection{Componente 4: Plataforma Digital de Seguimiento Sanitario}
 
-\textbf{Objetivo:} Erradicación del gusano barrenador del ganado (GBG) mediante Técnica del Insecto Estéril con capacidad de producción de 250 millones de moscas estériles por semana.
+\textbf{Objetivo:} Optimización profesional de la plataforma digital existente \texttt{https://ceso-aphis-yuc.web.app} para seguimiento eficiente de acuerdos sanitarios.
 
-\textbf{Infraestructura especializada requerida:}
+\textbf{Estrategia de implementación optimizada:}
 \begin{itemize}
-    \item \textbf{Laboratorio de Cría Masiva (\$120.0 MDP):} Edificio climatizado 2,500 m², 12 módulos de producción, dieta artificial automatizada
-    \item \textbf{Planta de Irradiación Co-60 (\$90.0 MDP):} Fuente radiactiva 37 PBq, sistema automatizado, blindaje 2.1m concreto
-    \item \textbf{Flota Aérea + Operación (\$90.0 MDP):} 4 aeronaves Cessna, sistema GPS precisión, liberaciones 3,000 moscas/km²
-    \item \textbf{Certificación OIE:} Zona libre GBG reconocimiento internacional para exportación
+    \item \textbf{Administración Profesional (\$3.0 MDP):} Coordinador técnico especializado 5 años
+    \item \textbf{Mejoras Tecnológicas (\$2.5 MDP):} Integración APIs, dashboard BI, app móvil
+    \item \textbf{Infraestructura Premium (\$1.5 MDP):} Servidores gubernamentales, respaldos, certificaciones
+    \item \textbf{Capacitación Integral (\$1.5 MDP):} Entrenamiento usuarios, soporte 24/7, documentación
 \end{itemize}
 
-\subsubsection{Infraestructura Técnica Requerida}
+\subsubsection{Componentes de Inversión Detallados}
 
-\textbf{1. Laboratorio de Cría Masiva (Capacidad: 250 millones moscas/semana)}
+\textbf{1. Administrador de Plataforma (5 años - \$3.0 MDP)}
 \begin{itemize}
-    \item \textbf{Instalaciones:} Edificio de 2,500 m² con áreas climatizadas (25±2°C, 60±10\% HR)
-    \item \textbf{Salas de producción:} 12 módulos independientes con sistemas de ventilación HEPA
-    \item \textbf{Dieta artificial:} Planta procesadora con capacidad 50 ton/semana (sangre bovina, caseína, agar)
-    \item \textbf{Sistemas de monitoreo:} Control automatizado temperatura, humedad, calidad del aire
-    \item \textbf{Personal especializado:} 25 técnicos (entomólogos, biólogos, técnicos de laboratorio)
+    \item \textbf{Perfil requerido:} Ingeniero en Sistemas con experiencia en plataformas GOB.mx
+    \item \textbf{Salario competitivo:} \$50,000 pesos mensuales × 60 meses = \$3.0 MDP
+    \item \textbf{Responsabilidades:} Coordinación técnica, gestión usuarios, reportes ejecutivos
+    \item \textbf{Ubicación:} Oficinas SADER Yucatán con acceso a infraestructura gubernamental
+    \item \textbf{Supervisión directa:} Jefe de Programa del Macroproyecto
 \end{itemize}
 
-\textbf{2. Planta de Irradiación Gamma}
+\textbf{2. Mejoras Tecnológicas (\$2.5 MDP)}
 \begin{itemize}
-    \item \textbf{Fuente radiactiva:} Cobalto-60 con actividad inicial 37 PBq (1,000 Ci)
-    \item \textbf{Sistema automatizado:} Transportador con dosis controlada 60-90 Gy para machos
-    \item \textbf{Blindaje:} Estructura de concreto con espesor 2.1 m según normas CNSNS
-    \item \textbf{Control de calidad:} Dosimetría de rutina y verificación esterilidad $\geq$ 99\%
-    \item \textbf{Certificaciones:} Licencia CNSNS, cumplimiento protocolos OIEA
+    \item \textbf{Integración APIs SINIIGA/SINIDA:} Trazabilidad automática y sincronización datos
+    \item \textbf{Dashboard BI avanzado:} Analítica de datos, KPIs ejecutivos tiempo real
+    \item \textbf{Aplicación móvil:} Trabajo de campo, inspecciones, reportes offline
+    \item \textbf{Módulos especializados:} Workflows automatizados, notificaciones inteligentes
+    \item \textbf{Certificaciones seguridad:} Cumplimiento normativo gubernamental
 \end{itemize}
 
-\textbf{3. Flota Aérea Especializada}
+\textbf{3. Infraestructura \& Hosting Premium (5 años - \$1.5 MDP)}
 \begin{itemize}
-    \item \textbf{Aeronaves:} 4 aviones Cessna 206/210 equipados con sistemas dispersión
-    \item \textbf{Sistema GPS:} Navegación de precisión con franjas de vuelo 200m de ancho
-    \item \textbf{Contenedores refrigerados:} Mantenimiento viabilidad moscas 12-18°C durante vuelo
-    \item \textbf{Cobertura operativa:} 50,000 km² (todo Yucatán + zonas limítrofes)
-    \item \textbf{Frecuencia liberación:} 3-4 vuelos/semana con densidad 3,000 moscas/km²
-\end{itemize}
-
-\subsection{Componente 5: Certificación Sanitaria TBC + Seguimiento Digital}
-
-\textbf{Objetivo dual:} Certificación binacional tuberculosis bovina (T-MEC) + plataforma digital para seguimiento de acuerdos sanitarios APHIS-USDA.
-
-\textbf{Programas integrados:}
-\begin{itemize}
-    \item \textbf{Protocolo TBC (\$34.7 MDP):} Certificación 1,075 UPP bajo estándares APHIS-USDA para cumplimiento T-MEC
-    \item \textbf{Plataforma Digital CESO (\$16.8 MDP):} Sistema web ceso-aphis-yuc.web.app para seguimiento de recomendaciones críticas
-    \item \textbf{Trazabilidad SINIIGA:} 100% ganado identificado individualmente con certificación sanitaria
-    \item \textbf{Mercado objetivo:} Doble certificación (TBC libre + GBG libre) habilita exportación \$150M+ USD/año
+    \item \textbf{Servidores dedicados:} Infraestructura gubernamental con SLA 99.9\%
+    \item \textbf{Respaldos automáticos:} Sistema redundante con recuperación ante desastres
+    \item \textbf{Escalabilidad:} Capacidad para 1,000+ usuarios concurrentes
+    \item \textbf{Monitoreo 24/7:} Alertas proactivas y mantenimiento preventivo
+    \item \textbf{Certificaciones:} Cumplimiento estándares seguridad gubernamental
 \end{itemize}
 
 
@@ -592,88 +641,86 @@ Payback inversión (años) & -- & 3.2 & -- \\
 
 \begin{table}[H]
 \centering
-\caption{Cronograma Técnico Planta de Mosca Estéril}
+\caption{Cronograma Técnico Plataforma Digital Optimizada}
 \footnotesize
 \begin{tabular}{|l|c|c|c|c|c|}
 \hline
 \rowcolor{sadergreen!20}
 \textbf{Actividad} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{2029} & \textbf{2030} \\
 \hline
-Diseño ejecutivo + ingeniería & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} &  &  &  &  \\
+Contratación administrador & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} \\
 \hline
-Construcción laboratorio &  & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} &  &  \\
+Mejoras tecnológicas & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} &  &  &  \\
 \hline
-Instalación equipos irradiación &  &  & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} &  &  \\
+Infraestructura premium & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} \\
 \hline
-Pruebas piloto + validación &  &  & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} &  \\
+Capacitación usuarios & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet} \\
 \hline
-Liberaciones masivas &  &  &  & \textcolor{blue}{\textbullet\textbullet} & \textcolor{blue}{\textbullet\textbullet\textbullet\textbullet} \\
-\hline
-Vigilancia epidemiológica & \textcolor{red}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{red}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{red}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{red}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{red}{\textbullet\textbullet\textbullet\textbullet} \\
+Operación plena &  & \textcolor{green}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{green}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{green}{\textbullet\textbullet\textbullet\textbullet} & \textcolor{green}{\textbullet\textbullet\textbullet\textbullet} \\
 \hline
 \end{tabular}
 \end{table}
 
-\textbf{Hitos críticos:}
+\textbf{Hitos críticos optimizados:}
 \begin{itemize}
-    \item \textbf{T1-2026:} Aprobación proyecto ejecutivo + licencias CNSNS
-    \item \textbf{T4-2027:} Finalización construcción e inicio equipamiento
-    \item \textbf{T2-2028:} Primera producción piloto 50M moscas/semana
-    \item \textbf{T4-2028:} Certificación SENASICA-APHIS capacidad plena
-    \item \textbf{T1-2029:} Inicio liberaciones sistemáticas zona norte
-    \item \textbf{T4-2030:} Evaluación zona libre + certificación OIE
+    \item \textbf{T1-2026:} Contratación administrador + inicio mejoras tecnológicas
+    \item \textbf{T2-2026:} Migración a infraestructura gubernamental premium
+    \item \textbf{T4-2026:} Primera fase capacitación usuarios institucionales
+    \item \textbf{T1-2027:} Operación plena con nuevas funcionalidades
+    \item \textbf{T1-2028:} Evaluación impacto + optimización continua
+    \item \textbf{T4-2030:} Certificación de eficiencia operativa alcanzada
 \end{itemize}
 
 \subsection{Presupuesto Detallado y Esquema Financiero}
 
 \begin{table}[H]
 \centering
-\caption{Inversión Componente 4 - Mosca Estéril (Millones MXN)}
+\caption{Inversión Componente 6 - Plataforma Digital (Millones MXN)}
 \footnotesize
 \begin{tabular}{|l|c|c|c|c|}
 \hline
 \rowcolor{sadergreen!20}
-\textbf{Rubro} & \textbf{Total} & \textbf{Federal} & \textbf{Estatal} & \textbf{Internacional} \\
- & \textbf{2026-30} & \textbf{(70\%)} & \textbf{(20\%)} & \textbf{OIEA (10\%)} \\
+\textbf{Rubro} & \textbf{Total} & \textbf{Federal} & \textbf{Estatal} & \textbf{Productor} \\
+ & \textbf{2026-30} & \textbf{(60\%)} & \textbf{(30\%)} & \textbf{(10\%)} \\
 \hline
-Laboratorio cría masiva & 120.0 & 84.0 & 24.0 & 12.0 \\
+Administrador (5 años) & 3.0 & 1.8 & 0.9 & 0.3 \\
 \hline
-Planta irradiación Co-60 & 90.0 & 63.0 & 18.0 & 9.0 \\
+Mejoras tecnológicas & 2.5 & 1.5 & 0.75 & 0.25 \\
 \hline
-Flota aérea especializada & 60.0 & 42.0 & 12.0 & 6.0 \\
+Infraestructura \& hosting & 1.5 & 0.9 & 0.45 & 0.15 \\
 \hline
-Operación 5 años & 30.0 & 21.0 & 6.0 & 3.0 \\
+Capacitación \& soporte & 1.5 & 0.9 & 0.45 & 0.15 \\
 \hline
 \rowcolor{sadergreen!40}
-\textbf{TOTAL} & \textbf{300.0} & \textbf{210.0} & \textbf{60.0} & \textbf{30.0} \\
+\textbf{TOTAL} & \textbf{8.5} & \textbf{5.1} & \textbf{2.55} & \textbf{0.85} \\
 \hline
 \end{tabular}
 \end{table}
 
-\textbf{Fuentes de financiamiento:}
+\textbf{Fuentes de financiamiento optimizado:}
 \begin{itemize}
-    \item \textbf{Federal (SENASICA):} \$210 MDP via Programa Nacional contra GBG
-    \item \textbf{Estatal (SEDER):} \$60 MDP contrapartida + terrenos
-    \item \textbf{OIEA-FAO:} \$30 MDP cooperación técnica + capacitación
+    \item \textbf{Federal (SENASICA):} \$5.1 MDP via Programa Digital Sanitario
+    \item \textbf{Estatal (SEDER):} \$2.55 MDP contrapartida tecnológica
+    \item \textbf{Productores (UGRY):} \$0.85 MDP aportación servicios premium
 \end{itemize}
 
 \subsection{Beneficios Cuantificados y Retorno de Inversión}
 
-\textbf{Beneficios económicos directos (2026-2035):}
+\textbf{Beneficios operativos directos (2026-2035):}
 \begin{itemize}
-    \item \textbf{Ahorro por erradicación GBG:} \$2,000 MDP (\$200M/año × 10 años)
-    \item \textbf{Incremento exportaciones:} \$1,500 MDP (apertura mercados USA/Canadá)
-    \item \textbf{Mejora productividad:} \$800 MDP (15-20\% ganancia peso/fertilidad)
-    \item \textbf{Certificación sanitaria:} \$300 MDP (premium internacional)
+    \item \textbf{Ahorro en gestión administrativa:} \$25 MDP (75\% reducción tiempos)
+    \item \textbf{Mejora cumplimiento normativo:} \$15 MDP (reducción multas/sanciones)
+    \item \textbf{Eficiencia coordinación interinstitucional:} \$10 MDP (automatización procesos)
+    \item \textbf{Facilitación exportaciones:} \$150 MDP (certificación digital ágil)
 \end{itemize}
 
-\textbf{Análisis costo-beneficio:}
+\textbf{Análisis costo-beneficio optimizado:}
 \begin{itemize}
-    \item \textbf{Inversión total:} \$300 MDP (2026-2030)
-    \item \textbf{Beneficios totales:} \$4,600 MDP (2026-2035)
-    \item \textbf{Relación B/C:} 15.3:1
-    \item \textbf{TIR:} 47\% anual
-    \item \textbf{Período recuperación:} 2.1 años
+    \item \textbf{Inversión total:} \$8.5 MDP (2026-2030)
+    \item \textbf{Beneficios totales:} \$200 MDP (2026-2035)
+    \item \textbf{Relación B/C:} 23.5:1
+    \item \textbf{ROI:} 2,250\% acumulado
+    \item \textbf{Período recuperación:} 0.5 años
 \end{itemize}
 
 \section{Marco Conceptual y Justificación Científica}
@@ -988,7 +1035,7 @@ El modelo se fundamenta en resultados cuantificados de la experiencia RITER-UADY
 \end{itemize}
 
 \subsection{Presupuesto Componente 1}
-Inversión total: \$132.6 MDP (2026-2030)
+Inversión total: \$333.4 MDP (2026-2030) - Escenario Recomendado \$55,573/ha
 
 \begin{table}[H]
 \centering
@@ -1003,7 +1050,7 @@ Establecimiento SSPi optimizado (6,000 ha) & 72.6 & 43.6 & 21.8 & 7.3 \\
 Infraestructura ganadera (120 UPP) & 60.0 & 36.0 & 18.0 & 6.0 \\
 \hline
 \rowcolor{sadergreen!30}
-\textbf{TOTAL COMPONENTE 1} & \textbf{132.6} & \textbf{79.6} & \textbf{39.8} & \textbf{13.3} \\
+\textbf{TOTAL COMPONENTE 1} & \textbf{333.4} & \textbf{200.0} & \textbf{100.0} & \textbf{33.4} \\
 \hline
 \end{tabular}
 \caption{Meta realista: 6,000 ha = 1,200 ha/año (equivalente IKI-MICC Chiapas). Incluye: (1) Escuelas de Campo validadas Colombia/Jalisco (adopción 65-75\% vs. 20-30\% tradicional), (2) Biofábricas prediales con microorganismos benéficos (reducción 75-90\% costos agroquímicos según experiencia Michoacán-Cuba)}
@@ -1013,12 +1060,12 @@ Infraestructura ganadera (120 UPP) & 60.0 & 36.0 & 18.0 & 6.0 \\
 
 \subsection{Diagnóstico y Justificación del Repoblamiento Estratégico}
 
-\textbf{Crisis del inventario ganadero yucateco:} Los datos convergentes de múltiples fuentes oficiales (SIAP 2023, barrido sanitario TBC, registros SINIDA, análisis preliminares CNOG-SINIIGA) evidencian una contracción significativa del hato ganadero estatal que requiere intervención inmediata mediante repoblamiento estratégico para evitar el colapso sectorial.
+\textbf{Crisis del inventario ganadero yucateco:} Los datos convergentes de múltiples fuentes oficiales (SIAP 2023, registros SINIDA, análisis preliminares CNOG-SINIIGA) evidencian una contracción significativa del hato ganadero estatal que requiere intervención inmediata mediante repoblamiento estratégico para evitar el colapso sectorial.
 
 \textbf{Evidencia cuantitativa de la contracción:}
 \begin{itemize}
     \item \textbf{Inventario oficial SIAP:} 605,536 cabezas bovinas (reducción respecto a inventarios históricos)
-    \item \textbf{Confirmación campo:} Barrido sanitario TBC revela discrepancias entre censo oficial y realidad predial
+    \item \textbf{Confirmación campo:} Estudios de campo revelan discrepancias entre censo oficial y realidad predial
     \item \textbf{Movilización animal:} Registros SINIDA muestran flujos netos negativos (más salidas que entradas)
     \item \textbf{Análisis CNOG-SINIIGA:} Datos pendientes de validación oficial confirman tendencia contractiva
     \item \textbf{Impacto productivo:} Reducción en disponibilidad de pie de cría y vientres productivos
@@ -1179,9 +1226,9 @@ Diagnóstico:
 \begin{itemize}
     \item \textbf{FMVZ-UADY:} Dr. Juan Ku Vera (nutrición rumiantes tropicales, DEPs) + Dr. Javier Solorio (diseño agronómico SSPi, mitigación emisiones). Capacitación 80 técnicos, validación científica modelo SSPi, publicaciones conjuntas.
     \item \textbf{INIFAP Campo Experimental Mocochá:} Protocolos mejoramiento genético, pruebas de progenie, certificación ISO 17025 Centro Tizimín, validación sistemas lecheros tropicales.
-    \item \textbf{APHIS-USDA:} Certificación TBC zona riesgo mínimo (requisito T-MEC), protocolos sanitarios exportación, capacitación 50 MVZ, auditorías rastros TIF.
-    \item \textbf{SENASICA + OIEA-FAO:} Planta mosca estéril Tizimín (250M/semana, \$300 MDP), programa erradicación GBG con Técnica Insecto Estéril, certificación OIE zona libre 2030, cooperación técnica internacional, capacitación 25 especialistas en cría masiva e irradiación.
-    \item \textbf{FIRA + Banca Comercial:} Línea crédito SSPi \$170 MDP (tasa preferencial 6-8\%, plazo 7 años), seguro paramétrico sequía/huracanes, fideicomiso garantías \$20 MDP.
+    \item \textbf{APHIS-USDA:} Protocolos sanitarios exportación, capacitación 50 MVZ, auditorías rastros TIF.
+    \item \textbf{SENASICA:} Certificación sanitaria especializada, protocolos de mejoramiento genético, validación sistemas productivos sustentables, cooperación técnica nacional.
+    \item \textbf{FIRA + Banca Comercial:} Línea crédito SSPi \$170 MDP (tasa preferencial 8\%, plazo 10 años, 3 años gracia), seguro paramétrico sequía/huracanes, fideicomiso garantías \$20 MDP. \textcolor{sadergreen}{\textbf{Esquema validado:}} 50\% crédito del costo total (\$27,787/ha), con capacidad de pago 4.0:1 basada en modelo becerros al destete.
     \item \textbf{UGRY + Asociaciones Ganaderas:} Cofinanciamiento productor 10\% (\$28.36 MDP), operación módulos demostrativos, comercialización colectiva ganado certificado.
     \item \textbf{Gobierno Yucatán (SEDER):} Aportación estatal 30\% (\$150.63 MDP), coordinación interinstitucional, facilitación regulatoria, blindaje presupuestal Ley de Egresos 2026-2030.
 \end{itemize}
@@ -1214,71 +1261,708 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 \end{tabular}
 \end{table}
 
-\section{Componente 5: Planta de Producción de Mosca Estéril}
 
-\textbf{Objetivo estratégico:} Erradicación definitiva del gusano barrenador del ganado (GBG) en Yucatán mediante la implementación de la Técnica del Insecto Estéril (TIE), estableciendo una planta con capacidad de producción de 250 millones de moscas estériles por semana para liberaciones sistemáticas en 50,000 km² del territorio estatal.
+\section{Componente 5: Meliponicultura Sustentable Maya}
 
-\textbf{Inversión total:} \$300.0 millones de pesos distribuidos en infraestructura especializada, equipamiento de alta tecnología y operación quinquenal, posicionando a Yucatán como el primer estado del sureste mexicano con capacidad autónoma de control biológico de plagas ganaderas.
+El Componente 5 de Meliponicultura Sustentable representa una innovación estratégica en el Macroproyecto Renacimiento Ganadero Maya, enfocado en la revaloración y tecnificación de sistemas productivos ancestrales con abejas sin aguijón nativas de la Península de Yucatán. Este componente se alinea con la nueva Ley de Protección y Fomento a la Meliponicultura de Yucatán (2025) y las políticas federales de inclusión de género y juventud rural.
 
-\textbf{Impacto sanitario y económico:} La erradicación del GBG eliminará pérdidas económicas actuales estimadas en \$200 millones anuales, habilitará la certificación OIE de zona libre que permite acceso a mercados asiáticos premium, y complementará la certificación TBC para lograr el estatus de doble certificación sanitaria que incrementa 15-20\% el valor de exportación del ganado yucateco.
+\textbf{Inversión Total}: \$42.5 millones de pesos mexicanos (2026-2030)
 
-\textbf{Infraestructura técnica especializada:}
+\textbf{Beneficiarios Directos}: 500 productores (350 mujeres, 115 jóvenes)
+
+\textbf{Metas Productivas}: 50 Unidades de Producción Pecuaria (UPP) tecnificadas con 5,000 jobones (10 jobones/UPP), producción anual de 6,000 litros (6 toneladas) de miel de abejas sin aguijón de alta calidad, valor agregado en cosméticos y productos medicinales con certificación orgánica.
+
+\textbf{Impacto Territorial}: 7 regiones de Yucatán, 38 municipios cubiertos, fortalecimiento de cadenas de valor con identidad maya y sustentabilidad ambiental.
+
+\subsection{Antecedentes y Justificación Estratégica}
+
+\subsubsection{Contexto Histórico-Cultural de la Meliponicultura Maya}
+
+La meliponicultura constituye una práctica ancestral de los pueblos mayas de la Península de Yucatán, documentada desde el período prehispánico a través de códices como el Madrid, donde se representa el manejo de abejas sin aguijón (\textit{Melipona beecheii}, conocida como \textit{xunan kab} en maya yucateco). Esta actividad tradicional ha mantenido su vigencia como sistema productivo de bajo impacto ambiental, compatible con la conservación de ecosistemas tropicales y la soberanía alimentaria comunitaria.
+
+El Diagnóstico de la Meliponicultura en Yucatán 2024, elaborado por la Secretaría de Desarrollo Sustentable (SDS), documenta la existencia de 400 productores registrados en el Padrón Ganadero Nacional (PGN) de SENASICA, con una producción anual estimada de 6,200 kg de miel. Significativamente, el 78\% de los proyectos meliponícolas son liderados por mujeres, evidenciando el potencial de esta actividad para el empoderamiento económico femenino y la transmisión intergeneracional de conocimientos tradicionales.
+
+\subsubsection{Marco Normativo y Alineación con Políticas Públicas}
+
+El componente se fundamenta en un sólido marco jurídico que incluye:
+
 \begin{itemize}
-    \item \textbf{Laboratorio de Cría Masiva:} Edificio climatizado de 2,500 m² con 12 módulos de producción independientes, sistemas HEPA y planta procesadora de dieta artificial con capacidad 50 ton/semana
-    \item \textbf{Planta de Irradiación Co-60:} Fuente radiactiva de 37 PBq con sistema automatizado y blindaje de concreto de 2.1 metros para esterilización de machos
-    \item \textbf{Flota Aérea Especializada:} 4 aeronaves Cessna equipadas con sistemas GPS de precisión para liberaciones sistemáticas de 3,000 moscas/km²
-    \item \textbf{Centro de Vigilancia Epidemiológica:} Red de 500 trampas distribuidas estratégicamente para monitoreo continuo y evaluación de eficacia
+    \item \textbf{Ley de Desarrollo Rural Sustentable} (Federal): Marco rector para proyectos de desarrollo rural con enfoque de género y sustentabilidad
+    \item \textbf{Ley de Protección y Fomento a la Meliponicultura de Yucatán} (2025): Normativa estatal específica que prioriza la inclusión de mujeres y jóvenes
+    \item \textbf{Programa de Fomento a la Apicultura y Meliponicultura SADER} (2025): Destina 15\% de fondos a proyectos de género y juventud
+    \item \textbf{Tratado México-Estados Unidos-Canadá (T-MEC)}: Protocolo sanitario para exportación de productos orgánicos certificados
+    \item \textbf{Sistema Nacional de Identificación Individual de Ganado (SINIIGA)}: Trazabilidad aplicable a jobones meliponícolas
 \end{itemize}
 
-\textbf{Cronograma de implementación:} Diseño ejecutivo e ingeniería (2026), construcción y equipamiento (2027-2028), pruebas piloto y validación (2028-2029), liberaciones masivas y vigilancia (2029-2030), culminando con evaluación de zona libre y certificación OIE (2030).
+\subsubsection{Diagnóstico de la Problemática Sectorial}
 
-\textbf{Fundamento científico:} La Técnica del Insecto Estéril ha demostrado eficacia del 95-98\% en programas similares de SENASICA-APHIS en México y Estados Unidos. La capacidad de 250 millones de moscas/semana permite mantener una relación de 100:1 (estériles:silvestres) recomendada por la FAO para erradicación definitiva.
+El análisis territorial identifica las siguientes limitantes estructurales:
 
-\section{Componente 6: Certificación Sanitaria TBC + Seguimiento Digital}
+\begin{enumerate}
+    \item \textbf{Baja tecnificación productiva}: 85\% de productores utilizan jobones rústicos con baja productividad (0.3-0.5 L miel/jobón/año vs. 1.0-1.2 L con tecnificación para abejas sin aguijón)
+    \item \textbf{Limitado acceso a mercados}: Ausencia de certificaciones orgánicas y trazabilidad sanitaria para exportación
+    \item \textbf{Escaso valor agregado}: 90\% comercializa miel cruda, sin transformación en productos cosméticos o medicinales
+    \item \textbf{Vulnerabilidad organizacional}: 67\% opera de manera individual, limitando acceso a financiamiento y economías de escala
+    \item \textbf{Presión ambiental}: Deforestación y cambio climático afectan flora melífera nativa (\textit{dzidzilché}, \textit{tajonal})
+\end{enumerate}
 
-\textbf{Meta}: Plataforma digital integral para seguimiento de acuerdos de grupos colegiados sobre certificación zoosanitaria y cumplimiento T-MEC
+\subsection{Objetivos Estratégicos}
 
-\textbf{Inversión}: \$15 MDP (100\% federal - SENASICA)
+\subsubsection{Objetivo General}
 
-\textbf{Descripción técnica}: Sistema especializado para seguimiento de acuerdos de dos grupos colegiados críticos para la coordinación de la certificación sanitaria del estado:
+Desarrollar un sistema productivo meliponícola tecnificado, sustentable e inclusivo que fortalezca las capacidades económicas de mujeres y jóvenes rurales en Yucatán, mediante la implementación de 50 Unidades de Producción Pecuaria (UPP) certificadas, la generación de valor agregado y la conservación de especies nativas de abejas sin aguijón, contribuyendo al desarrollo territorial con identidad maya.
 
-\textbf{1. CESO (Consejo Estatal de Seguimiento Operativo SINIIGA-SINIDA)}:
+\subsubsection{Objetivos Específicos Cuantificables}
+
+\begin{enumerate}
+    \item \textbf{Tecnificación Productiva}: Establecer 50 UPP con 10 jobones tecnificados cada una (500 jobones totales), incrementando la productividad promedio de 0.4 a 1.2 litros de miel por jobón anualmente
+    
+    \item \textbf{Inclusión Social}: Beneficiar directamente a 500 productores (70\% mujeres, 23\% jóvenes), organizados en 5 grupos territoriales con capacitación técnica y organizacional
+    
+    \item \textbf{Certificación y Trazabilidad}: Lograr que 100\% de las UPP obtengan registro en el PGN-SENASICA y 80\% alcance certificación en Buenas Prácticas Pecuarias (BPP) orgánicas
+    
+    \item \textbf{Valor Agregado}: Desarrollar 15 productos transformados (cosméticos, propóleo medicinal, polen nutricional) con marca colectiva registrada ante IMPI
+    
+    \item \textbf{Sustentabilidad Ambiental}: Reforestar 100 hectáreas con especies melíferas nativas y establecer 25 parcelas demostrativas de sistemas agroforestales
+    
+    \item \textbf{Comercialización}: Generar ingresos anuales de \$3.5 millones de pesos para productores, con 30\% proveniente de exportación certificada bajo T-MEC
+\end{enumerate}
+
+\subsection{Estrategia de Implementación Territorial}
+
+\subsubsection{Mapeo y Focalización Regional}
+
+La implementación territorial se basa en el análisis georreferenciado del padrón de productores, priorizando 7 regiones con mayor concentración de mujeres y jóvenes meliponicultores:
+
+\begin{table}[h]
+\centering
+\caption{Cuadro 15: Distribución Territorial del Componente Meliponicultura}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|l|l|c|c|c|p{3.5cm}|}
+\hline
+\textbf{Región} & \textbf{Municipios Clave} & \textbf{UPP Meta} & \textbf{\% Mujeres} & \textbf{\% Jóvenes} & \textbf{Especies Prioritarias} \\
+\hline
+Poniente & Mérida, Maxcanú & 15 & 75\% & 20\% & \textit{M. beecheii}, \textit{S. pectoralis} \\
+\hline
+Noreste & Valladolid, Tizimín & 12 & 80\% & 25\% & \textit{F. nigra} \\
+\hline
+Centro & Sotuta, Peto & 10 & 82\% & 22\% & \textit{M. yucatanica} \\
+\hline
+Sureste & F. Carrillo Puerto & 8 & 85\% & 30\% & \textit{Trigona} spp. \\
+\hline
+Oriente & Ticul, Tekax & 5 & 70\% & 18\% & \textit{Partamona} spp. \\
+\hline
+Norte & Temax, Dzidzantún & 5 & 76\% & 25\% & \textit{Scaptotrigona} \\
+\hline
+Sur & Chemax, Tzucacab & 5 & 78\% & 20\% & \textit{Plebeia} spp. \\
+\hline
+\textbf{Total} & \textbf{38 municipios} & \textbf{50} & \textbf{78\%} & \textbf{23\%} & \textbf{7 géneros nativos} \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\subsubsection{Criterios de Selección de Beneficiarios}
+
+La selección de UPP se realizará mediante convocatoria pública con los siguientes criterios ponderados:
+
 \begin{itemize}
-    \item Seguimiento de acuerdos sobre políticas de identificación individual de ganado
-    \item Monitoreo de cumplimiento de acuerdos sobre procesos de movilización y trazabilidad
-    \item Seguimiento de acuerdos relacionados con protocolos de coordinación interinstitucional
-    \item Coordinación de acuerdos con instancias responsables de operación de sistemas
+    \item \textbf{Género e inclusión social} (30\%): Prioridad a mujeres jefas de familia y jóvenes rurales
+    \item \textbf{Experiencia meliponícola} (25\%): Mínimo 2 años de manejo de abejas sin aguijón
+    \item \textbf{Disponibilidad territorial} (20\%): Superficie mínima de 1 hectárea con flora melífera
+    \item \textbf{Organización grupal} (15\%): Pertenencia o disposición a formar grupos de trabajo
+    \item \textbf{Sustentabilidad ambiental} (10\%): Compromiso con prácticas agroecológicas
 \end{itemize}
 
-\textbf{2. APHIS-USDA/SENASICA (Grupo de Trabajo de Seguimiento a Recomendaciones Críticas)}:
+\subsection{Marco Técnico y Fundamentos Científicos}
+
+\subsubsection{Especies Nativas Prioritarias y Caracterización Técnica}
+
+El componente se enfoca en cuatro especies principales de abejas sin aguijón nativas de Yucatán:
+
+\textbf{\textit{Melipona beecheii} (Xunan kab)}
 \begin{itemize}
-    \item Seguimiento de acuerdos sobre atención a recomendaciones críticas para certificación TB
-    \item Monitoreo de acuerdos relacionados con avances en proceso de certificación
-    \item Gestión de evidencias de cumplimiento de acuerdos sobre recomendaciones
-    \item Coordinación de acuerdos entre grupos técnicos binacionales
+    \item \textbf{Características}: Especie emblemática maya, tamaño mediano (12-15mm), alto valor cultural
+    \item \textbf{Productividad}: 0.8-1.5 L miel/jobón/año con manejo tecnificado
+    \item \textbf{Hábitat}: Selva mediana, tolerante a perturbación moderada
+    \item \textbf{Productos}: Miel medicinal, propóleo, polen, cera
 \end{itemize}
 
-\textbf{Plataforma técnica}:
+\textbf{\textit{Scaptotrigona pectoralis} (Piich)}
 \begin{itemize}
-    \item \textbf{URL}: \texttt{https://ceso-aphis-yuc.web.app}
-    \item \textbf{Tecnología}: Firebase + React + Diseño responsivo GOB.mx
-    \item \textbf{Capacidades}: Gestión de 500+ acuerdos anuales, 50+ usuarios institucionales
-    \item \textbf{Seguridad}: Roles granulares (Federal, Estatal, Comité, UGRY), respaldo automático
-    \item \textbf{Funcionalidades}: Dashboard tiempo real, gestión evidencias, reportes especializados
+    \item \textbf{Características}: Especie robusta, excelente adaptación a jobones tecnificados
+    \item \textbf{Productividad}: 1.0-2.0 L miel/jobón/año, alta proliferación
+    \item \textbf{Hábitat}: Amplio rango ecológico, resistente a sequías
+    \item \textbf{Productos}: Miel clara de alta calidad, propóleo terapéutico
 \end{itemize}
 
-\textbf{Usuarios del sistema}:
+\textbf{\textit{Frieseomelitta nigra} (Dama negra)}
 \begin{itemize}
-    \item SADER Yucatán (Jefe de Programa como coordinador técnico)
-    \item SENASICA (seguimiento campañas sanitarias)
-    \item SEDER Yucatán (coordinación estatal)
-    \item Comités técnicos especializados
-    \item Uniones Ganaderas Regionales (UGRY)
+    \item \textbf{Características}: Especie pequeña, comportamiento dócil
+    \item \textbf{Productividad}: 0.4-0.8 L miel/jobón/año, alto valor comercial
+    \item \textbf{Hábitat}: Zonas costeras y subcosteras
+    \item \textbf{Productos}: Miel premium, propóleo antioxidante
 \end{itemize}
 
-\textbf{Impacto esperado}: Reducción de 60\% en tiempos de seguimiento de acuerdos, mejora de 40\% en cumplimiento de recomendaciones críticas, coordinación eficiente del proceso de seguimiento de certificación T-MEC
+\subsubsection{Tecnología de Jobones Tecnificados}
 
-\textbf{ACLARACIÓN IMPORTANTE}: Esta plataforma es exclusivamente para seguimiento de acuerdos de grupos colegiados. Los sistemas operativos de identificación individual (SINIIGA), identificación animal (SINIDA) y movilización (REEMO) son responsabilidad directa de CNOG-SINIIGA y otras instancias especializadas con sus propios sistemas técnicos especializados.
+El proyecto implementará jobones modulares desarrollados por INPA-Brasil y adaptados por la UADY, con las siguientes especificaciones técnicas:
+
+\begin{itemize}
+    \item \textbf{Material}: Madera tratada con aceites naturales, dimensiones 40x30x25 cm
+    \item \textbf{Diseño}: Modular vertical con alzas intercambiables y sistema de ventilación
+    \item \textbf{Componentes}: Cámara de cría, sobrenido removible, techo impermeable
+    \item \textbf{Ventajas}: Facilita divisiones, cosecha no destructiva, mayor productividad
+    \item \textbf{Costo}: \$3,400 MXN por unidad incluyendo accesorios básicos
+\end{itemize}
+
+\subsubsection{Sistema de Manejo Integrado}
+
+\textbf{Calendario Productivo Anual}
+\begin{table}[h]
+\centering
+\caption{Cronograma de Actividades Meliponícolas}
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{Época} & \textbf{Actividades} & \textbf{Floración Principal} & \textbf{Productos} \\
+\hline
+Seca (Nov-Abr) & División de jobones & \textit{Dzidzilché}, \textit{Tajonal} & Miel clara, propóleo \\
+\hline
+Lluvias (May-Oct) & Cosecha, alimentación & \textit{Jabín}, \textit{Chakah} & Miel oscura, polen \\
+\hline
+Todo el año & Monitoreo sanitario & Flora diversa & Cera, núcleos \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Protocolo Sanitario Integrado}
+\begin{itemize}
+    \item \textbf{Prevención}: Inspección mensual, trampas para hormigas, ventilación adecuada
+    \item \textbf{Control de plagas}: Manejo orgánico de \textit{nenem} (mosca forídeo) con trampas de vinagre
+    \item \textbf{Fortalecimiento}: Alimentación suplementaria en época seca con jarabe orgánico
+    \item \textbf{Trazabilidad}: Registro SINIIGA con etiquetado individual de jobones
+\end{itemize}
+
+\subsection{Programa de Capacitación Integral}
+
+\subsubsection{Metodología Pedagógica Intercultural}
+
+El programa de capacitación integra conocimientos tradicionales mayas con técnicas modernas de manejo, utilizando una metodología participativa que reconoce y valora los saberes ancestrales. Se estructura en tres fases complementarias con enfoque diferenciado de género y generacional.
+
+\subsubsection{Estructura Curricular por Fases}
+
+\textbf{Fase I: Fundamentos y Manejo Básico (Enero-Marzo)}\\
+\textbf{Duración}: 40 horas presenciales\\
+\textbf{Modalidad}: Talleres rurales en pabellones SDS\\
+\textbf{Participantes}: 50 mujeres y jóvenes (10 por grupo regional)
+
+\textbf{Módulos temáticos}:
+\begin{itemize}
+    \item Identificación de especies nativas (\textit{M. beecheii}, \textit{Scaptotrigona}, \textit{Frieseomelitta})
+    \item Manejo de jobones tecnificados y división ética de jobones
+    \item Registro en SINIIGA y trazabilidad sanitaria
+    \item Control orgánico de plagas (\textit{nenem}, hormiga roja)
+    \item Fundamentos de la cosmovisión maya aplicada a la meliponicultura
+\end{itemize}
+
+\textbf{Indicadores de éxito}: 80\% de asistencia, 100\% registra UPP en PGN
+
+\textbf{Fase II: Valor Agregado y Comercialización (Abril-Junio)}\\
+\textbf{Duración}: 40 horas modalidad híbrida\\
+\textbf{Modalidad}: Presencial y virtual (plataforma Zoom)\\
+\textbf{Participantes}: 40 productores (80\% retención esperada)
+
+\textbf{Módulos temáticos}:
+\begin{itemize}
+    \item Técnicas de cosecha ética (0.5-1L por jobón)
+    \item Transformación de productos (jabones, propóleo medicinal, cosméticos)
+    \item Estrategias de comercialización (e-commerce, ferias, mercados locales)
+    \item Liderazgo femenino maya y autocuidado
+    \item Certificación orgánica y Buenas Prácticas Pecuarias (BPP)
+\end{itemize}
+
+\textbf{Indicadores de éxito}: 50\% obtiene certificación BPP-SENASICA, 20\% desarrolla productos transformados
+
+\textbf{Fase III: Sustentabilidad e Innovación (Julio-Diciembre)}\\
+\textbf{Duración}: 40 horas de campo y foro\\
+\textbf{Modalidad}: Parcelas demostrativas y Encuentro Estatal SDS\\
+\textbf{Participantes}: 30 productores (enfoque en jóvenes)
+
+\textbf{Módulos temáticos}:
+\begin{itemize}
+    \item Polinización de ecosistemas y servicios ambientales
+    \item Sistemas agroforestales con especies melíferas
+    \item Innovación tecnológica (aplicaciones móviles, monitoreo digital)
+    \item Políticas públicas y participación ciudadana
+    \item Constitución de organizaciones cooperativas
+\end{itemize}
+
+\textbf{Indicadores de éxito}: 70\% incrementa producción 20\%, formación de 3 cooperativas
+
+\subsubsection{Alianzas Estratégicas para Capacitación}
+
+\begin{itemize}
+    \item \textbf{Universidad Autónoma de Yucatán (UADY)}: Contenidos técnico-científicos
+    \item \textbf{Colegio de Postgraduados (COLPOS)}: Metodologías de extensión rural
+    \item \textbf{Fundación Alstom - Programa Guardianas Mayas}: Empoderamiento femenino
+    \item \textbf{Cooperativa Miel Nativa Kaban}: Experiencias comerciales exitosas
+    \item \textbf{CONABIO}: Conservación de especies nativas y biodiversidad
+\end{itemize}
+
+\subsection{Componentes de Inversión y Presupuesto Detallado}
+
+\subsubsection{Estructura de Inversión Quinquenal}
+
+La inversión total del componente asciende a \textbf{\$42.5 millones de pesos} distribuidos en cinco años (2026-2030), con esquema de financiamiento tripartito alineado con el marco presupuestal del macroproyecto.
+
+\begin{table}[h]
+\centering
+\caption{Cuadro 17: Presupuesto Consolidado Componente 5 - Meliponicultura Sustentable}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{4cm}|r|r|r|r|}
+\hline
+\textbf{Componente de Inversión} & \textbf{Inicial 2026} & \textbf{Anual 2027-2030} & \textbf{Total 5 años} & \textbf{\% del Total} \\
+\hline
+Equipamiento Tecnificado & \$17,000,000 & \$1,000,000 & \$21,000,000 & 49.4\% \\
+\hline
+Capacitación Integral & \$500,000 & \$2,500,000 & \$10,500,000 & 24.7\% \\
+\hline
+Certificación y Trazabilidad & \$250,000 & \$100,000 & \$650,000 & 1.5\% \\
+\hline
+Valor Agregado & \$2,500,000 & \$1,500,000 & \$8,500,000 & 20.0\% \\
+\hline
+Desarrollo Organizacional & \$1,000,000 & \$250,000 & \$2,000,000 & 4.7\% \\
+\hline
+\textbf{TOTAL} & \textbf{\$21,250,000} & \textbf{\$5,350,000} & \textbf{\$42,500,000} & \textbf{100.0\%} \\
+\hline
+\end{tabular}
+}
+\end{table}
+
+\subsubsection{Desglose por Componentes de Inversión}
+
+\textbf{Equipamiento Tecnificado (\$21.0 millones)}
+\begin{itemize}
+    \item \textbf{Jobones tecnificados}: 500 unidades × \$3,400 = \$1,700,000
+    \item \textbf{Kits de manejo}: 50 kits × \$8,000 = \$400,000 (extractores, envasadoras, ahumadores)
+    \item \textbf{Infraestructura base}: 50 UPP × \$15,000 = \$750,000 (cobertizos, bancas de trabajo)
+    \item \textbf{Vehículos especializados}: 5 camionetas equipadas × \$350,000 = \$1,750,000
+    \item \textbf{Equipamiento adicional y repuesto}: \$16,400,000 (escalamiento 2027-2030)
+\end{itemize}
+
+\textbf{Capacitación Integral (\$10.5 millones)}
+\begin{itemize}
+    \item \textbf{Facilitadores especializados}: \$5,000,000 (honorarios 5 años)
+    \item \textbf{Materiales didácticos}: \$2,000,000 (manuales, videos, equipos)
+    \item \textbf{Logística y transporte}: \$2,500,000 (traslados, alimentación)
+    \item \textbf{Intercambios técnicos}: \$1,000,000 (giras nacionales e internacionales)
+\end{itemize}
+
+\textbf{Certificación y Trazabilidad (\$650,000)}
+\begin{itemize}
+    \item \textbf{Auditorías BPP-SENASICA}: 50 UPP × \$500 × 5 años = \$125,000
+    \item \textbf{Etiquetado SINIIGA}: \$200,000 (tags, lectores, software)
+    \item \textbf{Certificación orgánica}: \$325,000 (organismos certificadores)
+\end{itemize}
+
+\textbf{Valor Agregado (\$8.5 millones)}
+\begin{itemize}
+    \item \textbf{Equipamiento transformación}: \$4,000,000 (plantas procesadoras grupales)
+    \item \textbf{Insumos y materiales}: \$3,000,000 (frascos, etiquetas, ingredientes)
+    \item \textbf{Desarrollo de productos}: \$1,000,000 (I+D, formulaciones, diseño)
+    \item \textbf{Registro marcas colectivas}: \$500,000 (IMPI, diseño gráfico, legal)
+\end{itemize}
+
+\subsubsection{Esquema de Financiamiento Tripartito}
+
+\begin{table}[h]
+\centering
+\caption{Fuentes de Financiamiento por Porcentaje}
+\begin{tabular}{|l|r|r|r|}
+\hline
+\textbf{Fuente de Financiamiento} & \textbf{Porcentaje} & \textbf{Monto (MXN)} & \textbf{Mecanismo} \\
+\hline
+SADER Federal (OREF Yucatán) & 40\% & \$17,000,000 & Producción para el Bienestar \\
+\hline
+Gobierno Yucatán (SDS) & 30\% & \$12,750,000 & Presupuesto estatal directo \\
+\hline
+Organizaciones Civiles & 20\% & \$8,500,000 & Fundación Alstom, otros \\
+\hline
+Aportación Productores & 10\% & \$4,250,000 & Mano de obra, contrapartidas \\
+\hline
+\textbf{TOTAL} & \textbf{100\%} & \textbf{\$42,500,000} & - \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Cronograma de Implementación 2026-2030}
+
+\subsubsection{Cronograma Maestro por Fases}
+
+\begin{table}[h]
+\centering
+\caption{Cronograma de Implementación Quinquenal}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{Actividad Principal} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{2029} & \textbf{2030} \\
+\hline
+Selección beneficiarios & T1-T2 & - & - & - & - \\
+\hline
+Equipamiento inicial & T2-T4 & T1-T2 & - & - & - \\
+\hline
+Capacitación Fase I & T3-T4 & T1 & T1 & T1 & T1 \\
+\hline
+Capacitación Fase II & - & T2-T3 & T2-T3 & T2-T3 & T2-T3 \\
+\hline
+Certificación BPP & - & T3-T4 & T1-T2 & T1-T2 & T1-T2 \\
+\hline
+Desarrollo productos & - & T1-T4 & T1-T4 & T1-T4 & T1-T4 \\
+\hline
+Comercialización & - & - & T3-T4 & T1-T4 & T1-T4 \\
+\hline
+Evaluación impacto & - & - & T4 & T4 & T4 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Hitos y Metas Anuales}
+
+\textbf{2026 - Año de Establecimiento}:
+\begin{itemize}
+    \item Selección y registro de 50 UPP en PGN-SENASICA
+    \item Entrega de 250 jobones tecnificados (50\% del equipamiento)
+    \item Capacitación Fase I a 50 productores
+    \item Establecimiento de 3 parcelas demostrativas
+\end{itemize}
+
+\textbf{2027 - Año de Consolidación}:
+\begin{itemize}
+    \item Completar equipamiento (500 jobones instalados)
+    \item Primera cosecha comercial (150 L miel)
+    \item Inicio proceso certificación BPP en 25 UPP
+    \item Desarrollo de 5 productos básicos transformados
+\end{itemize}
+
+\textbf{2028 - Año de Certificación}:
+\begin{itemize}
+    \item 40 UPP certificadas en BPP orgánica
+    \item Producción de 4,000 L miel certificada (4 toneladas)
+    \item Registro de marca colectiva ante IMPI
+    \item Primeras exportaciones bajo protocolo T-MEC
+\end{itemize}
+
+\textbf{2029 - Año de Expansión}:
+\begin{itemize}
+    \item 50 UPP completamente operativas
+    \item Producción de 5,000 L miel + 200 kg productos transformados
+    \item 3 cooperativas legalmente constituidas
+    \item Ingresos anuales de \$2.8 millones
+\end{itemize}
+
+\textbf{2030 - Año de Consolidación}:
+\begin{itemize}
+    \item Meta de 6,000 L miel + 300 kg productos transformados (6 toneladas)
+    \item Ingresos anuales de \$3.5 millones
+    \item Autosustentabilidad organizacional y financiera
+    \item Modelo replicable en otros estados
+\end{itemize}
+
+\subsection{Indicadores de Impacto y Monitoreo}
+
+\subsubsection{Marco de Indicadores SMART}
+
+\textbf{Indicadores Productivos}
+\begin{itemize}
+    \item \textbf{Productividad por jobón}: De 0.4 a 1.2 L miel/año (incremento 200\%)
+    \item \textbf{Número de divisiones anuales}: 1.5 divisiones por jobón madre
+    \item \textbf{Supervivencia de jobones}: Mínimo 85\% anual
+    \item \textbf{Productos transformados}: 15 productos desarrollados con registro sanitario
+\end{itemize}
+
+\textbf{Indicadores Socioeconómicos}
+\begin{itemize}
+    \item \textbf{Ingresos por productor}: Incremento promedio de \$25,000 anuales
+    \item \textbf{Participación femenina}: Mantener 70\% de participación de mujeres
+    \item \textbf{Inclusión juvenil}: 25\% de beneficiarios menores de 35 años
+    \item \textbf{Organizaciones constituidas}: 5 grupos formalizados con personalidad jurídica
+\end{itemize}
+
+\textbf{Indicadores Ambientales}
+\begin{itemize}
+    \item \textbf{Reforestación}: 100 hectáreas con especies melíferas nativas
+    \item \textbf{Conservación de especies}: Mantenimiento de 7 especies nativas
+    \item \textbf{Servicios ecosistémicos}: Polinización de 1,000 hectáreas adicionales
+    \item \textbf{Huella de carbono}: Neutralidad carbónica del componente
+\end{itemize}
+
+\subsubsection{Sistema de Monitoreo y Evaluación}
+
+\textbf{Metodología}: Sistema mixto con componentes cuantitativos y cualitativos
+
+\textbf{Periodicidad}: 
+\begin{itemize}
+    \item Monitoreo mensual: Indicadores productivos básicos
+    \item Evaluación trimestral: Avance físico y financiero
+    \item Evaluación anual: Impacto socioeconómico y ambiental
+    \item Evaluación final: Estudio de impacto integral 2030
+\end{itemize}
+
+\textbf{Instrumentos}:
+\begin{itemize}
+    \item Aplicación móvil para registro de producción
+    \item Encuestas socioeconómicas anuales
+    \item Monitoreo participativo comunitario
+    \item Evaluaciones externas independientes
+\end{itemize}
+
+\subsection{Análisis de Viabilidad y Sostenibilidad}
+
+\subsubsection{Viabilidad Técnica}
+
+\textbf{Fortalezas técnicas}:
+\begin{itemize}
+    \item Tecnología de jobones validada por INPA-Brasil y UADY
+    \item Especies nativas adaptadas al clima yucateco
+    \item Conocimientos tradicionales mayas como base
+    \item Protocolos sanitarios orgánicos establecidos
+\end{itemize}
+
+\textbf{Factores de riesgo técnico}:
+\begin{itemize}
+    \item Variabilidad climática (sequías, huracanes)
+    \item Plagas emergentes (\textit{nenem}, hormigas)
+    \item Curva de aprendizaje en manejo tecnificado
+    \item Disponibilidad estacional de flora melífera
+\end{itemize}
+
+\subsubsection{Viabilidad Económica}
+
+\textbf{Análisis costo-beneficio}:
+\begin{itemize}
+    \item \textbf{Inversión total}: \$42.5 millones (5 años)
+    \item \textbf{Ingresos proyectados}: \$17.5 millones acumulados (2027-2030)
+    \item \textbf{Tasa Interna de Retorno (TIR)}: 28\% (similar a modelo Ek Ek)
+    \item \textbf{Valor Actual Neto (VAN)}: \$8.5 millones (tasa descuento 10\%)
+    \item \textbf{Punto de equilibrio}: Año 3 (2028)
+\end{itemize}
+
+\textbf{Fuentes de ingresos}:
+\begin{itemize}
+    \item Venta miel cruda: \$800-1,200/L (70\% de ingresos)
+    \item Productos transformados: Margen 150-200\% (25\% de ingresos)
+    \item Servicios de polinización: \$500/ha/año (5\% de ingresos)
+\end{itemize}
+
+\subsubsection{Sostenibilidad Ambiental}
+
+\textbf{Impactos positivos}:
+\begin{itemize}
+    \item Polinización de cultivos y vegetación nativa
+    \item Conservación de especies de abejas endémicas
+    \item Incentivo para conservación de flora melífera
+    \item Sistema productivo de bajo impacto ambiental
+\end{itemize}
+
+\textbf{Medidas de mitigación}:
+\begin{itemize}
+    \item Cosecha ética (máximo 50\% de miel por jobón)
+    \item Rotación de sitios de colecta de material biológico
+    \item Reforestación compensatoria con especies nativas
+    \item Monitoreo de poblaciones silvestres
+\end{itemize}
+
+\subsubsection{Sostenibilidad Social y Organizacional}
+
+\textbf{Factores de éxito}:
+\begin{itemize}
+    \item Arraigo cultural de la meliponicultura maya
+    \item Liderazgo femenino consolidado (78\% actual)
+    \item Transmisión intergeneracional de conocimientos
+    \item Compatibilidad con otras actividades rurales
+\end{itemize}
+
+\textbf{Estrategias de permanencia}:
+\begin{itemize}
+    \item Constitución de organizaciones legales autónomas
+    \item Desarrollo de capacidades gerenciales locales
+    \item Establecimiento de fondos rotatorios comunitarios
+    \item Vinculación con programas educativos (universidades)
+\end{itemize}
+
+\subsection{Articulación con el Macroproyecto Renacimiento Ganadero Maya}
+
+\subsubsection{Sinergias Técnicas y Productivas}
+
+El Componente 5 de Meliponicultura se articula estratégicamente con los demás componentes del macroproyecto generando sinergias multiplicadoras:
+
+\textbf{Con Sistemas Silvopastoriles Intensivos (Componente 1)}:
+\begin{itemize}
+    \item Polinización de especies forrajeras (\textit{Leucaena leucocephala}, \textit{Guazuma ulmifolia})
+    \item Aprovechamiento de corredores biológicos en SSPi para jobones
+    \item Flora melífera complementaria en sistemas ganaderos tecnificados
+    \item Servicios ecosistémicos integrados (captura carbono + polinización)
+\end{itemize}
+
+\textbf{Con Desarrollo Lechero Tropical (Componente 4)}:
+\begin{itemize}
+    \item Productos lácteos-meliponícolas de valor agregado (yogurt con miel de abejas sin aguijón, quesos especiales)
+    \item Mercados compartidos para productos orgánicos certificados
+    \item Diversificación productiva en UPP lecheras familiares
+    \item Estrategias comerciales conjuntas para mercados premium
+\end{itemize}
+
+\textbf{Con Plataforma Digital (Componente 6)}:
+\begin{itemize}
+    \item Integración de jobones al sistema SINIIGA de trazabilidad
+    \item Aplicación móvil para monitoreo de producción meliponícola
+    \item Base de datos integrada de productores multipropósito
+    \item Certificaciones digitales para productos transformados
+\end{itemize}
+
+\subsubsection{Complementariedad Territorial y Social}
+
+\textbf{Enfoque de género amplificado}: La participación del 78\% de mujeres en meliponicultura fortalece las metas de inclusión del macroproyecto, generando un ecosistema productivo con liderazgo femenino consolidado.
+
+\textbf{Diversificación de riesgos}: La meliponicultura ofrece una alternativa productiva de bajo riesgo que complementa actividades ganaderas principales, reduciendo vulnerabilidad económica de familias rurales.
+
+\textbf{Identidad cultural maya}: Fortalece la dimensión cultural del "Renacimiento Ganadero Maya" mediante la revaloración de prácticas ancestrales sustentables.
+
+\subsection{Conclusiones del Componente 5}
+
+\subsubsection{Conclusiones Estratégicas}
+
+El Componente 5 de Meliponicultura Sustentable representa una adición estratégica al Macroproyecto Renacimiento Ganadero Maya que:
+
+\begin{enumerate}
+    \item \textbf{Fortalece la inclusión social}: Con 70\% de participación femenina y 25\% juvenil, amplifica significativamente el impacto de género del macroproyecto
+    
+    \item \textbf{Genera sinergias productivas}: Se articula técnicamente con sistemas silvopastoriles, desarrollo lechero y plataformas digitales, creando un ecosistema integrado
+    
+    \item \textbf{Aporta sustentabilidad ambiental}: Los servicios de polinización y conservación de especies nativas refuerzan los objetivos ambientales del macroproyecto
+    
+    \item \textbf{Diversifica fuentes de ingreso}: Reduce riesgos económicos mediante actividades complementarias de alto valor agregado
+    
+    \item \textbf{Preserva identidad cultural}: Revitaliza conocimientos tradicionales mayas alineados con la visión de "renacimiento" cultural-productivo
+\end{enumerate}
+
+\subsubsection{Recomendaciones para la Implementación}
+
+\textbf{Fase de preparación (2025-2026)}:
+\begin{itemize}
+    \item Finalizar convenios interinstitucionales con UADY, COLPOS y Fundación Alstom
+    \item Desarrollar la normatividad operativa específica del componente
+    \item Capacitar al equipo técnico especializado en meliponicultura
+    \item Establecer criterios definitivos de selección de beneficiarios
+\end{itemize}
+
+\textbf{Implementación temprana}:
+\begin{itemize}
+    \item Iniciar con grupos piloto en regiones Poniente y Centro (mayor experiencia)
+    \item Establecer parcelas demostrativas antes del equipamiento masivo
+    \item Desarrollar protocolos de monitoreo adaptados a especies nativas
+    \item Crear redes de intercambio con meliponicultores experimentados
+\end{itemize}
+
+\textbf{Escalamiento y consolidación}:
+\begin{itemize}
+    \item Documentar y sistematizar mejores prácticas para replicabilidad
+    \item Establecer convenios comerciales para garantizar mercados
+    \item Desarrollar capacidades gerenciales en organizaciones de productores
+    \item Evaluar posibilidades de expansión a estados vecinos (Campeche, Quintana Roo)
+\end{itemize}
+
+\subsubsection{Contribución al Marco de Resultados del Macroproyecto}
+
+El Componente 5 aporta significativamente a las metas generales del Macroproyecto Renacimiento Ganadero Maya:
+
+\begin{itemize}
+    \item \textbf{Incremento en productividad}: +200\% en rendimiento miel por jobón
+    \item \textbf{Diversificación productiva}: 15 nuevos productos con valor agregado
+    \item \textbf{Generación de empleo}: 500 empleos directos, 70\% para mujeres
+    \item \textbf{Ingresos adicionales}: \$3.5 millones anuales para familias rurales
+    \item \textbf{Sustentabilidad ambiental}: Polinización de 1,000 hectáreas, conservación de 7 especies nativas
+    \item \textbf{Fortalecimiento organizacional}: 5 organizaciones cooperativas consolidadas
+\end{itemize}
+
+La integración de la meliponicultura como quinto componente del macroproyecto no solo es técnica y económicamente viable, sino estratégicamente necesaria para alcanzar los objetivos de inclusión, sustentabilidad e identidad cultural que caracterizan la visión del Renacimiento Ganadero Maya en Yucatán.
+
+\section{Componente 6: Plataforma Digital de Seguimiento Sanitario}
+
+\subsection{Antecedentes y Problemática del Sistema Actual}
+
+El seguimiento de acuerdos zoosanitarios en Yucatán ha enfrentado históricamente desafíos significativos en términos de coordinación interinstitucional y trazabilidad de compromisos. La complejidad inherente a la coordinación de múltiples actores (SENASICA, SADER, SEDER, Uniones Ganaderas, productores) ha generado ineficiencias operativas, duplicidad de esfuerzos y limitaciones en el seguimiento de compromisos críticos para el desarrollo del sector pecuario.
+
+\textbf{Diagnóstico situación actual:}
+\begin{itemize}
+    \item \textbf{Fragmentación institucional:} Seguimiento manual de acuerdos entre 6+ instituciones sin plataforma centralizada
+    \item \textbf{Limitaciones tecnológicas:} Sistemas obsoletos sin capacidades de trazabilidad digital ni reportería automática
+    \item \textbf{Ineficiencias operativas:} Pérdida del 40\% de seguimiento de compromisos por falta de sistematización
+    \item \textbf{Oportunidad digital:} Plataforma \texttt{https://ceso-aphis-yuc.web.app} desarrollada y operativa, requiere optimización profesional
+\end{itemize}
+
+\subsection{Estrategia de Optimización Digital}
+
+La estrategia se fundamenta en la profesionalización de la plataforma existente ``Centro de Consulta de Acuerdos Zoosanitarios'' (CESO) mediante un enfoque integral que abarca optimización tecnológica, administración especializada, mejoras en infraestructura y capacitación institucional. El objetivo es convertir esta herramienta en el sistema de referencia nacional para seguimiento de acuerdos zoosanitarios.
+
+\subsection{Objetivos Cuantificables y Metas de Impacto}
+
+\begin{itemize}
+    \item \textbf{Eficiencia operativa:} Reducir 75\% los tiempos de seguimiento de acuerdos (de 15 días promedio a 4 días máximo)
+    \item \textbf{Cumplimiento institucional:} Incrementar 60\% el cumplimiento de recomendaciones técnicas mediante seguimiento automatizado
+    \item \textbf{Capacidad de gestión:} Administrar 1,000+ acuerdos anuales con 100+ usuarios concurrentes
+    \item \textbf{Automatización:} Sistematizar 80\% de procesos rutinarios mediante workflows inteligentes y notificaciones automáticas
+    \item \textbf{ROI institucional:} Generar 300\% de retorno en eficiencia operativa mediante optimización de recursos humanos
+\end{itemize}
+
+\subsection{Fundamentos Técnicos y Científicos}
+
+\textbf{Arquitectura tecnológica optimizada:}
+\begin{itemize}
+    \item \textbf{Plataforma base:} \texttt{https://ceso-aphis-yuc.web.app} (Firebase + React + Diseño responsivo GOB.mx)
+    \item \textbf{Integración APIs:} SINIIGA/SINIDA para trazabilidad automática y sincronización de datos oficiales
+    \item \textbf{Business Intelligence:} Dashboard ejecutivo en tiempo real con 25+ indicadores clave de desempeño
+    \item \textbf{Seguridad reforzada:} Autenticación multifactor, auditoría completa de accesos, certificaciones gubernamentales
+    \item \textbf{Movilidad:} Aplicación móvil para trabajo de campo y consultas remotas
+\end{itemize}
+
+\textbf{Usuarios del sistema optimizado:}
+\begin{itemize}
+    \item SADER Yucatán (Jefe de Programa como coordinador técnico principal)
+    \item SENASICA (seguimiento especializado campañas sanitarias)
+    \item SEDER Yucatán (coordinación estatal y seguimiento compromisos locales)
+    \item Comités técnicos especializados (consulta y validación de acuerdos)
+    \item Uniones Ganaderas Regionales (UGRY - consulta de estatus y compromisos sectoriales)
+    \item Productores registrados (consulta de estatus personal y compromisos individuales)
+\end{itemize}
+
+\subsection{Presupuesto Componente 6}
+
+Inversión total: \$8.5 MDP (100\% federal - SENASICA)
+
+\begin{table}[H]
+\centering
+\footnotesize
+\caption{Distribución Presupuestaria Detallada - Componente 5}
+\begin{tabular}{|p{5cm}|p{2cm}|p{4.5cm}|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Concepto de Inversión} & \textbf{Monto (MDP)} & \textbf{Descripción Técnica} \\
+\hline
+Administrador de Plataforma & 3.0 & Coordinador técnico especializado 60 meses \\
+\hline
+Mejoras Tecnológicas & 2.5 & APIs, BI, dashboard ejecutivo, app móvil \\
+\hline
+Infraestructura \& Hosting & 1.5 & Servidores dedicados, respaldos, escalabilidad \\
+\hline
+Capacitación \& Soporte & 1.5 & Entrenamiento 50+ usuarios, soporte 24/7 \\
+\hline
+\rowcolor{sadergold!20}
+\textbf{TOTAL COMPONENTE 6} & \textbf{8.5} & \textbf{Sistema digitalizado completo} \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{NOTA TÉCNICA}: Esta inversión optimiza la plataforma \texttt{https://ceso-aphis-yuc.web.app} existente mediante mejoras técnicas especializadas. Los sistemas operativos SINIIGA, SINIDA y REEMO mantienen su operación independiente bajo CNOG-SINIIGA.
 
 \section{Cronograma GANTT Integrado 2026-2030}
 
@@ -1293,26 +1977,40 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 \rowcolor{sadergreen!20}
 \textbf{Componente/Año} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{2029} & \textbf{2030} \\
 \hline
-\textbf{Desarrollo Lechero} & 
-\cellcolor{blue!15}Selección UPP & 
-\cellcolor{blue!25}Construcción & 
-\cellcolor{blue!35}Producción & 
-\cellcolor{blue!45}Optimización & 
-\cellcolor{blue!55}\textbf{Meta 8.5L/día} \\
-\hline
 \textbf{Silvopastoriles SSPi} & 
-\cellcolor{green!15}Diagnóstico & 
-\cellcolor{green!25}Establecimiento & 
-\cellcolor{green!35}Consolidación & 
-\cellcolor{green!45}Evaluación & 
-\cellcolor{green!55}\textbf{6,000 ha} \\
+Diagnóstico & 
+Establecimiento & 
+Consolidación & 
+Evaluación & 
+\textbf{6,000 ha} \\
+\hline
+\textbf{Repoblamiento Ganadero} & 
+Selección UPP & 
+Adquisición F1 & 
+Distribución & 
+Seguimiento & 
+\textbf{12,000 vaquillas} \\
 \hline
 \textbf{Centro Genético} & 
-\cellcolor{orange!15}Remodelación & 
-\cellcolor{orange!25}Certificación & 
-\cellcolor{orange!35}Producción & 
-\cellcolor{orange!45}Expansión & 
-\cellcolor{orange!55}\textbf{120K dosis/año} \\
+Remodelación & 
+Certificación & 
+Producción & 
+Expansión & 
+\textbf{120K dosis/año} \\
+\hline
+\textbf{Desarrollo Lechero} & 
+Selección UPP & 
+Construcción & 
+Producción & 
+Optimización & 
+\textbf{Meta 8.5L/día} \\
+\hline
+\textbf{Plataforma Digital} & 
+Setup inicial & 
+Optimización & 
+Operación plena & 
+Mejoras continuas & 
+\textbf{1,000+ acuerdos} \\
 \hline
 \end{tabular}
 \end{table}
@@ -1452,33 +2150,70 @@ Operación quinquenal & 5.0 & 3.0 & 1.5 & 0.5 \\
 \textbf{Componente} & \textbf{Total} & \textbf{Federal} & \textbf{Estatal} & \textbf{Prod.} & \textbf{\%} \\
  & \textbf{(MDP)} & \textbf{60\%} & \textbf{30\%} & \textbf{10\%} & \\
 \hline
-SSPi (120 UPP) & 132.6 & 79.6 & 39.8 & 13.3 & 15.2\% \\
+SSPi (120 UPP) & 393.4 & 236.0 & 118.0 & 39.3 & 44.3\% \\
 \hline
-Repoblamiento Ganadero & 150.1 & 90.1 & 45.0 & 15.0 & 17.2\% \\
+Repoblamiento Ganadero & 150.1 & 90.1 & 45.0 & 15.0 & 16.9\% \\
 \hline
-Centro Genético & 150.0 & 90.0 & 45.0 & 15.0 & 17.2\% \\
+Centro Genético & 150.0 & 90.0 & 45.0 & 15.0 & 16.9\% \\
 \hline
-Lechería Tropical & 89.5 & 53.7 & 26.9 & 8.9 & 10.2\% \\
+Lechería Tropical & 89.5 & 53.7 & 26.9 & 8.9 & 10.1\% \\
 \hline
-Planta Mosca Estéril & 300.0 & 180.0 & 90.0 & 30.0 & 34.3\% \\
+Planta Mosca Estéril & 300.0 & 180.0 & 90.0 & 30.0 & 33.8\% \\
 \hline
-Certificación TBC & 51.5 & 30.9 & 15.5 & 5.2 & 5.9\% \\
+Meliponicultura Sustentable & 42.5 & 25.5 & 12.8 & 4.3 & 4.8\% \\
 \hline
-Gastos Operativos & 52.8 & 31.7 & 15.9 & 5.3 & 5.7\% \\
+Plataforma Digital & 8.5 & 5.1 & 2.6 & 0.9 & 1.0\% \\
+\hline
+Gastos Operativos & 52.8 & 31.7 & 15.9 & 5.3 & 6.0\% \\
 \hline
 \rowcolor{sadergold!20}
-\textbf{TOTAL} & \textbf{926.5} & \textbf{556.0} & \textbf{278.1} & \textbf{92.7} & \textbf{100\%} \\
+\textbf{TOTAL} & \textbf{887.1} & \textbf{532.3} & \textbf{266.1} & \textbf{88.7} & \textbf{100\%} \\
 \hline
-\multicolumn{6}{|l|}{\footnotesize \textit{Estructura: 5 componentes integrados + gastos operativos}} \\
+\multicolumn{6}{|l|}{\footnotesize \textit{Estructura: 6 componentes optimizados + gastos operativos}} \\
 \hline
 \end{tabular}
 \end{table}
 
 \textbf{OBSERVACIÓN IMPORTANTE - AJUSTE CONSERVADOR:} 
 \begin{itemize}
-    \item \textbf{SSPi:} Presupuesto ajustado a \$333.4M para meta 6,000 ha (\$55,573/ha paquete técnico recomendado). Basado en evidencia empírica Chiapas: 1,078 ha/año promedio × 20 años. Meta Yucatán: 1,200 ha/año (11\% más ambicioso pero ALCANZABLE con continuidad institucional 10 años y metodología científicamente validada)
+    \item \textbf{SSPi:} Presupuesto corregido a \$333.4M para meta 6,000 ha (\$55,573/ha paquete técnico recomendado según memoria de cálculo). \textcolor{sadergreen}{\textbf{Esquema financiero híbrido:}} 50\% subsidio tripartito (\$166.7M) + 50\% crédito productivo FIRA (\$166.7M) con capacidad de pago validada 4.0:1 en modelo becerros al destete. Basado en evidencia empírica Chiapas: 1,078 ha/año promedio × 20 años. Meta Yucatán: 1,200 ha/año (11\% más ambicioso pero ALCANZABLE con esquema crediticio robusto y metodología científicamente validada)
     \item \textbf{Lechero:} Presupuesto reducido de \$68.5M a \$28.5M aplicando misma filosofía ``largo y sinuoso camino''. Meta: 75 UPP (15/año) con 750 vaquillas F1 + 1,125 ha praderas mejoradas. Ratio 1:15 técnico:productor validado en lechería tropical intensiva
 \end{itemize}
+
+\section{Tabla Resumen Ejecutivo: Metas y Financiamiento}
+
+\begin{table}[H]
+\centering
+\caption{Metas Físicas, Financieras y Origen de Recursos del Macroproyecto}
+\scriptsize
+\begin{tabular}{|p{2.8cm}|p{2.2cm}|p{1.8cm}|p{1.5cm}|p{1.5cm}|p{1.8cm}|p{2.2cm}|}
+\hline
+\rowcolor{saderblue!20}
+\textbf{Componente} & \textbf{Metas Físicas} & \textbf{Meta Financiera (MDP)} & \textbf{Federal 60\%} & \textbf{Estatal 30\%} & \textbf{Productor 10\%} & \textbf{Modalidad Productor} \\
+\hline
+\textbf{SSPi} & 6,000 ha convertidas, 120 UPP & \$393.4 & \$236.0 & \$118.0 & \$39.3 & \textcolor{red}{\textbf{Crédito FIRA}} + Aportación especie \\
+\hline
+\textbf{Repoblamiento} & 12,000 vaquillas F1, 1,075 UPP & \$150.1 & \$90.1 & \$45.0 & \$15.0 & \textcolor{red}{\textbf{Crédito asociaciones}} + Mano obra \\
+\hline
+\textbf{Centro Genético} & 120,000 dosis/año, ISO-17025 & \$150.0 & \$90.0 & \$45.0 & \$15.0 & Aportación terrenos + Servicios \\
+\hline
+\textbf{Lechería} & 75 módulos, +40\% producción & \$89.5 & \$53.7 & \$26.9 & \$8.9 & \textcolor{red}{\textbf{Crédito}} + Infraestructura \\
+\hline
+\textbf{Mosca Estéril} & 250M moscas/semana & \$300.0 & \$180.0 & \$90.0 & \$30.0 & Servicios operativos + Personal \\
+\hline
+\textbf{Meliponicultura} & 500 productoras, 6 ton miel & \$42.5 & \$25.5 & \$12.8 & \$4.3 & Aportación colmenas + Trabajo \\
+\hline
+\textbf{Digital} & 1,320 UPP certificadas & \$8.5 & \$5.1 & \$2.6 & \$0.9 & Conectividad + Capacitación \\
+\hline
+\textbf{Operación} & Equipo 8 personas × 5 años & \$52.8 & \$31.7 & \$15.9 & \$5.3 & Contraparte técnica local \\
+\hline
+\rowcolor{sadergold!20}
+\textbf{TOTALES} & \textbf{1,320 UPP + 500 melip.} & \textbf{\$887.1} & \textbf{\$532.3} & \textbf{\$266.1} & \textbf{\$88.7} & \textbf{\$54M crédito + \$35M especie} \\
+\hline
+\multicolumn{7}{|p{16cm}|}{\footnotesize \textbf{Nota Crédito:} Del total \$88.7M de productores, \$54M (61\%) son créditos formales vía FIRA/asociaciones ganaderas y \$35M (39\%) son aportaciones en especie (terrenos, mano de obra, infraestructura). Créditos con tasa preferencial 6-8\%, plazo 7 años, garantía colectiva.} \\
+\hline
+\end{tabular}
+\end{table}
 
 \section{Indicadores de Impacto Cuantificables}
 
@@ -1599,29 +2334,29 @@ T1 2027 & Capacitación técnica intensiva & Maduración Leucaena (6-9 meses) & 
 \hline
 T2 2027 & Expansión praderas mejoradas & Construcción infraestructura 30 UPP adicionales & Auditorías ISO-17025 iniciales \\
 \hline
-T3 2027 & \cellcolor{green!30}\textbf{Inicio producción láctea} & \cellcolor{green!30}\textbf{1ra entrega: 500 vaquillas F1} & \cellcolor{green!30}\textbf{Certificación ISO-17025} \\
+T3 2027 & \textbf{Inicio producción láctea} & \textbf{1ra entrega: 500 vaquillas F1} & \textbf{Certificación ISO-17025} \\
 \hline
-T4 2027 & Evaluación técnica intermedia & \cellcolor{green!30}\textbf{2da entrega: 500 F1 (1,000 acum.)} & Inicio proceso certificación OIE \\
+T4 2027 & Evaluación técnica intermedia & \textbf{2da entrega: 500 F1 (1,000 acum.)} & Inicio proceso certificación OIE \\
 \hline
-T1 2028 & Optimización sistemas productivos & \cellcolor{green!30}\textbf{3ra entrega: 1,000 F1 (2,000 acum.)} & Producción pre-certificada OIE \\
+T1 2028 & Optimización sistemas productivos & \textbf{3ra entrega: 1,000 F1 (2,000 acum.)} & Producción pre-certificada OIE \\
 \hline
 T2 2028 & Expansión a nuevas UPP & Primeros partos F1 (cohorte 2027) & Auditorías OIE internacionales \\
 \hline
-T3 2028 & Meta 6.5 L/vaca/día alcanzada & \cellcolor{green!30}\textbf{4ta entrega: 2,000 F1 (4,000 acum.)} & \cellcolor{green!30}\textbf{Certificación OIE completa} \\
+T3 2028 & Meta 6.5 L/vaca/día alcanzada & \textbf{4ta entrega: 2,000 F1 (4,000 acum.)} & \textbf{Certificación OIE completa} \\
 \hline
 T4 2028 & Evaluación anual de progreso & 3,800 ha operando (80 UPP) & 80,000 dosis certificadas producidas \\
 \hline
-T1 2029 & \cellcolor{green!30}\textbf{Meta 8.5 L/vaca/día} & \cellcolor{green!30}\textbf{5ta entrega: 3,000 F1 (7,000 acum.)} & 100,000 dosis + embriones \\
+T1 2029 & \textbf{Meta 8.5 L/vaca/día} & \textbf{5ta entrega: 3,000 F1 (7,000 acum.)} & 100,000 dosis + embriones \\
 \hline
-T2 2029 & Consolidación de sistemas & \cellcolor{green!30}\textbf{6ta entrega: 3,000 F1 (10,000 acum.)} & Convenios exportación genética \\
+T2 2029 & Consolidación de sistemas & \textbf{6ta entrega: 3,000 F1 (10,000 acum.)} & Convenios exportación genética \\
 \hline
 T3 2029 & Transferencia de tecnología & 5,400 ha operando (108 UPP) & Expansión a mercados regionales \\
 \hline
 T4 2029 & Evaluación integral de componente & Verificación captura carbono total & Investigación avanzada en genética \\
 \hline
-T1 2030 & Sostenibilidad económica validada & \cellcolor{green!30}\textbf{7ma entrega: 2,000 F1 (12,000 total)} & \cellcolor{green!30}\textbf{120,000 dosis/año} \\
+T1 2030 & Sostenibilidad económica validada & \textbf{7ma entrega: 2,000 F1 (12,000 total)} & \textbf{120,000 dosis/año} \\
 \hline
-T2-T4 2030 & \multicolumn{3}{|c|}{\cellcolor{orange!30}\textbf{EVALUACIÓN FINAL INTEGRADA MACROPROYECTO}} \\
+T2-T4 2030 & \multicolumn{3}{|c|}{\textbf{EVALUACIÓN FINAL INTEGRADA MACROPROYECTO}} \\
 \hline
 \end{tabular}
 \end{table}
@@ -1647,8 +2382,8 @@ T2-T4 2030 & \multicolumn{3}{|c|}{\cellcolor{orange!30}\textbf{EVALUACIÓN FINAL
 % ANEXO: VERIFICACIÓN CARGA ANIMAL
 % ========================================
 \clearpage
-\section*{Anexo: Verificación de Carga Animal con Datos Oficiales}
-\addcontentsline{toc}{section}{Anexo: Verificación de Carga Animal}
+\section*{Anexo I: Verificación de Carga Animal con Datos Oficiales}
+\addcontentsline{toc}{section}{Anexo I: Verificación de Carga Animal}
 
 \subsection*{Objetivo del Análisis}
 
@@ -1822,9 +2557,9 @@ La ejecución exitosa del macroproyecto depende de la formalización de 7 conven
 \begin{enumerate}
     \item \textbf{UADY (Académico):} Dr. Juan Ku Vera + Dr. Javier Solorio garantizan validación científica modelo SSPi, protocolos técnicos adaptados a Yucatán, capacitación 80 extensionistas, credibilidad ante APHIS/compradores internacionales.
     
-    \item \textbf{APHIS-USDA (Sanitario):} Certificación TBC obligatoria T-MEC para acceso mercado \$150M USD/año, protocolos exportación ganado pie/carne, capacitación 50 MVZ, auditorías rastros TIF.
+    \item \textbf{APHIS-USDA (Sanitario):} Protocolos exportación ganado pie/carne para acceso mercado \$150M USD/año, capacitación 50 MVZ, auditorías rastros TIF.
     
-    \item \textbf{SENASICA (Sanitario):} Planta mosca estéril (250M/semana) erradica GBG (pérdidas actuales \$200M MXN/año), certificación OIE zona libre habilita mercados asiáticos, doble certificación TBC+GBG = +15-20\% valor exportación.
+    \item \textbf{SENASICA (Sanitario):} Certificación sanitaria especializada para material genético, protocolos de mejoramiento genético, validación sistemas productivos sustentables.
     
     \item \textbf{INIFAP (Técnico):} Refundación Centro Genético Tizimín mediante protocolos evaluación DEPs (60+ años experiencia razas cebuínas), certificación ISO 17025 ante EMA, validación científica cruzamientos adaptativos, interoperabilidad bases datos nacionales.
     
@@ -1844,21 +2579,21 @@ La ejecución exitosa del macroproyecto depende de la formalización de 7 conven
 
 \subsection{Justificación del Equipo Multidisciplinario}
 
-\textbf{Complejidad técnica del macroproyecto:} La ejecución simultánea de cinco componentes estratégicos integrados requiere un equipo técnico especializado de 8 profesionales (1 jefe de programa + 7 técnicos de apoyo) para garantizar la coordinación efectiva entre sistemas silvopastoriles, repoblamiento ganadero, desarrollo lechero, certificación sanitaria y seguimiento digital:
+\textbf{Complejidad técnica del macroproyecto:} La ejecución simultánea de seis componentes estratégicos integrados requiere un equipo técnico especializado de 8 profesionales (1 jefe de programa + 7 técnicos de apoyo) para garantizar la coordinación efectiva entre sistemas silvopastoriles, repoblamiento ganadero, desarrollo lechero, optimización genética, meliponicultura sustentable y seguimiento digital:
 
 \begin{itemize}
     \item Supervisión de 1,075 unidades de producción distribuidas en 106 municipios
     \item Operación de 5 Escuelas de Campo Silvopastoriles con 125 productores
     \item Monitoreo de 120 biofábricas prediales con control de calidad
     \item Coordinación de investigación aplicada con 4 instituciones académicas
-    \item Ejecución de presupuesto tripartito de \$814.9 millones con rendición de cuentas
+    \item Ejecución de presupuesto tripartito de \$887.1 millones con rendición de cuentas
 \end{itemize}
 
 \subsection{Estructura Organizacional y Costos}
 
 \begin{table}[H]
 \centering
-\caption{Estructura de Financiamiento del Equipo Técnico vía FOFAY}
+\caption{Estructura de Financiamiento del Equipo Técnico vía OREF Yucatán}
 \small
 \begin{tabular}{|l|c|c|c|}
 \hline
@@ -1881,28 +2616,43 @@ Gastos operativos (viáticos, vehículos, equipos) & -- & \$7,200,000 & \$36,000
 \end{tabular}
 \end{table}
 
-\subsection{Mecanismo de Financiamiento vía FOFAY}
+\subsection{Mecanismo de Financiamiento vía OREF Yucatán}
 
-\textbf{Precedente legal exitoso:} El Fideicomiso ``Fondo de Fomento Agropecuario de Yucatán'' (FOFAY) operó exitosamente durante la ``Alianza para el Campo'', canalizando recursos federales-estatales para gastos de operación de equipos técnicos especializados en programas pecuarios.
+\textbf{Modelo de prestación de servicios especializados:} La Oficina de Representación en la Entidad Federativa Yucatán (OREF Yucatán) fungirá como la entidad ejecutora directa, contratando servicios profesionales especializados mediante contratos de prestación de servicios independientes, siguiendo el marco normativo federal y los lineamientos de transparencia de SADER.
 
-\textbf{Ventajas operativas del FOFAY:}
+\textbf{Ventajas operativas del modelo OREF Yucatán:}
 \begin{itemize}
-    \item Flexibilidad administrativa para contratación de personal técnico especializado
-    \item Agilidad en pagos de viáticos, combustible y equipos de campo
-    \item Rendición de cuentas dual (federal y estatal) con transparencia
-    \item Blindaje presupuestal contra cambios de administración
+    \item Contratación directa de especialistas técnicos con perfiles específicos para cada componente
+    \item Flexibilidad operativa para ajustes técnicos y geográficos según avance del proyecto  
+    \item Supervisión directa federal garantizando apego a normativa SADER y objetivos institucionales
+    \item Rendición de cuentas transparente con reportes mensuales de avance físico-financiero
+    \item Continuidad técnica independiente de cambios administrativos locales
 \end{itemize}
+
+\textbf{Marco contractual específico:} Los contratos de prestación de servicios profesionales se realizarán bajo el modelo establecido en el contrato tipo 2025-A-A-NAC-A-A-08-290-00035865, que contempla:
+
+\begin{itemize}
+    \item \textbf{Prestador de servicios independiente:} Contratación directa de especialistas técnicos con autonomía profesional
+    \item \textbf{Supervisión técnica SADER:} Coordinación y seguimiento directo por parte de la Oficina Estatal de Representación 
+    \item \textbf{Objetivos específicos:} Cada contrato definirá entregables técnicos medibles y cronograma de actividades
+    \item \textbf{Rendición de cuentas:} Informes mensuales de avance técnico y financiero
+    \item \textbf{Cobertura territorial:} Asignación de áreas geográficas específicas según análisis de Pareto
+\end{itemize}
+
+\textbf{Perfil del equipo técnico:} 8 profesionales especialistas (MVZ, Ing. Agrónomos, Ing. Zootecnistas) con experiencia comprobada en sistemas silvopastoriles, mejoramiento genético, sanidad animal y desarrollo rural, contratados como prestadores de servicios independientes bajo supervisión directa de SADER.
 
 \newpage
 
-\section*{Anexo I: Memoria de Cálculo - Gastos Operativos del Equipo Técnico}
-\addcontentsline{toc}{section}{Anexo I: Memoria de Cálculo - Gastos Operativos}
+\section*{Anexo II: Memoria de Cálculo - Gastos Operativos del Equipo Técnico}
+\addcontentsline{toc}{section}{Anexo II: Memoria de Cálculo - Gastos Operativos}
 
 \subsection*{Justificación Técnica de los \$58.4 Millones MXN (2026-2030)}
+\addcontentsline{toc}{subsection}{22.1. Justificación Técnica de los \$58.4 Millones MXN}
 
-\textbf{Marco conceptual:} Los gastos operativos del equipo técnico optimizado (\$7.2M MXN anuales × 5 años = \$36.0M MXN nómina + \$16.8M MXN salarios = \$52.8M MXN total) representan el 6.5\% del presupuesto total del macroproyecto (\$814.9M MXN), porcentaje que se encuentra muy por debajo del rango estándar internacional para proyectos de desarrollo rural complejos (8-15\% según estándares BM/BID), demostrando eficiencia operativa óptima. La fusión administrativa-financiera y la incorporación del componente de erradicación GBG generan sinergia operativa excepcional.
+\textbf{Marco conceptual:} Los gastos operativos del equipo técnico optimizado (\$7.2M MXN anuales × 5 años = \$36.0M MXN nómina + \$16.8M MXN salarios = \$52.8M MXN total) representan el 6.0\% del presupuesto total del macroproyecto (\$887.1M MXN), porcentaje que se encuentra dentro del rango estándar internacional para proyectos de desarrollo rural complejos (8-15\% según estándares BM/BID), demostrando eficiencia operativa óptima y enfoque estratégico en los componentes de mayor impacto productivo.
 
 \subsection*{Desglose Detallado por Categorías de Gasto}
+\addcontentsline{toc}{subsection}{22.2. Desglose Detallado por Categorías de Gasto}
 
 \begin{table}[H]
 \centering
@@ -1972,6 +2722,7 @@ Certificaciones personal & \$60,000 & \$300,000 & Cursos especialización, certi
 \end{table}
 
 \subsection*{Análisis de Eficiencia y Benchmarking}
+\addcontentsline{toc}{subsection}{22.3. Análisis de Eficiencia y Benchmarking}
 
 \textbf{Comparativo internacional:} El costo operativo por beneficiario directo asciende a \$33,488 MXN/UPP (36.0M ÷ 1,075 UPPs), cifra 43\% inferior al promedio de proyectos similares del Banco Mundial en América Latina (\$58,500 MXN equivalente por beneficiario).
 
@@ -1984,6 +2735,7 @@ Certificaciones personal & \$60,000 & \$300,000 & Cursos especialización, certi
 \end{itemize}
 
 \subsection*{Desglose por Componente Estratégico}
+\addcontentsline{toc}{subsection}{22.4. Desglose por Componente Estratégico}
 
 \begin{table}[H]
 \centering
@@ -2000,7 +2752,7 @@ Desarrollo Lechero & 25\% & \$2,040,000 & \$10,200,000 \\
 \hline
 Centro Genético Tizimín & 20\% & \$1,632,000 & \$8,160,000 \\
 \hline
-Certificación TBC & 15\% & \$1,224,000 & \$6,120,000 \\
+
 \hline
 Erradicación GBG & 5\% & \$408,000 & \$2,040,000 \\
 \hline
@@ -2010,12 +2762,13 @@ Erradicación GBG & 5\% & \$408,000 & \$2,040,000 \\
 \end{table}
 
 \subsection*{Controles y Salvaguardas Financieras}
+\addcontentsline{toc}{subsection}{22.5. Controles y Salvaguardas Financieras}
 
 \textbf{Mecanismos de control:}
 \begin{enumerate}
     \item \textbf{Presupuesto mensualizado:} \$600,000 MXN/mes con autorización previa Comité Técnico
     \item \textbf{Comprobación documental:} 100\% facturas fiscales + evidencia fotográfica actividades
-    \item \textbf{Auditoría trimestral:} Revisión externa independiente vía FOFAY
+    \item \textbf{Auditoría trimestral:} Revisión externa independiente vía OREF Yucatán bajo supervisión SADER
     \item \textbf{Bitácoras de campo:} Registro GPS de recorridos + firma productores visitados
     \item \textbf{Rendición mensual:} Informes técnico-financieros con indicadores de gestión
 \end{enumerate}
@@ -2029,6 +2782,7 @@ Erradicación GBG & 5\% & \$408,000 & \$2,040,000 \\
 \end{itemize}
 
 \subsection*{Justificación del Monto Total}
+\addcontentsline{toc}{subsection}{22.6. Justificación del Monto Total}
 
 \textbf{¿Por qué \$10.56 millones anuales (\$7.2M gastos operativos + \$3.36M nómina)?}
 
@@ -2053,10 +2807,11 @@ El monto optimizado de \$52.8M MXN en gastos operativos (ahorro de \$5.6M vs dis
 
 \clearpage
 
-\section*{Anexo II: Análisis de Pareto - Concentración Ganadera por Organizaciones Regionales}
-\addcontentsline{toc}{section}{Anexo II: Análisis de Pareto - Concentración Ganadera}
+\section*{Anexo III: Análisis de Pareto - Concentración Ganadera por Organizaciones Regionales}
+\addcontentsline{toc}{section}{Anexo III: Análisis de Pareto - Concentración Ganadera}
 
 \subsection*{Marco Regulatorio: Regionalización Ganadera Oficial}
+\addcontentsline{toc}{subsection}{23.1. Marco Regulatorio: Regionalización Ganadera Oficial}
 
 Según el Acuerdo de Regionalización publicado en el DOF, el Estado de Yucatán se divide en \textbf{dos regiones ganaderas oficiales}:
 
@@ -2067,6 +2822,7 @@ Según el Acuerdo de Regionalización publicado en el DOF, el Estado de Yucatán
 \textbf{82 municipios:} Incluye el resto de municipios del estado, concentrados principalmente en la región centro y sur, incluyendo Tekax, Tzucacab, Peto, Izamal, Maxcanú, Sotuta, entre otros.
 
 \subsection*{Análisis de Concentración: Aplicación del Principio de Pareto}
+\addcontentsline{toc}{subsection}{23.2. Análisis de Concentración: Aplicación del Principio de Pareto}
 
 \textbf{Hallazgo clave:} Los primeros \textbf{11 municipios} (10.4\% del total de 106) concentran el \textbf{80.3\% de la actividad ganadera estatal}, demostrando una aplicación perfecta del Principio de Pareto (regla 80/20).
 
@@ -2098,6 +2854,7 @@ Según el Acuerdo de Regionalización publicado en el DOF, el Estado de Yucatán
 \end{table}
 
 \subsection*{Concentración por Organizaciones Ganaderas Oficiales}
+\addcontentsline{toc}{subsection}{23.3. Concentración por Organizaciones Ganaderas Oficiales}
 
 \subsubsection*{UGROY - Unión Ganadera Regional del Oriente de Yucatán}
 \textbf{7 de 11 municipios Pareto (63.6\%):} Tizimín (35.2\%), Panabá (12.9\%), Buctzotz (5.3\%), Dzilam González (4.1\%), Cenotillo (2.9\%), Sucilá (2.8\%), San Felipe (2.3\%) = \textbf{65.5\% concentración estatal}
@@ -2120,6 +2877,7 @@ Según el Acuerdo de Regionalización publicado en el DOF, el Estado de Yucatán
 \end{itemize}
 
 \subsection*{Implicaciones para Coordinación Institucional (Principio de Pareto)}
+\addcontentsline{toc}{subsection}{23.4. Implicaciones para Coordinación Institucional}
 
 \textbf{Asignación presupuestaria eficiente basada en 11 municipios Pareto (10\% = 80\% actividad):}
 
@@ -2144,12 +2902,13 @@ Según el Acuerdo de Regionalización publicado en el DOF, el Estado de Yucatán
 \textbf{Estratégica} & (Nivel 2) &  &  & + Programas Transversales \\
 \hline
 \rowcolor{sadergold!30}
-\textbf{TOTAL} & \textbf{100\%} & \textbf{100\%} & \textbf{\$814.9} & \textbf{Macroproyecto Integral} \\
+\textbf{TOTAL} & \textbf{100\%} & \textbf{100\%} & \textbf{\$887.1} & \textbf{Macroproyecto Integral} \\
 \hline
 \end{tabular}
 \end{table}
 
 \subsection*{Indicadores de Concentración: Principio de Pareto Validado}
+\addcontentsline{toc}{subsection}{23.5. Indicadores de Concentración: Principio de Pareto Validado}
 
 \begin{table}[H]
 \centering
@@ -2182,7 +2941,7 @@ Sementales & 9,788 & 80.9\% & 11,347 & 86.8\% \\
 \item \textbf{Focalizar 65\% de recursos} (\$529.7 MDP) en 7 municipios UGROY Pareto
 \item \textbf{Tizimín: epicentro estratégico} - Planta Mosca Estéril + Centro Genético
 \item \textbf{Núcleo Pareto UGROY:} Tizimín-Panabá-Buctzotz = 53.4\% actividad estatal
-\item \textbf{Coordinación binacional directa} UGROY-APHIS para certificación TBC
+\item \textbf{Coordinación binacional directa} UGROY-APHIS para protocolos sanitarios
 \item \textbf{Eficiencia presupuestaria:} 10\% de municipios = 80\% de impacto
 \end{enumerate}
 
