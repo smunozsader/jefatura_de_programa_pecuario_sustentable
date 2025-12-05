@@ -24,7 +24,7 @@ This structure properly acknowledges that while the consultant is now independen
 
 ### Updated Investment Breakdown (Corrected Values with Hybrid Financing)
 - **Productive Investments**: $1,035.1M (95.1%)
-- **Operational Expenses**: $52.8M (4.9% - 8-person technical team via FOFAY)
+- **Operational Expenses**: $52.8M (4.9% - 5-person technical team: 1 Program Manager + 4 staff via SEDER Yucatán)
 - **Total Project Value**: $1,087.9M (includes all 6 strategic components with hybrid financing)
 - **Hybrid Financing Schema**: $921.2M Tripartite Subsidy (60% Federal + 30% State + 10% Producers) + $166.7M Productive Credit (50% of SSPi component)
 - **SSPi Credit Model**: 50% credit financing ($27,787/ha) with 4.0:1 payment capacity ratio based on beef calf weaning system (+1,167% productivity increase)
