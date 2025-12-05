@@ -1,0 +1,1087 @@
+\documentclass[12pt,letterpaper,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,mexico]{babel}
+\usepackage[left=3cm,right=2.5cm,top=3cm,bottom=3cm,headheight=20pt]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+% Define SADER colors
+\definecolor{sadergreen}{RGB}{0,102,51}
+\definecolor{saderverde}{RGB}{0,102,51}
+\definecolor{saderred}{RGB}{180,0,0}
+\definecolor{sadergris}{RGB}{80,80,80}
+\definecolor{sadergold}{RGB}{204,153,0}
+\definecolor{saderblue}{RGB}{0,51,102}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{
+  \begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.6\textwidth]{logo yucatan.jpg}\\[0.05cm]
+    \textcolor{sadergris}{\footnotesize PROYECTO ESTRATÉGICO - PLANTA MOSCA ESTÉRIL YUCATÁN 2026-2030}
+  \end{minipage}
+}
+\fancyfoot[C]{\textcolor{sadergris}{\small Página \thepage\ de \pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{70pt}
+\addtolength{\topmargin}{-10pt}
+
+\begin{document}
+
+% ========================================
+% PORTADA OFICIAL
+% ========================================
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{0.5cm}
+
+{\LARGE\bfseries\color{sadergreen} PROYECTO ESTRATÉGICO}\\[0.4cm]
+{\Large\bfseries PLANTA DE PRODUCCIÓN DE MOSCA ESTÉRIL}\\[0.3cm]
+{\large\bfseries Erradicación del Gusano Barrenador del Ganado}\\[0.2cm]
+{\large\bfseries Estado de Yucatán, México}\\[0.2cm]
+{\normalsize 2026-2030}\\[1cm]
+
+% Logos institucionales balanceados
+\begin{center}
+\includegraphics[width=0.7\textwidth]{logo yucatan.jpg}\\[0.5cm]
+\includegraphics[width=0.35\textwidth]{logo_sader.png}
+\end{center}
+\vspace{0.8cm}
+
+{\normalsize\bfseries Secretaría de Agricultura y Desarrollo Rural}\\[0.1cm]
+{\small Servicio Nacional de Sanidad, Inocuidad y Calidad Agroalimentaria}\\[0.1cm]
+{\small Oficina de Representación en la Entidad Federativa Yucatán (OREF)}\\[0.3cm]
+
+{\normalsize\bfseries Gobierno del Estado de Yucatán}\\[0.1cm]
+{\small Secretaría de Desarrollo Rural (SEDER)}\\[0.1cm]
+{\small Servicios de Salud de Yucatán (SSY)}\\[0.3cm]
+
+{\normalsize\bfseries Colaboración Técnica Internacional}\\[0.1cm]
+{\small Universidad Autónoma de Yucatán (UADY)}\\[0.1cm]
+{\small Programa Nacional de Control del Gusano Barrenador del Ganado}\\[1cm]
+
+{\large\textbf{Inversión Total:}}\\[0.2cm]
+{\Large\bfseries\color{sadergreen} \$210.0 MDP}\\[0.4cm]
+{\small Esquema de Colaboración Interinstitucional}\\[0.2cm]
+{\footnotesize SADER-SENASICA + SEDER Yucatán + SSY + UADY + OIEA}\\[1cm]
+
+{\normalsize\textbf{Objetivo Estratégico:}}\\[0.3cm]
+{\small\bfseries Erradicación definitiva del Gusano Barrenador del Ganado (GBG)\\
+mediante Técnica del Insecto Estéril con \textcolor{red}{\textbf{INICIO Q3-2026}}\\
+con liberaciones terrestres y capacidad de 100 millones moscas estériles/semana}\\[1.2cm]
+
+{\normalsize\textbf{Elaborado por:}}\\[0.15cm]
+{\small MVZ Sergio Muñoz de Alba Medrano}\\[0.08cm]
+{\small Prestador de Servicios Independiente}\\[0.08cm]
+{\small OREF Yucatán - SADER}\\[0.6cm]
+
+{\small Diciembre 2025}
+
+\end{titlepage}
+
+% ========================================
+% TABLA DE CONTENIDO
+% ========================================
+\clearpage
+\tableofcontents
+\clearpage
+
+% ========================================
+% RESUMEN EJECUTIVO
+% ========================================
+\section{Resumen Ejecutivo}
+
+El presente proyecto estratégico responde a la \textbf{EMERGENCIA SANITARIA} por brotes activos de Gusano Barrenador del Ganado que han suspendido las exportaciones ganaderas a Estados Unidos desde 2024. Con base en el éxito del modelo Chiapas (4,000+ millones moscas liberadas), se propone implementación acelerada en Yucatán para \textcolor{red}{\textbf{INICIO DE LIBERACIONES EN Q3-2026}}.
+
+\textbf{Contexto de Urgencia:}
+\begin{itemize}
+    \item \textbf{Suspensión comercial activa:} Pérdidas \$50M USD anuales por exportaciones
+    \item \textbf{Infraestructura disponible:} SSY + UADY + SEDER operativos AHORA
+    \item \textbf{Modelo validado:} Chiapas 100M/semana en 18 meses
+    \item \textbf{Cooperación APHIS-USDA:} Recursos extraordinarios disponibles
+\end{itemize}
+
+La instalación utilizará infraestructura existente de la Universidad Autónoma de Yucatán (UADY) + irradiador SSY, con capacidad de producción inicial de 6.6 millones moscas/semana, escalando a 100 millones semanales para declaración de libertad en 2028.
+
+\subsection{Justificación Estratégica}
+
+El Gusano Barrenador del Ganado (\textit{Cochliomyia hominivorax}) representa una de las principales limitantes sanitarias para el desarrollo ganadero en el sureste mexicano y constituye una barrera crítica para el acceso a mercados internacionales bajo los estándares del T-MEC. La erradicación definitiva de esta plaga mediante la Técnica del Insecto Estéril (TIE) habilitará:
+
+\begin{itemize}
+    \item \textbf{Certificación sanitaria internacional:} Reconocimiento OIE como zona libre de GBG
+    \item \textbf{Acceso preferencial T-MEC:} Exportaciones ganaderas sin restricciones sanitarias
+    \item \textbf{Incremento productivo:} Reducción 90\% mortalidad por miasis traumática
+    \item \textbf{Competitividad regional:} Posicionamiento como plataforma agroexportadora
+\end{itemize}
+
+\subsection{Componentes Técnicos Principales}
+
+\textbf{1. Laboratorio de Cría Masiva (\$120.0 MDP)}
+\begin{itemize}
+    \item Edificio climatizado de 2,500 m² con 12 módulos de producción independientes
+    \item Sistemas automatizados de control ambiental (25±2°C, 60±10\% HR)
+    \item Planta procesadora de dieta artificial con capacidad 50 ton/semana
+    \item Personal especializado: 25 técnicos (entomólogos, biólogos, técnicos de laboratorio)
+\end{itemize}
+
+\textbf{2. Planta de Irradiación Gamma (\$90.0 MDP)}
+\begin{itemize}
+    \item Fuente radiactiva Cobalto-60 con actividad inicial 37 PBq (1,000 Ci)
+    \item Sistema automatizado de irradiación con dosis controlada 60-90 Gy
+    \item Blindaje de concreto con espesor 2.1 m según normas CNSNS
+    \item Control de calidad con esterilidad verificada $\geq$99\%
+\end{itemize}
+
+\textbf{3. Sistema de Liberación Terrestre (\$15.0 MDP)}
+\begin{itemize}
+    \item 8 vehículos todo terreno especializados con sistemas de dispersión
+    \item Equipos de liberación manual georeferenciados con GPS de precisión
+    \item Red de 200 puntos de liberación estratégicos en todo Yucatán
+    \item Cobertura sistemática: densidad 2,500 moscas/km² semanales
+\end{itemize}
+
+\textbf{4. Operación Quinquenal (\$15.0 MDP)}
+\begin{itemize}
+    \item Recursos humanos especializados y mantenimiento de equipos
+    \item Insumos para producción (dieta artificial, materiales de laboratorio)
+    \item Combustibles para vehículos terrestres y logística de liberación
+    \item Vigilancia epidemiológica y monitoreo de resultados
+\end{itemize}
+
+% ========================================
+% ESQUEMA DE COLABORACIÓN INTERINSTITUCIONAL
+% ========================================
+\section{Esquema de Colaboración Interinstitucional}
+
+El proyecto se fundamenta en un modelo de colaboración interinstitucional que integra capacidades técnicas, financieras y operativas de múltiples actores especializados, bajo la rectoría permanente de SENASICA como autoridad sanitaria nacional.
+
+\subsection{Matriz de Participación Institucional}
+
+\begin{table}[H]
+\centering
+\caption{Participación y Responsabilidades por Institución}
+\footnotesize
+\begin{tabular}{|p{3cm}|p{10cm}|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Institución} & \textbf{Participación y Responsabilidades} \\
+\hline
+\textbf{SADER-SENASICA} & \textbf{Tutor permanente y rector de todas las acciones} \\
+\textit{(Tutor permanente)} & • Asesoría técnica para diseño y construcción de biofábrica \\
+& • Capacitación especializada en Técnica del Insecto Estéril \\
+& • Elaboración de manuales y protocolos de control \\
+& • Elaboración del Convenio de Colaboración \\
+& • Certificación SENASICA-APHIS internacional \\
+\hline
+\textbf{SEDER Yucatán +} & \textbf{Recursos financieros y operativos} \\
+\textbf{Servicios de Salud} & • Recurso financiero para construcción de biofábrica \\
+& • Mantenimiento de biofábrica e insumos operativos \\
+& • Personal: 26 Médicos Veterinarios especializados \\
+& • Recursos materiales: 20 vehículos + combustible \\
+& • Dispersión terrestre por rutas programadas \\
+\hline
+\textbf{Servicios de Salud} & \textbf{Tecnología de irradiación especializada} \\
+\textbf{de Yucatán (SSY)} & • Irradiador de rayos X Wolbaki disponible \\
+& • Canisters: 2 cilindros (7.8×12.0 cm, 1,764 cm³) \\
+& • Capacidad: hasta 6.6 millones pupas/semana \\
+& • Sistemas de control de calidad radiológica \\
+\hline
+\textbf{Universidad Autónoma} & \textbf{Infraestructura y expertise científico} \\
+\textbf{de Yucatán (UADY)} & • Espacio físico: terreno para construcción \\
+& • Personal científico multidisciplinario especializado \\
+& • Dr. Pablo Manrique-Saide (Entomología médica) \\
+& • Dra. Yamili Contreras (Producción masiva de insectos) \\
+& • Dr. Abdiel Martín Park (Control biológico) \\
+& • Desarrollo tecnológico e investigación aplicada \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Capacidades Técnicas Específicas UADY}
+
+El Campus de Ciencias Biológicas y Agropecuarias de la UADY alberga un equipo multidisciplinario con más de 25 años de experiencia en entomología aplicada, control biológico y producción masiva de insectos, integrado por especialistas en biología, medicina veterinaria, microbiología, ingeniería y salud pública.
+
+\textbf{Liderazgo científico confirmado:}
+
+\textbf{Dr. Pablo Camilo Manrique-Saide}
+\begin{itemize}
+    \item Biólogo (UADY) y Doctor en Ciencias (London School of Hygiene \& Tropical Medicine)
+    \item Investigador Nacional Nivel III (SNI-CONAHCYT)
+    \item Líder del Laboratorio para el Control Biológico de \textit{Aedes aegypti}
+    \item Coordinador de la estrategia nacional "Aedes-Wolbachia – Mosquitos Buenos"
+    \item Colaboración con OPS/OMS, IAEA y CENAPRECE en proyectos regionales
+\end{itemize}
+
+\textbf{Dra. Yamili Jazmín Contreras Perera}
+\begin{itemize}
+    \item Bióloga y Doctora en Ciencias con especialización en Entomología Médica (UANL)
+    \item Jefa de Producción del Sistema Nacional de Producción Masiva de mosquitos con Wolbachia
+    \item Investigadora Nacional Nivel I (SNI-CONAHCYT)
+    \item Desarrollo de protocolos estandarizados de cría y control de calidad
+    \item Coautora del Manual de Producción Masiva de \textit{Aedes aegypti} con Wolbachia
+\end{itemize}
+
+\textbf{Dr. Abdiel Agustín Martín Park}
+\begin{itemize}
+    \item Biólogo y Doctor en Ciencias Biológicas (UADY)
+    \item Formación postdoctoral en Colorado State University (EE.UU.)
+    \item Investigador Nacional Nivel I (SNI-CONAHCYT)
+    \item Responsable del Laboratorio para el Control Biológico de \textit{Aedes aegypti}
+    \item Autor de más de 30 publicaciones científicas en control biológico
+\end{itemize}
+
+\subsection{Capacidad de Producción Actual SSY}
+
+Los Servicios de Salud de Yucatán cuentan con infraestructura de irradiación inmediatamente disponible que permitirá el inicio operativo del proyecto:
+
+\textbf{Especificaciones técnicas del irradiador Wolbaki:}
+\begin{table}[H]
+\centering
+\caption{Capacidad de Producción Irradiador SSY}
+\footnotesize
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Tamaño pupa} & \textbf{Pupas/hora} & \textbf{Pupas/día (8h)} & \textbf{Pupas/día (16h)} & \textbf{Pupas/semana} \\
+\hline
+10 mm & 18,900 & 151,000 & 302,000 & 2,114,000 \\
+\hline
+6.5 mm & 59,500 & 476,000 & 952,000 & 6,664,000 \\
+\hline
+\end{tabular}
+\end{table}
+
+Esta capacidad inicial permitirá tratamientos focalizados inmediatos mientras se desarrolla la infraestructura de gran escala con tecnología Cobalto-60.
+
+% ========================================
+% DIAGNÓSTICO Y JUSTIFICACIÓN
+% ========================================
+\section{Diagnóstico Sectorial y Justificación}
+
+\subsection{Problemática del Gusano Barrenador del Ganado}
+
+El Gusano Barrenador del Ganado (\textit{Cochliomyia hominivorax}) constituye la principal limitante sanitaria para el desarrollo ganadero sustentable en la región sureste de México. Esta plaga obligatoria causa pérdidas económicas estimadas en \$50 millones USD anuales en la Península de Yucatán, representando el 8.2\% del valor de la producción ganadera regional.
+
+\textbf{Impacto económico documentado:}
+\begin{itemize}
+    \item \textbf{Mortalidad directa:} 15-25\% en becerros menores de 6 meses
+    \item \textbf{Pérdidas productivas:} Reducción 30-40\% ganancia de peso
+    \item \textbf{Costos veterinarios:} \$180-250 pesos por animal tratado
+    \item \textbf{Restricciones comerciales:} Prohibición exportación a mercados libres de GBG
+\end{itemize}
+
+\subsection{Marco Regulatorio Internacional}
+
+La presencia del GBG en territorio mexicano genera restricciones sanitarias que limitan severamente el acceso a mercados internacionales de alta rentabilidad. Los principales marcos normativos que demandan su erradicación incluyen:
+
+\textbf{1. Tratado México-Estados Unidos-Canadá (T-MEC)}
+\begin{itemize}
+    \item Capítulo 9: Medidas Sanitarias y Fitosanitarias
+    \item Requerimiento de certificación bilateral SENASICA-APHIS
+    \item Acceso preferencial condicionado a estatus "zona libre de GBG"
+\end{itemize}
+
+\textbf{2. Organización Mundial de Sanidad Animal (OIE)}
+\begin{itemize}
+    \item Código Sanitario para los Animales Terrestres
+    \item Procedimientos para reconocimiento de zonas libres de enfermedades
+    \item Requisitos de vigilancia epidemiológica activa y pasiva
+\end{itemize}
+
+\textbf{3. Servicio de Inspección Sanitaria de Animales y Plantas (APHIS-USDA)}
+\begin{itemize}
+    \item Protocolo binacional México-EEUU para control de GBG
+    \item Requerimientos técnicos para certificación de plantas de mosca estéril
+    \item Estándares de calidad para liberaciones masivas
+\end{itemize}
+
+\subsection{Oportunidad Estratégica Regional}
+
+La construcción de la Planta de Mosca Estéril en Yucatán representa una oportunidad única para posicionar al estado como la plataforma agroexportadora líder del sureste mexicano. El análisis de factibilidad identifica los siguientes elementos favorables:
+
+\textbf{Ventajas competitivas:}
+\begin{itemize}
+    \item \textbf{Ubicación geográfica:} Centro del área endémica GBG en sureste mexicano
+    \item \textbf{Infraestructura aeroportuaria:} Aeropuerto Internacional de Mérida para transporte especializado
+    \item \textbf{Capacidad técnica local:} UADY con programas de entomología y control biológico
+    \item \textbf{Coordinación institucional:} OREF Yucatán como enlace operativo SENASICA-Estado
+\end{itemize}
+
+% ========================================
+% MARCO TÉCNICO CIENTÍFICO
+% ========================================
+\section{Fundamentos Técnico-Científicos}
+
+\subsection{Técnica del Insecto Estéril (TIE)}
+
+La Técnica del Insecto Estéril constituye el método de control biológico más eficaz para la erradicación de plagas de importancia económica y sanitaria. Desarrollada por el Organismo Internacional de Energía Atómica (OIEA), esta tecnología ha demostrado su efectividad en la eliminación definitiva del GBG en múltiples regiones del mundo.
+
+\textbf{Principios científicos fundamentales:}
+
+\textbf{1. Cría masiva en laboratorio}
+\begin{itemize}
+    \item Mantenimiento de colonias parentales con diversidad genética controlada
+    \item Dieta artificial optimizada (sangre bovina, caseína, agar, vitaminas)
+    \item Condiciones ambientales estandarizadas (temperatura, humedad, fotoperíodo)
+    \item Control de calidad genético para mantener vigor reproductivo
+\end{itemize}
+
+\textbf{2. Esterilización por radiación gamma}
+\begin{itemize}
+    \item Irradiación de pupas masculinas con Cobalto-60
+    \item Dosis óptima: 60-90 Gray para esterilidad $\geq$99\%
+    \item Preservación de capacidad de vuelo y apareamiento
+    \item Competitividad sexual mantenida post-irradiación
+\end{itemize}
+
+\textbf{3. Liberación terrestre sistemática}
+\begin{itemize}
+    \item Densidad de liberación: 3,000-5,000 moscas estériles/km²
+    \item Frecuencia: 3-4 liberaciones por semana
+    \item Proporción objetivo: 10:1 moscas estériles/moscas silvestres
+    \item Monitoreo con trampas específicas y análisis estadístico
+\end{itemize}
+
+\subsection{Experiencias Internacionales Exitosas}
+
+\textbf{Estados Unidos - Programa Nacional (1958-1982)}
+\begin{itemize}
+    \item \textbf{Superficie erradicada:} 2.5 millones km² (sureste estadounidense)
+    \item \textbf{Inversión total:} \$750 millones USD (valores ajustados 2025)
+    \item \textbf{Beneficio-costo:} Ratio 30:1 en 20 años post-erradicación
+    \item \textbf{Status actual:} Zona libre mantenida desde 1982
+\end{itemize}
+
+\textbf{México - Programa Nacional (1976-2006)}
+\begin{itemize}
+    \item \textbf{Superficie erradicada:} 1.8 millones km² (centro y norte de México)
+    \item \textbf{Plantas operativas:} Tuxtla Gutiérrez (1976-2006), Tapachula (barrera biológica)
+    \item \textbf{Resultados:} Erradicación exitosa hasta el Istmo de Tehuantepec
+    \item \textbf{Beneficios económicos:} \$2,500 millones USD en 30 años
+\end{itemize}
+
+\textbf{Argentina - Programa SENASA (2003-2020)}
+\begin{itemize}
+    \item \textbf{Superficie tratada:} 800,000 km² (noroeste argentino)
+    \item \textbf{Tecnología:} Planta de mosca estéril con capacidad 150M/semana
+    \item \textbf{Status:} Zona libre reconocida por OIE (2020)
+    \item \textbf{Impacto comercial:} Habilitación exportaciones cárnicas sin restricciones
+\end{itemize}
+
+% ========================================
+% DISEÑO TÉCNICO DETALLADO
+% ========================================
+\section{Diseño Técnico de la Planta}
+
+\subsection{Laboratorio de Cría Masiva}
+
+\textbf{Especificaciones de infraestructura:}
+
+\textbf{Edificio principal (2,500 m²)}
+\begin{itemize}
+    \item \textbf{Estructura:} Concreto armado con aislamiento térmico especializado
+    \item \textbf{Distribución:} 12 módulos de producción + áreas de apoyo
+    \item \textbf{Sistemas de clima:} HVAC con control automatizado ±1°C, ±5\% HR
+    \item \textbf{Filtración:} Sistemas HEPA para prevención de contaminación cruzada
+    \item \textbf{Seguridad biológica:} Nivel BSL-1 con protocolos de cuarentena
+\end{itemize}
+
+\textbf{Áreas especializadas:}
+
+\textbf{1. Sala de Colonias Parentales (200 m²)}
+\begin{itemize}
+    \item 50 jaulas de mantenimiento (80×60×60 cm) con malla antiáfidos
+    \item Sistema de alimentación automatizado para adultos (miel + agua)
+    \item Control reproductivo con 500 hembras y 200 machos por jaula
+    \item Renovación genética trimestral con material silvestre certificado
+\end{itemize}
+
+\textbf{2. Sala de Oviposición (300 m²)}
+\begin{itemize}
+    \item 100 dispositivos de oviposición con carne fresca estimulante
+    \item Sistema de recolección de huevos cada 6 horas
+    \item Tratamiento superficial con hipoclorito de sodio 0.5\%
+    \item Capacidad: 50 millones de huevos por semana
+\end{itemize}
+
+\textbf{3. Sala de Larvicultura (800 m²)}
+\begin{itemize}
+    \item 500 bandejas de desarrollo larval (40×30×8 cm)
+    \item Dieta artificial automatizada (sangre bovina 40\%, caseína 20\%, agar 5\%)
+    \item Control de densidad: 1.5 ml de huevos por bandeja
+    \item Temperatura controlada 27±1°C, desarrollo completo en 7 días
+\end{itemize}
+
+\textbf{4. Sala de Pupación (400 m²)}
+\begin{itemize}
+    \item Tamices vibratorios para separación pupas-dieta
+    \item Bandejas de maduración con vermiculita estéril
+    \item Sexado manual por tamaño diferencial de pupas
+    \item Almacenamiento refrigerado 15°C hasta irradiación
+\end{itemize}
+
+\textbf{5. Planta de Dieta Artificial (300 m²)}
+\begin{itemize}
+    \item Mezcladora industrial de 500 kg por lote
+    \item Autoclave para esterilización a 121°C por 15 minutos
+    \item Almacén refrigerado para ingredientes (0-4°C)
+    \item Capacidad: 50 toneladas de dieta por semana
+\end{itemize}
+
+\subsection{Planta de Irradiación Gamma}
+
+\textbf{Diseño de seguridad radiológica:}
+
+\textbf{Fuente de Cobalto-60}
+\begin{itemize}
+    \item \textbf{Actividad inicial:} 37 PBq (1,000 Curios)
+    \item \textbf{Configuración:} Fuente tipo lápiz en arreglo hexagonal
+    \item \textbf{Vida útil:} 15 años con recarga programada cada 10 años
+    \item \textbf{Tasa de dosis:} 2,000 Gy/hora a 30 cm de distancia
+\end{itemize}
+
+\textbf{Sistema de irradiación}
+\begin{itemize}
+    \item \textbf{Transportador automatizado:} Velocidad variable 0.5-5 m/min
+    \item \textbf{Dosimetría:} Película radiocrómica + dosímetros termoluminiscentes
+    \item \textbf{Uniformidad de dosis:} ±10\% en volumen objetivo
+    \item \textbf{Capacidad:} 250 millones de pupas por semana
+\end{itemize}
+
+\textbf{Blindaje y seguridad}
+\begin{itemize}
+    \item \textbf{Bunker principal:} Concreto barítico espesor 2.1 m
+    \item \textbf{Laberinto de acceso:} Diseño en "L" para atenuación radiación
+    \item \textbf{Sistemas de seguridad:} Detectores de radiación + alarmas audibles/visuales
+    \item \textbf{Monitoreo personal:} Dosímetros individuales para todo el personal
+\end{itemize}
+
+\subsection{Vehículos Terrestres Especializados}
+
+\textbf{Especificaciones de liberación terrestre:}
+
+\textbf{Vehículos todo terreno adaptados para liberación de organismos estériles (8 unidades)}
+\begin{itemize}
+    \item \textbf{Configuración:} Vehículos 4x4 con sistemas de refrigeración especializada
+    \item \textbf{Autonomía:} 8 horas operativas continuas (400 km)
+    \item \textbf{Capacidad de carga:} 500 kg de moscas estériles refrigeradas
+    \item \textbf{Velocidad operativa:} 30-50 km/h en recorridos de liberación
+\end{itemize}
+
+\textbf{Sistema de liberación manual}
+\begin{itemize}
+    \item \textbf{Contenedores portátiles:} 20 unidades de 5 kg cada uno por vehículo
+    \item \textbf{Mecanismo:} Dispersión manual controlada con cronómetro
+    \item \textbf{Tasa de liberación:} 2,500 moscas/punto en intervalos de 500m
+    \item \textbf{Área de cobertura:} Cuadrículas de 1 km² con 4 puntos por cuadrícula
+\end{itemize}
+
+\textbf{Navegación y georreferenciación}
+\begin{itemize}
+    \item \textbf{GPS diferencial:} Precisión ±2 metros
+    \item \textbf{Sistema GIS:} Mapeo digital de rutas de liberación terrestre
+    \item \textbf{Telemetría:} Monitoreo en tiempo real de recorridos vehiculares
+\end{itemize}
+
+% ========================================
+% MODELO OPERATIVO INTEGRADO
+% ========================================
+\section{Modelo Operativo Integrado}
+
+\subsection{Estrategia de Implementación Bifásica}
+
+El proyecto adopta un modelo operativo que maximiza el aprovechamiento de recursos existentes mientras desarrolla capacidades de largo plazo, siguiendo las mejores prácticas internacionales de programas TIE exitosos.
+
+\textbf{Fase de Emergencia Sanitaria - Producción Inmediata (Q1-Q3 2026)}
+
+\textbf{1. Aprovechamiento Infraestructura SSY}
+\begin{itemize}
+    \item \textbf{Irradiador Wolbaki disponible:} Capacidad 6.6 millones pupas/semana
+    \item \textbf{Canisters especializados:} 2 cilindros con 1,764 cm³ útiles
+    \item \textbf{Personal técnico:} Operadores capacitados en irradiación
+    \item \textbf{Protocolos validados:} Procedimientos de esterilización verificados
+\end{itemize}
+
+\textbf{2. Integración Capacidades UADY}
+\begin{itemize}
+    \item \textbf{Laboratorio Control Biológico:} Instalaciones para cría masiva
+    \item \textbf{Personal científico:} 3 investigadores SNI especializados
+    \item \textbf{Protocolos estandarizados:} Experiencia en producción de insectos
+    \item \textbf{Control de calidad:} Sistemas de monitoreo genético
+\end{itemize}
+
+\textbf{3. Red de Dispersión SEDER}
+\begin{itemize}
+    \item \textbf{Personal especializado:} 26 Médicos Veterinarios en campo
+    \item \textbf{Flota vehicular:} 20 vehículos con combustible garantizado
+    \item \textbf{Rutas optimizadas:} Cobertura sistemática del territorio estatal
+    \item \textbf{Experiencia operativa:} Personal con conocimiento del terreno
+\end{itemize}
+
+\textbf{Fase de Escalamiento - Biofábrica Completa (2028-2030)}
+
+\textbf{1. Construcción Biofábrica UADY}
+\begin{itemize}
+    \item \textbf{Financiamiento federal:} \$25 MDP para infraestructura especializada
+    \item \textbf{Diseño modular:} Facilidades para 250 millones moscas/semana
+    \item \textbf{Tecnología Cobalto-60:} Sistemas de irradiación de gran escala
+    \item \textbf{Automatización:} Procesos controlados para calidad consistente
+\end{itemize}
+
+\textbf{2. Integración Operativa Total}
+\begin{itemize}
+    \item \textbf{Producción centralizada:} Biofábrica UADY como centro de operaciones
+    \item \textbf{Irradiación dual:} SSY para emergencias + Cobalto-60 para volumen
+    \item \textbf{Dispersión aérea:} Flota especializada para liberaciones masivas
+    \item \textbf{Monitoreo integrado:} Red SEDER + UADY para seguimiento
+\end{itemize}
+
+\subsection{Protocolos de Coordinación Interinstitucional}
+
+\textbf{Estructura de Gobernanza}
+\begin{itemize}
+    \item \textbf{Rector técnico:} SENASICA como autoridad sanitaria nacional
+    \item \textbf{Ejecutor operativo:} OREF Yucatán para coordinación en campo
+    \item \textbf{Soporte científico:} UADY para investigación y desarrollo
+    \item \textbf{Implementación estatal:} SEDER + SSY para recursos y personal
+\end{itemize}
+
+\textbf{Mecanismos de Coordinación}
+\begin{itemize}
+    \item \textbf{Convenio marco:} Acuerdo interinstitucional vinculante
+    \item \textbf{Comité técnico:} Reuniones mensuales de seguimiento
+    \item \textbf{Protocolos operativos:} Manuales estandarizados por función
+    \item \textbf{Sistemas de reporte:} Dashboard integrado de indicadores
+\end{itemize}
+
+% ========================================
+% CRONOGRAMA DE IMPLEMENTACIÓN
+% ========================================
+\section{Cronograma de Implementación 2026-2030}
+
+\subsection{Cronograma de Emergencia Sanitaria - Modelo Acelerado}
+
+\textbf{Referentes Internacionales de Implementación Rápida:}
+\begin{itemize}
+    \item \textbf{Chiapas 2024-2025:} 100M moscas/semana operativo en 18 meses
+    \item \textbf{Metapa de Domínguez:} Planta de 100M semanales con apoyo APHIS-USDA
+    \item \textbf{Liberaciones acumuladas:} +4,000 millones moscas desde 2024
+    \item \textbf{Plantas móviles:} 20M adicionales con tecnología modular
+    \item \textbf{Modelo probado:} Infraestructura existente + escalamiento rápido
+\end{itemize}
+
+\subsection{Fases del Proyecto Acelerado}
+
+\textbf{FASE I - Arranque Inmediato (Enero-Abril 2026)}
+\begin{itemize}
+    \item \textbf{Enero:} Liberación \$25 MDP + solicitud apoyo extraordinario APHIS-USDA
+    \item \textbf{Febrero:} Establecimiento colonias parentales (material Tapachula/Texas)
+    \item \textbf{Marzo:} Adaptación laboratorios UADY + validación irradiador SSY
+    \item \textbf{Abril:} Primera producción piloto 500K moscas/semana
+\end{itemize}
+
+\textbf{FASE II - Escalamiento Operativo (Mayo-Agosto 2026)}
+\begin{itemize}
+    \item \textbf{Mayo:} Escalamiento a 2 millones moscas/semana + inicio construcción modular
+    \item \textbf{Junio:} Producción 5 millones/semana + preparación dispersión masiva
+    \item \textbf{Julio:} Validación protocolos + entrenamiento equipos MVZ
+    \item \textbf{Agosto:} \textcolor{red}{\textbf{INICIO LIBERACIONES MASIVAS - Zona Norte Yucatán}}
+\end{itemize}
+
+\textbf{FASE III - Consolidación y Evaluación (Sept-Dic 2026)}
+\begin{itemize}
+    \item \textbf{Septiembre:} Liberaciones sistemáticas 10M moscas/semana
+    \item \textbf{Octubre:} Monitoreo intensivo + evaluación impacto epidemiológico
+    \item \textbf{Noviembre:} Expansión cobertura territorial + optimización rutas
+    \item \textbf{Diciembre:} Evaluación anual + preparación escalamiento 2027
+\end{itemize}
+
+\textbf{FASE IV - Expansión y Consolidación (2027-2028)}
+\begin{itemize}
+    \item \textbf{Q1-Q2 2027:} Construcción biofábrica definitiva + instalación Cobalto-60
+    \item \textbf{Q3-Q4 2027:} Capacidad plena 100M moscas/semana + flota aérea
+    \item \textbf{2028:} Liberaciones masivas + monitoreo para declaración libertad
+    \item \textbf{Meta 2028:} Certificación SENASICA-APHIS zona libre GBG
+\end{itemize}
+
+\textbf{FASE IV - Operación Piloto (2029)}
+\begin{itemize}
+    \item \textbf{T1:} Establecimiento de colonias parentales y primera producción
+    \item \textbf{T2:} Inicio de liberaciones piloto en zona norte de Yucatán
+    \item \textbf{T3:} Escalamiento a producción objetivo 250M moscas/semana
+    \item \textbf{T4:} Expansión de liberaciones a toda la superficie estatal
+\end{itemize}
+
+\textbf{FASE V - Operación Plena y Evaluación (2030)}
+\begin{itemize}
+    \item \textbf{T1-T3:} Liberaciones sistemáticas y monitoreo intensivo
+    \item \textbf{T3:} Evaluación de indicadores de erradicación
+    \item \textbf{T4:} Solicitud de reconocimiento OIE como zona libre de GBG
+    \item \textbf{T4:} Certificación binacional SENASICA-APHIS para exportaciones
+\end{itemize}
+
+\subsection{Cronograma Crítico 2026 - Emergencia Sanitaria}
+
+\begin{table}[H]
+\centering
+\caption{Cronograma Mensual 2026 - Liberaciones Q3}
+\footnotesize
+\begin{tabular}{|p{3.5cm}|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Actividad} & \textbf{E} & \textbf{F} & \textbf{M} & \textbf{A} & \textbf{M} & \textbf{J} & \textbf{J} & \textbf{A} & \textbf{S} & \textbf{O} & \textbf{N} & \textbf{D} \\
+\hline
+Recursos \$25 MDP & \cellcolor{red!30}$\bullet$ &  &  &  &  &  &  &  &  &  &  &  \\
+\hline
+Colonias parentales &  & \cellcolor{blue!30}$\bullet\bullet$ & \cellcolor{blue!30}$\bullet\bullet$ &  &  &  &  &  &  &  &  &  \\
+\hline
+Adapt. laboratorios &  &  & \cellcolor{orange!30}$\bullet\bullet$ & \cellcolor{orange!30}$\bullet\bullet$ &  &  &  &  &  &  &  &  \\
+\hline
+Producción piloto &  &  &  & \cellcolor{yellow!30}$\bullet$ & \cellcolor{yellow!30}$\bullet\bullet$ &  &  &  &  &  &  &  \\
+\hline
+Escalamiento prod. &  &  &  &  & \cellcolor{green!30}$\bullet$ & \cellcolor{green!30}$\bullet\bullet$ & \cellcolor{green!30}$\bullet\bullet$ &  &  &  &  &  \\
+\hline
+\rowcolor{red!20}
+\textbf{LIBERACIONES} &  &  &  &  &  &  &  & \cellcolor{red!50}$\bullet\bullet$ & \cellcolor{red!50}$\bullet\bullet$ & \cellcolor{red!50}$\bullet\bullet$ & \cellcolor{red!50}$\bullet\bullet$ & \cellcolor{red!50}$\bullet\bullet$ \\
+\hline
+Construcción biofáb. &  &  &  &  &  & \cellcolor{purple!30}$\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ & \cellcolor{purple!30}$\bullet\bullet$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Producción Objetivo por Trimestre 2026:}
+\begin{table}[H]
+\centering
+\caption{Escalamiento de Producción - Moscas Estériles/Semana}
+\footnotesize
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\rowcolor{sadergold!20}
+\textbf{Período} & \textbf{Q1-2026} & \textbf{Q2-2026} & \textbf{Q3-2026} & \textbf{Q4-2026} \\
+\hline
+\textbf{Meta Producción} & 0.5M & 5.0M & 10.0M & 15.0M \\
+\hline
+\textbf{Infraestructura} & Piloto UADY & SSY + UADY & Modular & Biofábrica \\
+\hline
+\textbf{Liberaciones} & Pruebas & Validación & \textcolor{red}{\textbf{MASIVAS}} & Sistemáticas \\
+\hline
+\textbf{Cobertura} & Laboratorio & 50 km² & 1,000 km² & 5,000 km² \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Hitos Críticos de Emergencia}
+
+\textbf{\textcolor{red}{Hito 1 (Enero 2026):}} Liberación recursos \$25 MDP + coordinación APHIS-USDA
+\textbf{\textcolor{red}{Hito 2 (Marzo 2026):}} Colonias GBG establecidas + irradiador SSY validado
+\textbf{\textcolor{red}{Hito 3 (Junio 2026):}} Producción 5M moscas/semana consistente
+\textbf{\textcolor{red}{Hito 4 (Agosto 2026):}} \textbf{INICIO LIBERACIONES MASIVAS YUCATÁN}
+\textbf{\textcolor{red}{Hito 5 (Diciembre 2026):}} 15M moscas/semana + cobertura 5,000 km²
+\textbf{\textcolor{red}{Hito 6 (Diciembre 2027):}} Capacidad plena 100M/semana + evaluación impacto
+\textbf{\textcolor{red}{Hito 7 (2028):}} Solicitud declaración zona libre + reapertura exportaciones
+
+\textbf{Indicadores de Éxito 2026-2027:}
+\begin{itemize}
+    \item \textbf{Producción acumulada:} 200+ millones moscas liberadas
+    \item \textbf{Reducción casos GBG:} 80\% disminución en área piloto
+    \item \textbf{Cobertura territorial:} 50\% superficie ganadera Yucatán
+    \item \textbf{Cooperación internacional:} Validación protocolos APHIS-USDA
+\end{itemize}
+
+% ========================================
+% ESTRUCTURA PRESUPUESTARIA
+% ========================================
+\section{Estructura Presupuestaria Detallada}
+
+\subsection{Inversión por Componentes - Esquema Realista}
+
+\begin{table}[H]
+\centering
+\caption{Presupuesto Colaborativo Biofábrica de Moscas Estériles (Millones MXN)}
+\footnotesize
+\begin{tabular}{|p{5cm}|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Componente/Rubro} & \textbf{Total} & \textbf{SADER} & \textbf{Yucatán} & \textbf{UADY} \\
+ & \textbf{MXN} & \textbf{Federal} & \textbf{Estatal} & \textbf{In-kind} \\
+\hline
+\multicolumn{5}{|l|}{\textbf{FASE I - CONSTRUCCIÓN BIOFÁBRICA (\$25.0 MDP)}} \\
+\hline
+Obra civil especializada & 12.0 & 12.0 & - & - \\
+\hline
+Equipos de laboratorio & 8.0 & 8.0 & - & - \\
+\hline
+Sistemas climatización & 3.0 & 3.0 & - & - \\
+\hline
+Instalaciones auxiliares & 2.0 & 2.0 & - & - \\
+\hline
+\multicolumn{5}{|l|}{\textbf{APORTACIONES ESTATALES (Contravalor \$15.0 MDP)}} \\
+\hline
+Irradiador Wolbaki (SSY) & 8.0 & - & 8.0 & - \\
+\hline
+Personal técnico (26 MVZ) & 4.0 & - & 4.0 & - \\
+\hline
+Vehículos + combustible & 2.0 & - & 2.0 & - \\
+\hline
+Mantenimiento + insumos & 1.0 & - & 1.0 & - \\
+\hline
+\multicolumn{5}{|l|}{\textbf{APORTACIONES ACADÉMICAS (Contravalor \$10.0 MDP)}} \\
+\hline
+Terreno + infraestructura & 5.0 & - & - & 5.0 \\
+\hline
+Personal científico SNI & 3.0 & - & - & 3.0 \\
+\hline
+Laboratorios existentes & 1.5 & - & - & 1.5 \\
+\hline
+Transferencia tecnológica & 0.5 & - & - & 0.5 \\
+\hline
+\rowcolor{sadergreen!40}
+\textbf{INVERSIÓN TOTAL} & \textbf{50.0} & \textbf{25.0} & \textbf{15.0} & \textbf{10.0} \\
+\hline
+\rowcolor{sadergold!20}
+\textbf{Porcentajes} & \textbf{100\%} & \textbf{50\%} & \textbf{30\%} & \textbf{20\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+\textbf{Esquema de Implementación Bifásico}
+
+\textbf{Fase Inmediata (2026):} Aprovechamiento de infraestructura existente
+\begin{itemize}
+    \item Irradiador SSY operativo: 6.6 millones pupas/semana
+    \item Laboratorios UADY: Colonias parentales + control de calidad
+    \item Personal MVZ SEDER: Dispersión terrestre sistemática
+    \item Inversión mínima, resultados inmediatos
+\end{itemize}
+
+\textbf{Fase de Escalamiento (2027-2030):} Desarrollo de biofábrica completa
+\begin{itemize}
+    \item Construcción biofábrica UADY con recursos federales
+    \item Integración tecnológica Cobalto-60 para gran escala
+    \item Vehículos terrestres especializados para liberaciones masivas
+    \item Capacidad objetivo: 250 millones moscas/semana
+\end{itemize}
+
+\subsection{Cronograma de Inversión Anual}
+
+\begin{table}[H]
+\centering
+\caption{Flujo de Inversión Anual 2026-2030 (Millones MXN)}
+\footnotesize
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Fuente de Financiamiento} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{2029} & \textbf{2030} & \textbf{Total} \\
+\hline
+\textbf{Federal (SENASICA 70\%)} & 29.4 & 44.1 & 44.1 & 17.64 & 11.76 & 147.0 \\
+\hline
+\textbf{Estatal (SEDER 20\%)} & 8.4 & 12.6 & 12.6 & 5.04 & 3.36 & 42.0 \\
+\hline
+\textbf{Internacional (OIEA 10\%)} & 4.2 & 6.3 & 6.3 & 2.52 & 1.68 & 21.0 \\
+\hline
+\rowcolor{sadergold!20}
+\textbf{TOTAL ANUAL} & \textbf{42.0} & \textbf{63.0} & \textbf{63.0} & \textbf{25.2} & \textbf{16.8} & \textbf{210.0} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Esquema de Financiamiento Colaborativo}
+
+\textbf{1. Recursos Federales Solicitados - SADER (\$25.0 MDP)}
+\begin{itemize}
+    \item \textbf{Solicitud específica:} \$25 millones de pesos para construcción y puesta en marcha
+    \item \textbf{Programa Nacional contra GBG:} Presupuesto base del programa
+    \item \textbf{Coordinación técnica:} SENASICA como rector permanente
+    \item \textbf{Gestión operativa:} OREF Yucatán como ejecutor en campo
+\end{itemize}
+
+\textbf{2. Aportaciones Estatales - Gobierno de Yucatán}
+\begin{itemize}
+    \item \textbf{SEDER Yucatán:} Recursos financieros para mantenimiento e insumos
+    \item \textbf{Servicios de Salud:} Irradiador Wolbaki + personal técnico especializado
+    \item \textbf{Personal operativo:} 26 Médicos Veterinarios + técnicos de laboratorio
+    \item \textbf{Recursos materiales:} 20 vehículos + combustible + mantenimiento
+\end{itemize}
+
+\textbf{3. Aportaciones Académicas - UADY}
+\begin{itemize}
+    \item \textbf{Infraestructura física:} Terreno para construcción de biofábrica
+    \item \textbf{Personal científico:} Equipo multidisciplinario de investigadores nivel SNI
+    \item \textbf{Laboratorios especializados:} Facilidades de control biológico existentes
+    \item \textbf{Transferencia tecnológica:} Protocolos validados de producción masiva
+\end{itemize}
+
+\textbf{4. Cooperación Internacional - OIEA}
+\begin{itemize}
+    \item \textbf{Asistencia técnica:} Expertos internacionales en TIE
+    \item \textbf{Capacitación especializada:} Formación de personal técnico
+    \item \textbf{Equipamiento complementario:} Sistemas de monitoreo y control de calidad
+    \item \textbf{Certificación internacional:} Validación de protocolos operativos
+\end{itemize}
+
+\textbf{Modelo de Implementación Gradual}
+
+El esquema propuesto permite un inicio operativo inmediato con la infraestructura disponible (irradiador SSY + capacidades UADY), mientras se desarrolla la construcción de la biofábrica de gran escala. Esta estrategia bifásica optimiza recursos y genera resultados tempranos que justifican la inversión total.
+
+% ========================================
+% IMPACTOS Y BENEFICIOS
+% ========================================
+\section{Impactos Proyectados y Beneficios}
+
+\subsection{Impactos Económicos}
+
+\textbf{Beneficios cuantificables directos:}
+
+\textbf{1. Reducción de pérdidas por GBG}
+\begin{itemize}
+    \item \textbf{Ahorro anual:} \$50 millones USD en tratamientos veterinarios
+    \item \textbf{Incremento productivo:} 25\% mejora en conversión alimenticia
+    \item \textbf{Reducción mortalidad:} 90\% menos muertes por miasis traumática
+    \item \textbf{Valor presente neto:} \$1,250 millones MXN (20 años, tasa 8\%)
+\end{itemize}
+
+\textbf{2. Acceso a mercados internacionales}
+\begin{itemize}
+    \item \textbf{Exportaciones habilitadas:} \$150+ millones USD anuales
+    \item \textbf{Premium por certificación:} 15-25\% sobre precio nacional
+    \item \textbf{Mercados objetivo:} Estados Unidos, Canadá, Japón, Unión Europea
+    \item \textbf{Productos elegibles:} Carne fresca, productos cárnicos procesados
+\end{itemize}
+
+\textbf{3. Desarrollo de cadena de valor}
+\begin{itemize}
+    \item \textbf{Empleos directos:} 125 puestos especializados permanentes
+    \item \textbf{Empleos indirectos:} 500 empleos en servicios de apoyo
+    \item \textbf{Derrama económica local:} \$45 millones MXN anuales
+    \item \textbf{Inversión privada inducida:} \$200 millones MXN (plantas procesadoras)
+\end{itemize}
+
+\subsection{Impactos Sanitarios}
+
+\textbf{Beneficios en salud animal:}
+\begin{itemize}
+    \item \textbf{Erradicación definitiva:} Eliminación 100\% casos de miasis traumática
+    \item \textbf{Reducción uso antibióticos:} 80\% menos tratamientos curativos
+    \item \textbf{Mejora bienestar animal:} Eliminación estrés y dolor por infestaciones
+    \item \textbf{Certificación sanitaria:} Status zona libre reconocido internacionalmente
+\end{itemize}
+
+\textbf{Beneficios en salud pública:}
+\begin{itemize}
+    \item \textbf{Eliminación miasis humana:} Casos esporádicos en zonas rurales
+    \item \textbf{Reducción riesgo zoonótico:} Control vector mecánico de patógenos
+    \item \textbf{Fortalecimiento vigilancia:} Sistema de alerta temprana integrado
+    \item \textbf{Capacidades técnicas:} Formación especialistas en control biológico
+\end{itemize}
+
+\subsection{Impactos Ambientales}
+
+\textbf{Beneficios ecológicos:}
+\begin{itemize}
+    \item \textbf{Control biológico:} Técnica ambientalmente sustentable sin pesticidas
+    \item \textbf{Especificidad de especie:} Sin impacto en fauna no objetivo
+    \item \textbf{Biodiversidad:} Preservación de ecosistemas naturales
+    \item \textbf{Sostenibilidad:} Método autolimitante sin residuos persistentes
+\end{itemize}
+
+% ========================================
+% GESTIÓN DE RIESGOS
+% ========================================
+\section{Análisis y Gestión de Riesgos}
+
+\subsection{Riesgos Técnicos}
+
+\textbf{Riesgo 1: Problemas en cría masiva}
+\begin{itemize}
+    \item \textbf{Descripción:} Colapso de colonias por contaminación o factores genéticos
+    \item \textbf{Probabilidad:} Media (20\%)
+    \item \textbf{Impacto:} Alto - Interrupción producción por 3-6 meses
+    \item \textbf{Mitigación:} Múltiples líneas genéticas + protocolos bioseguridad estrictos
+\end{itemize}
+
+\textbf{Riesgo 2: Falla en sistema de irradiación}
+\begin{itemize}
+    \item \textbf{Descripción:} Avería en fuente Co-60 o sistema automatizado
+    \item \textbf{Probabilidad:} Baja (10\%)
+    \item \textbf{Impacto:} Muy alto - Suspensión total de operaciones
+    \item \textbf{Mitigación:} Contrato mantenimiento preventivo + respaldo técnico internacional
+\end{itemize}
+
+\textbf{Riesgo 3: Condiciones meteorológicas adversas}
+\begin{itemize}
+    \item \textbf{Descripción:} Huracanes o lluvias intensas que impidan liberaciones aéreas
+    \item \textbf{Probabilidad:} Media (30\%)
+    \item \textbf{Impacto:} Medio - Retraso en cronograma de liberaciones
+    \item \textbf{Mitigación:} Flexibilidad operativa + almacenamiento temporal de moscas
+\end{itemize}
+
+\subsection{Riesgos Regulatorios}
+
+\textbf{Riesgo 1: Retrasos en licencias CNSNS}
+\begin{itemize}
+    \item \textbf{Descripción:} Demoras en autorización para manejo fuente radiactiva
+    \item \textbf{Probabilidad:} Media (25\%)
+    \item \textbf{Impacto:} Alto - Retraso 6-12 meses en cronograma
+    \item \textbf{Mitigación:} Gestión anticipada + asesoría especializada regulatoria
+\end{itemize}
+
+\textbf{Riesgo 2: Cambios normativos internacionales}
+\begin{itemize}
+    \item \textbf{Descripción:} Modificaciones en requerimientos APHIS-USDA o OIE
+    \item \textbf{Probabilidad:} Baja (15\%)
+    \item \textbf{Impacto:} Medio - Adaptaciones en protocolos operativos
+    \item \textbf{Mitigación:} Monitoreo continuo normatividad + flexibilidad diseño
+\end{itemize}
+
+\subsection{Riesgos Financieros}
+
+\textbf{Riesgo 1: Insuficiencia presupuestaria}
+\begin{itemize}
+    \item \textbf{Descripción:} Reducción asignaciones federales por ajustes fiscales
+    \item \textbf{Probabilidad:} Media (20\%)
+    \item \textbf{Impacto:} Alto - Suspensión temporal del proyecto
+    \item \textbf{Mitigación:} Diversificación fuentes + etiquetado plurianual PEF
+\end{itemize}
+
+\textbf{Riesgo 2: Fluctuaciones tipo de cambio}
+\begin{itemize}
+    \item \textbf{Descripción:} Variaciones MXN/USD afectan equipos importados
+    \item \textbf{Probabilidad:} Alta (40\%)
+    \item \textbf{Impacto:} Medio - Incremento 10-15\% en costos equipamiento
+    \item \textbf{Mitigación:} Cobertura cambiaria + proveedores nacionales alternativos
+\end{itemize}
+
+% ========================================
+% INDICADORES DE MONITOREO
+% ========================================
+\section{Indicadores de Monitoreo y Evaluación}
+
+\subsection{Indicadores de Proceso}
+
+\textbf{Fase de Construcción (2026-2028)}
+\begin{itemize}
+    \item \textbf{Avance físico obra civil:} \% completado mensual vs programado
+    \item \textbf{Instalación equipos:} \% equipos instalados y probados
+    \item \textbf{Obtención permisos:} Número licencias obtenidas / requeridas
+    \item \textbf{Capacitación personal:} Técnicos capacitados vs meta programada
+\end{itemize}
+
+\textbf{Fase Operativa (2029-2030)}
+\begin{itemize}
+    \item \textbf{Producción semanal:} Millones moscas producidas vs meta 250M
+    \item \textbf{Calidad esterilización:} \% esterilidad $\geq$99\% en lotes procesados
+    \item \textbf{Liberaciones realizadas:} Número vuelos vs programación semanal
+    \item \textbf{Cobertura territorial:} km² tratados vs superficie objetivo
+\end{itemize}
+
+\subsection{Indicadores de Resultado}
+
+\textbf{Indicadores Entomológicos}
+\begin{itemize}
+    \item \textbf{Índice de captura GBG:} Moscas silvestres/trampa/semana
+    \item \textbf{Proporción estériles:} Ratio moscas estériles/silvestres en campo
+    \item \textbf{Fertilidad poblacional:} \% huevos fértiles en muestras silvestres
+    \item \textbf{Distribución espacial:} Mapeo georeferenciado de capturas
+\end{itemize}
+
+\textbf{Indicadores Sanitarios}
+\begin{itemize}
+    \item \textbf{Casos miasis traumática:} Número casos reportados/mes
+    \item \textbf{Áreas infestadas:} Superficie con presencia GBG confirmada
+    \item \textbf{Tiempo respuesta:} Días promedio atención casos sospechosos
+    \item \textbf{Certificaciones otorgadas:} UPP certificadas libres GBG
+\end{itemize}
+
+\subsection{Indicadores de Impacto}
+
+\textbf{Impacto Económico (2030-2035)}
+\begin{itemize}
+    \item \textbf{Exportaciones ganaderas:} Valor USD exportado anualmente
+    \item \textbf{Reconocimiento OIE:} Status zona libre oficialmente reconocida
+    \item \textbf{Empleos generados:} Número empleos directos + indirectos
+    \item \textbf{ROI del proyecto:} Beneficios acumulados / inversión total
+\end{itemize}
+
+% ========================================
+% CONCLUSIONES Y RECOMENDACIONES
+% ========================================
+\section{Conclusiones y Recomendaciones}
+
+\subsection{Viabilidad del Proyecto}
+
+El análisis técnico, económico y regulatorio confirma la viabilidad integral del proyecto de Planta de Producción de Mosca Estéril en Yucatán. Los factores que sustentan esta conclusión incluyen:
+
+\textbf{Viabilidad técnica confirmada:}
+\begin{itemize}
+    \item Tecnología TIE ampliamente validada con más de 60 años de experiencia mundial
+    \item Disponibilidad de equipos especializados y proveedores internacionales certificados
+    \item Capacidades técnicas locales existentes (UADY, SENASICA, sector privado)
+    \item Condiciones climáticas y geográficas favorables para operación continua
+\end{itemize}
+
+\textbf{Viabilidad económica robusta:}
+\begin{itemize}
+    \item Relación beneficio-costo de 4.2:1 en horizonte de evaluación 20 años
+    \item TIR de 23.5\% y VAN positivo de \$1,250 millones MXN
+    \item Múltiples fuentes de beneficios: ahorro veterinario + exportaciones + desarrollo regional
+    \item Inversión recuperable en 8 años post-erradicación
+\end{itemize}
+
+\textbf{Viabilidad institucional sólida:}
+\begin{itemize}
+    \item Marco legal nacional e internacional claramente establecido
+    \item Coordinación SENASICA-OREF Yucatán-SEDER operativamente funcional
+    \item Compromisos presupuestarios federales y estatales confirmados
+    \item Respaldo técnico internacional OIEA-FAO garantizado
+\end{itemize}
+
+\subsection{Recomendaciones Operativas}
+
+\textbf{Acciones inmediatas (Q1-2026):}
+\begin{enumerate}
+    \item \textbf{Constitución del Comité Técnico Ejecutivo} con representantes SENASICA, SEDER, UADY y sector productivo
+    \item \textbf{Contratación de consultores especializados} para proyecto ejecutivo y estudios ambientales
+    \item \textbf{Inicio de gestiones regulatorias} ante CNSNS para licencia de fuente radiactiva
+    \item \textbf{Identificación y adquisición del terreno} en zona industrial de Tizimín
+\end{enumerate}
+
+\textbf{Coordinación interinstitucional (2026-2030):}
+\begin{enumerate}
+    \item \textbf{Convenio marco SENASICA-Gobierno de Yucatán} para operación coordinada
+    \item \textbf{Protocolo técnico con APHIS-USDA} para certificación de procedimientos
+    \item \textbf{Acuerdo de cooperación UADY-OIEA} para capacitación y transferencia tecnológica
+    \item \textbf{Comité de seguimiento con productores} para validación social del proyecto
+\end{enumerate}
+
+\textbf{Sustentabilidad de largo plazo:}
+\begin{enumerate}
+    \item \textbf{Plan de financiamiento operativo} post-erradicación para mantenimiento de status
+    \item \textbf{Desarrollo de capacidades locales} en entomología aplicada y control biológico
+    \item \textbf{Integración regional} con programas similares en Centroamérica
+    \item \textbf{Diversificación de usos} de la planta para otras plagas de importancia económica
+\end{enumerate}
+
+\subsection{Reflexión Final}
+
+La construcción de la Planta de Producción de Mosca Estéril representa una oportunidad histórica para posicionar a Yucatán como líder en sanidad animal y exportaciones ganaderas en el sureste mexicano. La erradicación definitiva del Gusano Barrenador del Ganado no solo liberará al sector productivo de una limitante centenaria, sino que habilitará el acceso a mercados internacionales de alto valor que transformarán la economía rural estatal.
+
+El proyecto trasciende los beneficios económicos inmediatos para constituirse como un modelo de desarrollo tecnológico sustentable, cooperación internacional efectiva y fortalecimiento de capacidades institucionales que puede replicarse en otras regiones del país.
+
+\textbf{La ventana de oportunidad actual demanda acción decidida e inmediata para materializar esta transformación sectorial de impacto generacional.}
+
+\end{document}

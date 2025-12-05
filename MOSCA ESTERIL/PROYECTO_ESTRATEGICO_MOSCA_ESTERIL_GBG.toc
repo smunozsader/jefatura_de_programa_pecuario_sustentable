@@ -1,0 +1,47 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Resumen Ejecutivo}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Justificación Estratégica}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Componentes Técnicos Principales}{3}{}%
+\contentsline {section}{\numberline {2}Esquema de Colaboración Interinstitucional}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Matriz de Participación Institucional}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Capacidades Técnicas Específicas UADY}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Capacidad de Producción Actual SSY}{6}{}%
+\contentsline {section}{\numberline {3}Diagnóstico Sectorial y Justificación}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Problemática del Gusano Barrenador del Ganado}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Marco Regulatorio Internacional}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Oportunidad Estratégica Regional}{8}{}%
+\contentsline {section}{\numberline {4}Fundamentos Técnico-Científicos}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Técnica del Insecto Estéril (TIE)}{8}{}%
+\contentsline {subsection}{\numberline {4.2}Experiencias Internacionales Exitosas}{9}{}%
+\contentsline {section}{\numberline {5}Diseño Técnico de la Planta}{9}{}%
+\contentsline {subsection}{\numberline {5.1}Laboratorio de Cría Masiva}{9}{}%
+\contentsline {subsection}{\numberline {5.2}Planta de Irradiación Gamma}{11}{}%
+\contentsline {subsection}{\numberline {5.3}Vehículos Terrestres Especializados}{11}{}%
+\contentsline {section}{\numberline {6}Modelo Operativo Integrado}{12}{}%
+\contentsline {subsection}{\numberline {6.1}Estrategia de Implementación Bifásica}{12}{}%
+\contentsline {subsection}{\numberline {6.2}Protocolos de Coordinación Interinstitucional}{13}{}%
+\contentsline {section}{\numberline {7}Cronograma de Implementación 2026-2030}{13}{}%
+\contentsline {subsection}{\numberline {7.1}Cronograma de Emergencia Sanitaria - Modelo Acelerado}{13}{}%
+\contentsline {subsection}{\numberline {7.2}Fases del Proyecto Acelerado}{14}{}%
+\contentsline {subsection}{\numberline {7.3}Cronograma Crítico 2026 - Emergencia Sanitaria}{15}{}%
+\contentsline {subsection}{\numberline {7.4}Hitos Críticos de Emergencia}{15}{}%
+\contentsline {section}{\numberline {8}Estructura Presupuestaria Detallada}{16}{}%
+\contentsline {subsection}{\numberline {8.1}Inversión por Componentes - Esquema Realista}{16}{}%
+\contentsline {subsection}{\numberline {8.2}Cronograma de Inversión Anual}{17}{}%
+\contentsline {subsection}{\numberline {8.3}Esquema de Financiamiento Colaborativo}{17}{}%
+\contentsline {section}{\numberline {9}Impactos Proyectados y Beneficios}{18}{}%
+\contentsline {subsection}{\numberline {9.1}Impactos Económicos}{18}{}%
+\contentsline {subsection}{\numberline {9.2}Impactos Sanitarios}{18}{}%
+\contentsline {subsection}{\numberline {9.3}Impactos Ambientales}{19}{}%
+\contentsline {section}{\numberline {10}Análisis y Gestión de Riesgos}{19}{}%
+\contentsline {subsection}{\numberline {10.1}Riesgos Técnicos}{19}{}%
+\contentsline {subsection}{\numberline {10.2}Riesgos Regulatorios}{20}{}%
+\contentsline {subsection}{\numberline {10.3}Riesgos Financieros}{20}{}%
+\contentsline {section}{\numberline {11}Indicadores de Monitoreo y Evaluación}{21}{}%
+\contentsline {subsection}{\numberline {11.1}Indicadores de Proceso}{21}{}%
+\contentsline {subsection}{\numberline {11.2}Indicadores de Resultado}{21}{}%
+\contentsline {subsection}{\numberline {11.3}Indicadores de Impacto}{21}{}%
+\contentsline {section}{\numberline {12}Conclusiones y Recomendaciones}{22}{}%
+\contentsline {subsection}{\numberline {12.1}Viabilidad del Proyecto}{22}{}%
+\contentsline {subsection}{\numberline {12.2}Recomendaciones Operativas}{22}{}%
+\contentsline {subsection}{\numberline {12.3}Reflexión Final}{23}{}%
