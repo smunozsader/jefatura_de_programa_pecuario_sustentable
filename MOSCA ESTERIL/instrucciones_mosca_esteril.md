@@ -24,6 +24,19 @@
 - **Evidence-Based Content**: Ground claims in peer-reviewed entomological literature, WHO/OPS protocols, IAEA guidelines, and successful international eradication programs
 - **Document Structure**: Executive summary → institutional collaboration → technical foundations → detailed plant design → implementation timeline → bibliography
 
+### Scientific Journal Writing Standards (English Version)
+
+- **Academic English Conventions**: Use formal scientific register with precise terminology, avoiding contractions and colloquialisms. Employ passive voice where appropriate ("sterile flies were released" not "we released sterile flies")
+- **Technical Precision**: Maintain consistent scientific nomenclature (\textit{Cochliomyia hominivorax} in italics, standardized units: Gy for radiation dose, PBq for radioactivity, km² for area coverage)
+- **Objective Tone**: Present findings and proposals using evidence-based language ("data indicate", "results demonstrate", "analysis reveals") rather than promotional language
+- **Structured Argumentation**: Follow scientific paper logic: problem identification → literature review → methodology → expected results → implications → conclusions
+- **Quantitative Emphasis**: Support all claims with numerical data, statistical analysis, and measurable parameters (production rates, sterility percentages, coverage densities, timeline milestones)
+- **International Standards**: Reference peer-reviewed journals (Journal of Economic Entomology, Bulletin of Entomological Research, IAEA publications), use standardized abbreviations (e.g., SIT for Sterile Insect Technique, NWS for New World Screwworm)
+- **Cross-Reference Integration**: Employ numbered citation system with complete bibliographic details, ensure all quantitative claims are traceable to primary sources
+- **Technical Methods Description**: Provide sufficient methodological detail for reproducibility (radiation protocols, rearing parameters, release densities, monitoring procedures)
+- **Results-Oriented Language**: Frame outcomes in terms of measurable impacts (eradication timeline, production capacity, cost-benefit ratios, international market access)
+- **Professional Formatting**: Use appropriate scientific document structure with clear section hierarchies, professional tables/figures, and standardized units throughout
+
 ### Financial Reporting Standards - Mosca Estéril
 
 - **Total Investment**: $210.0 MDP distributed across 4 main components
