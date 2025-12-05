@@ -1,7 +1,16 @@
 # AI Agent Instructions: Macroproyecto Renacimiento Ganadero Maya
 
 ## Project Overview
-This workspace contains documentation for a comprehensive agricultural strategic program in Yucatán, Mexico (2026-2030). The "Renacimiento Ganadero Maya" macroproject is a **$776.5 million MXN** federal-state-producer collaboration focused on sustainable livestock transformation, cattle repopulation with intensive silvopastoral systems, animal health certification, and international export capabilities. The project integrates six interdependent components designed to position Yucatán as Mexico's leader in climate-smart livestock production.
+This workspace contains documentation for a comprehensive agricultural strategic program in Yucatán, Mexico (2026-2030). The "Renacimiento Ganadero Maya" macroproject is a **$1,087.9 million MXN** strategic program prepared by **MVZ Sergio Muñoz de Alba Medrano, Independent Consultant**, commissioned by **Prof. Edgardo Medina, Secretary of Rural Development (SEDER) of Yucatán State Government**. The project focuses on sustainable livestock transformation, cattle repopulation with intensive silvopastoral systems, animal health certification, and international export capabilities. The project integrates six interdependent components designed to position Yucatán as Mexico's leader in climate-smart livestock production.
+
+**AUTHORSHIP NOTE**: Document prepared as independent consultant work commissioned by SEDER Yucatán, not as federal SADER employee. Branding emphasizes Yucatán State Government and SEDER (Secretaría de Desarrollo Rural del Gobierno del Estado de Yucatán).
+
+**INSTITUTIONAL STRUCTURE**:
+- **Primary Leadership**: Gobierno del Estado de Yucatán and SEDER with Prof. Edgardo Medina as the commissioning authority
+- **Federal Coordination Role**: SADER and OREF maintaining their essential coordination and funding facilitation role for the paripassu federal-state funding scheme
+- **Independent Authorship**: MVZ Sergio Muñoz de Alba Medrano, Independent Consultant, commissioned by SEDER Yucatán
+
+This structure properly acknowledges that while the consultant is now independent, the federal agencies still have their institutional coordination and funding roles, which is essential for a project requesting federal funds through the concurrence scheme. The emphasis is on state government leadership while maintaining the necessary federal partnership for implementation. The branding correctly positions the Yucatán State Government and SEDER as the primary institutional authorities commissioning the work, with federal agencies in their appropriate coordination and funding facilitation role.
 
 ## Core Architecture & Components
 
@@ -40,11 +49,11 @@ This workspace contains documentation for a comprehensive agricultural strategic
 - **Document Class**: Use `\documentclass[12pt,letterpaper,titlepage]{article}` with UTF-8 encoding and Spanish/Mexico babel
 - **Page Layout**: Geometry with left=3cm, right=2.5cm, top=3cm, bottom=3cm margins
 - **Typography**: Use libertinus, lmodern, or times packages for professional government-style fonts
-- **Colors**: Define official SADER colors: saderverde RGB(0,102,51), sadergris RGB(80,80,80)
-- **Headers/Footers**: Fancy headers with project title, 0.4pt rule, centered small text in SADER gray
+- **Colors**: Define official colors: yucatangreen RGB(0,102,51), yucatangray RGB(80,80,80), maintaining SADER color palette for compatibility
+- **Headers/Footers**: Fancy headers with project title, 0.4pt rule, centered small text emphasizing Yucatán state branding
 - **Title Formatting**: Large green sections, normal bold subsections, italic subsubsections
 - **Lists**: Bullet points with proper margins and bullet symbols
-- **Institutional Logos**: Include dual SADER + Yucatán government logos in titlepage
+- **Institutional Logos**: Emphasize Yucatán State Government logo (logo yucatan.jpg) with SEDER branding as primary institutional identity
 - **Professional Structure**: Titlepage → table of contents → numbered sections with cross-references
 - Use tables extensively for financial data, timelines, and metrics with professional formatting
 
@@ -79,7 +88,8 @@ This workspace contains documentation for a comprehensive agricultural strategic
 - SMART verifiable indicators (6,000 ha converted, 12,000 F1 heifers, 75% productivity increase)
 
 ### Institutional Terminology
-- **SADER**: Secretaría de Agricultura y Desarrollo Rural (federal agriculture ministry)
+- **SEDER**: Secretaría de Desarrollo Rural del Gobierno del Estado de Yucatán (primary institutional authority for this project)
+- **SADER**: Secretaría de Agricultura y Desarrollo Rural (federal agriculture ministry - coordination role)
 - **SENASICA**: Animal health service (tuberculosis/screwworm programs)
 - **T-MEC**: Mexico-US-Canada trade agreement (USMCA)
 - **SSPi**: Sistemas Silvopastoriles Intensivos (intensive silvopastoral systems with Leucaena leucocephala at 40,000-53,000 plants/ha, 6.0 kg/ha seeding rate based on 18,000 seeds/kg, 85% germination, 90% survival rates) - $55,573/ha recommended scenario with 50% credit financing model
@@ -115,7 +125,8 @@ This workspace contains documentation for a comprehensive agricultural strategic
 ## Development Workflow
 
 ### Document Generation
-- Use institutional templates with dual-logo headers (SADER + Yucatán government)
+- Use institutional templates emphasizing Yucatán State Government branding with SEDER as primary authority
+- **AUTHORSHIP**: All documents prepared by MVZ Sergio Muñoz de Alba Medrano, Independent Consultant, commissioned by SEDER Yucatán
 - **MANDATORY**: Compile all LaTeX documents twice (pdflatex) to properly populate table of contents and cross-references
 - Include PDF and Markdown versions of all strategic documents with complete scientific rigor
 - Maintain Spanish language for official documents with technical English terms where appropriate
