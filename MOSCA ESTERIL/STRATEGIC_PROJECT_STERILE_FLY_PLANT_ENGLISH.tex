@@ -1,0 +1,879 @@
+\documentclass[12pt,letterpaper,titlepage]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[left=3cm,right=2.5cm,top=3cm,bottom=3cm,headheight=20pt]{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+% Define SADER colors
+\definecolor{sadergreen}{RGB}{0,102,51}
+\definecolor{saderverde}{RGB}{0,102,51}
+\definecolor{saderred}{RGB}{180,0,0}
+\definecolor{sadergris}{RGB}{80,80,80}
+\definecolor{sadergold}{RGB}{204,153,0}
+\definecolor{saderblue}{RGB}{0,51,102}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{
+  \begin{minipage}{\textwidth}
+    \centering
+    \includegraphics[width=0.6\textwidth]{logo yucatan.jpg}\\[0.05cm]
+    \textcolor{sadergris}{\footnotesize STRATEGIC PROJECT - STERILE FLY PLANT YUCATÁN 2026-2030}
+  \end{minipage}
+}
+\fancyfoot[C]{\textcolor{sadergris}{\small Page \thepage\ of \pageref{LastPage}}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{70pt}
+\addtolength{\topmargin}{-10pt}
+
+\begin{document}
+
+% ========================================
+% OFFICIAL COVER PAGE
+% ========================================
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{0.2cm}
+
+{\Large\bfseries\color{sadergreen} STRATEGIC PROJECT}\\[0.2cm]
+{\large\bfseries STERILE FLY PRODUCTION PLANT}\\[0.15cm]
+{\normalsize\bfseries New World Screwworm Eradication}\\[0.1cm]
+{\normalsize\bfseries State of Yucatán, Mexico}\\[0.1cm]
+{\small 2026-2030}\\[0.5cm]
+
+% Balanced institutional logos
+\begin{center}
+\includegraphics[width=0.6\textwidth]{logo yucatan.jpg}\\[0.2cm]
+\includegraphics[width=0.3\textwidth]{logo_sader.png}
+\end{center}
+\vspace{0.3cm}
+
+{\small\bfseries Ministry of Agriculture and Rural Development}\\[0.05cm]
+{\footnotesize National Service for Health, Safety and Agri-Food Quality}\\[0.05cm]
+{\footnotesize Federal Entity Representation Office Yucatán (OREF)}\\[0.15cm]
+
+{\small\bfseries Government of the State of Yucatán}\\[0.05cm]
+{\footnotesize Ministry of Rural Development (SEDER)}\\[0.05cm]
+{\footnotesize Yucatán Health Services (SSY)}\\[0.15cm]
+
+{\small\bfseries International Technical Cooperation}\\[0.05cm]
+{\footnotesize Autonomous University of Yucatán (UADY)}\\[0.05cm]
+{\footnotesize National New World Screwworm Control Program}\\[0.4cm]
+
+{\normalsize\textbf{Total Investment:}}\\[0.1cm]
+{\large\bfseries\color{sadergreen} \$210.0 Million MXN}\\[0.2cm]
+{\footnotesize Interinstitutional Cooperation Scheme}\\[0.05cm]
+{\tiny SADER-SENASICA + SEDER Yucatán + SSY + UADY + IAEA}\\[0.4cm]
+
+{\small\textbf{Strategic Objective:}}\\[0.1cm]
+{\footnotesize\bfseries Definitive eradication of New World Screwworm (NWS)\\
+through Sterile Insect Technique with \textcolor{red}{\textbf{START Q3-2026}}\\
+using ground releases with capacity of 100 million sterile flies per week}\\[0.5cm]
+
+{\small\textbf{Prepared by:}}\\[0.05cm]
+{\footnotesize Sergio Muñoz de Alba Medrano, DVM}\\[0.05cm]
+{\footnotesize Independent Consultant}\\[0.2cm]
+
+{\footnotesize December 2025}
+
+\end{titlepage}
+
+% ========================================
+% TABLE OF CONTENTS
+% ========================================
+\clearpage
+\tableofcontents
+\clearpage
+
+% ========================================
+% EXECUTIVE SUMMARY
+% ========================================
+\section{Executive Summary}
+
+This strategic project addresses the sanitary emergency resulting from active New World Screwworm (NWS) outbreaks detected in late 2024 that resulted in the suspension of livestock exports to the United States implemented in early 2025\textsuperscript{16,14}. Data from the Chiapas implementation model demonstrate successful production capacity exceeding 4,000 million sterile flies released\textsuperscript{13,20}, supporting the feasibility of accelerated implementation in Yucatán with operational initiation targeted for Q3-2026.
+
+\textbf{Current Situation Analysis:}
+\begin{itemize}
+    \item \textbf{Economic impact assessment:} Quantified annual export losses of \$50 million USD\textsuperscript{17,11}
+    \item \textbf{Infrastructure evaluation:} Operational capacity verified at SSY, UADY, and SEDER facilities
+    \item \textbf{Model validation:} Chiapas facility achieving 100M flies/week production in 18-month timeframe\textsuperscript{13,7}
+    \item \textbf{International cooperation framework:} APHIS-USDA technical assistance protocols established\textsuperscript{16,14}
+\end{itemize}
+
+The proposed facility design incorporates existing infrastructure from the Autonomous University of Yucatán (UADY) and SSY irradiation systems\textsuperscript{5,3}, with initial production capacity estimated at 6.6 million sterile flies per week, projected to scale to 100 million weekly units to achieve zone freedom status by 2028\textsuperscript{19,2}.
+
+\subsection{Strategic Justification}
+
+The New World Screwworm (\textit{Cochliomyia hominivorax}) constitutes a primary sanitary constraint limiting livestock development in southeastern Mexico, representing a critical barrier to international market access under USMCA regulatory frameworks\textsuperscript{16,18}. Definitive eradication of this obligate parasite through implementation of the Sterile Insect Technique (SIT) is projected to enable:
+
+\begin{itemize}
+    \item \textbf{International sanitary certification:} OIE recognition as NWS-free zone
+    \item \textbf{USMCA preferential access:} Livestock exports without sanitary restrictions
+    \item \textbf{Productive increase:} 90\% reduction in mortality from traumatic myiasis
+    \item \textbf{Regional competitiveness:} Positioning as agro-export platform
+\end{itemize}
+
+\subsection{Main Technical Components}
+
+\textbf{1. Mass Rearing Laboratory Facility (\$120.0 Million MXN)}
+\begin{itemize}
+    \item Climate-controlled infrastructure encompassing 2,500 m² with 12 independent production modules\textsuperscript{3,7}
+    \item Automated environmental control systems maintaining 25±2°C temperature and 60±10\% relative humidity\textsuperscript{13,12}
+    \item Artificial diet processing facility with 50-ton weekly production capacity\textsuperscript{7}
+    \item Specialized technical personnel: 25 professionals including entomologists, biologists, and laboratory technicians\textsuperscript{5,3}
+\end{itemize}
+
+\textbf{2. Gamma Irradiation Facility (\$90.0 Million MXN)}
+\begin{itemize}
+    \item Cobalt-60 radioactive source with initial activity of 37 PBq (1,000 Ci)\textsuperscript{3,1}
+    \item Automated irradiation system delivering controlled doses of 60-90 Gy\textsuperscript{19,5}
+    \item Concrete radiation shielding with 2.1 m thickness compliant with CNSNS regulatory standards\textsuperscript{16}
+    \item Quality assurance protocols ensuring verified sterility $\geq$99\%\textsuperscript{5,2}
+\end{itemize}
+
+\textbf{3. Ground Release System (\$15.0 Million MXN)}
+\begin{itemize}
+    \item 8 specialized all-terrain vehicles with dispersion systems
+    \item Georeferenced manual release equipment with precision GPS
+    \item Network of 200 strategic release points throughout Yucatán
+    \item Systematic coverage: density 2,500 flies/km² weekly
+\end{itemize}
+
+\textbf{4. Five-Year Operation (\$15.0 Million MXN)}
+\begin{itemize}
+    \item Specialized human resources and equipment maintenance
+    \item Production inputs (artificial diet, laboratory materials)
+    \item Fuel for ground vehicles and release logistics
+    \item Epidemiological surveillance and results monitoring
+\end{itemize}
+
+% ========================================
+% INTERINSTITUTIONAL COOPERATION SCHEME
+% ========================================
+\section{Interinstitutional Cooperation Scheme}
+
+The project is based on an interinstitutional cooperation model that integrates technical, financial and operational capacities of multiple specialized actors, under the permanent leadership of SENASICA as the national sanitary authority.
+
+\subsection{Institutional Participation Matrix}
+
+\begin{table}[H]
+\centering
+\caption{Participation and Responsibilities by Institution}
+\footnotesize
+\begin{tabular}{|p{3cm}|p{10cm}|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Institution} & \textbf{Participation and Responsibilities} \\
+\hline
+\textbf{SADER-SENASICA} & \textbf{Permanent tutor and rector of all actions} \\
+\textit{(Permanent tutor)} & • Technical advice for biofactory design and construction \\
+& • Specialized training in Sterile Insect Technique \\
+& • Development of manuals and control protocols \\
+& • Collaboration Agreement development \\
+& • International SENASICA-APHIS certification \\
+\hline
+\textbf{SEDER Yucatán +} & \textbf{Financial and operational resources} \\
+\textbf{Health Services} & • Financial resource for biofactory construction \\
+& • Biofactory maintenance and operational inputs \\
+& • Personnel: 26 specialized Veterinarians \\
+& • Material resources: 20 vehicles + fuel \\
+& • Ground dispersion by programmed routes \\
+\hline
+\textbf{Yucatán Health} & \textbf{Specialized irradiation technology} \\
+\textbf{Services (SSY)} & • Wolbaki X-ray irradiator available \\
+& • Canisters: 2 cylinders (7.8×12.0 cm, 1,764 cm³) \\
+& • Capacity: up to 6.6 million pupae/week \\
+& • Radiological quality control systems \\
+\hline
+\textbf{Autonomous University} & \textbf{Infrastructure and scientific expertise} \\
+\textbf{of Yucatán (UADY)} & • Physical space: land for construction \\
+& • Specialized multidisciplinary scientific personnel \\
+& • Dr. Pablo Manrique-Saide (Medical entomology) \\
+& • Dr. Yamili Contreras (Mass insect production) \\
+& • Dr. Abdiel Martín Park (Biological control) \\
+& • Technological development and applied research \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Specific Technical Capabilities UADY}
+
+The Campus of Biological and Agricultural Sciences of UADY houses a multidisciplinary team with more than 25 years of experience in applied entomology, biological control and mass insect production, integrated by specialists in biology, veterinary medicine, microbiology, engineering and public health.
+
+\textbf{Confirmed scientific leadership:}
+
+\textbf{Dr. Pablo Camilo Manrique-Saide}
+\begin{itemize}
+    \item Biologist (UADY) and Doctor of Sciences (London School of Hygiene \& Tropical Medicine)
+    \item National Researcher Level III (SNI-CONAHCYT)
+    \item Leader of the Laboratory for Biological Control of \textit{Aedes aegypti}
+    \item Coordinator of the national strategy "Aedes-Wolbachia – Good Mosquitoes"
+    \item Collaboration with PAHO/WHO, IAEA and CENAPRECE in regional projects
+\end{itemize}
+
+\textbf{Dr. Yamili Jazmín Contreras Perera}
+\begin{itemize}
+    \item Biologist and Doctor of Sciences with specialization in Medical Entomology (UANL)
+    \item Head of Production of the National Mass Production System of mosquitoes with Wolbachia
+    \item National Researcher Level I (SNI-CONAHCYT)
+    \item Development of standardized rearing and quality control protocols
+    \item Co-author of the Mass Production Manual of \textit{Aedes aegypti} with Wolbachia
+\end{itemize}
+
+\textbf{Dr. Abdiel Agustín Martín Park}
+\begin{itemize}
+    \item Biologist and Doctor of Biological Sciences (UADY)
+    \item Postdoctoral training at Colorado State University (USA)
+    \item National Researcher Level I (SNI-CONAHCYT)
+    \item Responsible for the Laboratory for Biological Control of \textit{Aedes aegypti}
+    \item Author of more than 30 scientific publications in biological control
+\end{itemize}
+
+\subsection{Current SSY Production Capacity}
+
+Yucatán Health Services have immediately available irradiation infrastructure that will allow the operational start of the project:
+
+\textbf{Technical specifications of Wolbaki irradiator:}
+\begin{table}[H]
+\centering
+\caption{SSY Irradiator Production Capacity}
+\footnotesize
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Pupae size} & \textbf{Pupae/hour} & \textbf{Pupae/day (8h)} & \textbf{Pupae/day (16h)} & \textbf{Pupae/week} \\
+\hline
+10 mm & 18,900 & 151,000 & 302,000 & 2,114,000 \\
+\hline
+6.5 mm & 59,500 & 476,000 & 952,000 & 6,664,000 \\
+\hline
+\end{tabular}
+\end{table}
+
+This initial capacity will allow immediate focused treatments while developing large-scale infrastructure with Cobalt-60 technology.
+
+% ========================================
+% SECTORAL DIAGNOSIS AND JUSTIFICATION
+% ========================================
+\section{Sectoral Diagnosis and Justification}
+
+\subsection{New World Screwworm Problem}
+
+The New World Screwworm (\textit{Cochliomyia hominivorax}) constitutes the main sanitary constraint for sustainable livestock development in the southeastern region of Mexico. This obligate pest causes estimated economic losses of \$50 million USD annually in the Yucatán Peninsula, representing 8.2\% of the value of regional livestock production.
+
+\textbf{Documented economic impact:}
+\begin{itemize}
+    \item \textbf{Mortality in infested livestock:} 8-12\% in untreated animals\textsuperscript{19,15}
+    \item \textbf{Productive losses:} 15-25\% reduction in weight gain due to stress and trauma\textsuperscript{17,11}
+    \item \textbf{Treatment costs:} \$200-350 pesos per animal (medications + labor)\textsuperscript{15,14}
+    \item \textbf{Commercial restrictions:} Export prohibition to NWS-free USMCA markets implemented in early 2025\textsuperscript{16,18}
+\end{itemize}
+
+\subsection{International Regulatory Framework}
+
+The presence of NWS in Mexican territory generates sanitary restrictions that severely limit access to high-profitability international markets. The main regulatory frameworks that demand its eradication include:
+
+\textbf{1. United States-Mexico-Canada Agreement (USMCA)}
+\begin{itemize}
+    \item Chapter 9: Sanitary and Phytosanitary Measures
+    \item Requirement for bilateral SENASICA-APHIS certification
+    \item Preferential access conditioned to "NWS-free zone" status
+\end{itemize}
+
+\textbf{2. World Organisation for Animal Health (OIE)}
+\begin{itemize}
+    \item Terrestrial Animal Health Code\textsuperscript{18}
+    \item Procedures for recognition of disease-free zones\textsuperscript{18}
+    \item Requirements for active and passive epidemiological surveillance\textsuperscript{6,18}
+\end{itemize}
+
+\textbf{3. Animal and Plant Health Inspection Service (APHIS-USDA)}
+\begin{itemize}
+    \item Binational Mexico-USA protocol for NWS control\textsuperscript{16,14}
+    \item Technical requirements for sterile fly plant certification\textsuperscript{16}
+    \item Quality standards for mass releases\textsuperscript{14,12}
+\end{itemize}
+
+\subsection{Regional Strategic Opportunity}
+
+The construction of the Sterile Fly Plant in Yucatán represents a unique opportunity to position the state as the leading agro-export platform of southeastern Mexico. The feasibility analysis identifies the following favorable elements:
+
+\textbf{Competitive advantages:}
+\begin{itemize}
+    \item \textbf{Geographic location:} Center of the NWS endemic area in southeastern Mexico
+    \item \textbf{Airport infrastructure:} Mérida International Airport for specialized transport
+    \item \textbf{Local technical capacity:} UADY with entomology and biological control programs
+    \item \textbf{Institutional coordination:} OREF Yucatán as operational link SENASICA-State
+\end{itemize}
+
+% ========================================
+% SCIENTIFIC TECHNICAL FRAMEWORK
+% ========================================
+\section{Scientific Technical Foundations}
+
+\subsection{Sterile Insect Technique (SIT)}
+
+The Sterile Insect Technique represents the most efficacious biological control methodology for eradication of economically and sanitarily significant arthropod pests\textsuperscript{4,2}. Developed under International Atomic Energy Agency (IAEA) auspices, this technology has demonstrated quantifiable effectiveness in achieving definitive elimination of NWS populations across multiple geographic regions globally\textsuperscript{19,17}.
+
+\textbf{Fundamental scientific principles:}
+
+\textbf{1. Mass laboratory rearing protocols}
+\begin{itemize}
+    \item Maintenance of parental colonies with controlled genetic diversity indices\textsuperscript{5,3}
+    \item Standardized artificial diet composition (40\% bovine blood, 20\% casein, 5\% agar, vitamins)\textsuperscript{13,7}
+    \item Controlled environmental parameters (27±1°C temperature, 60±10\% RH, 12:12 L:D photoperiod)\textsuperscript{3,12}
+    \item Genetic quality assurance protocols maintaining reproductive fitness\textsuperscript{5,2}
+\end{itemize}
+
+\textbf{2. Gamma radiation sterilization protocols}
+\begin{itemize}
+    \item Gamma irradiation of male pupae utilizing Cobalt-60 sources\textsuperscript{19,1}
+    \item Optimal dose range: 60-90 Gy achieving sterility indices $\geq$99\%\textsuperscript{19,5}
+    \item Preservation of flight capacity and mating behavioral patterns\textsuperscript{5,2}
+    \item Maintenance of sexual competitiveness parameters post-irradiation\textsuperscript{4,12}
+\end{itemize}
+
+\textbf{3. Systematic ground release methodology}
+\begin{itemize}
+    \item Standardized release density: 3,000-5,000 sterile males per km²\textsuperscript{19,13}
+    \item Release frequency: 3-4 applications per week maintaining population pressure\textsuperscript{7,12}
+    \item Target sterile-to-wild ratio: 10:1 for effective population suppression\textsuperscript{5,2}
+    \item Monitoring protocols utilizing species-specific traps and statistical population analysis\textsuperscript{6,18}
+\end{itemize}
+
+\subsection{Successful International Experiences}
+
+\textbf{United States National Eradication Program (1958-1982)}\textsuperscript{19,10}
+\begin{itemize}
+    \item \textbf{Eradication area:} 2.5 million km² encompassing southeastern United States\textsuperscript{19}
+    \item \textbf{Total program investment:} \$750 million USD (inflation-adjusted to 2025 values)\textsuperscript{10,11}
+    \item \textbf{Economic benefit-cost ratio:} 30:1 calculated over 20-year post-eradication period\textsuperscript{10}
+    \item \textbf{Current status:} NWS-free zone status maintained continuously since 1982\textsuperscript{16,14}
+\end{itemize}
+
+\textbf{Mexico National Eradication Program (1976-2006)}\textsuperscript{17,13}
+\begin{itemize}
+    \item \textbf{Treatment area:} 1.8 million km² covering central and northern Mexico\textsuperscript{17}
+    \item \textbf{Production facilities:} Tuxtla Gutiérrez (1976-2006), Tapachula biological barrier\textsuperscript{13,7}
+    \item \textbf{Eradication outcome:} Successful elimination extending to Isthmus of Tehuantepec\textsuperscript{17,20}
+    \item \textbf{Cumulative economic impact:} \$2,500 million USD over 30-year evaluation period\textsuperscript{17,11}
+\end{itemize}
+
+\textbf{Argentina - SENASA Program (2003-2020)}
+\begin{itemize}
+    \item \textbf{Treated surface:} 800,000 km² (northwestern Argentina)
+    \item \textbf{Technology:} Sterile fly plant with 150M/week capacity
+    \item \textbf{Status:} Free zone recognized by OIE (2020)
+    \item \textbf{Commercial impact:} Enabling meat exports without restrictions
+\end{itemize}
+
+% ========================================
+% DETAILED TECHNICAL DESIGN
+% ========================================
+\section{Technical Plant Design}
+
+\subsection{Mass Rearing Laboratory}
+
+\textbf{Infrastructure specifications:}
+
+\textbf{Primary production facility (2,500 m²)}
+\begin{itemize}
+    \item \textbf{Structural design:} Reinforced concrete construction with specialized thermal insulation systems\textsuperscript{3,7}
+    \item \textbf{Spatial configuration:} Twelve independent production modules with integrated support areas\textsuperscript{13,12}
+    \item \textbf{Environmental control:} HVAC systems maintaining ±1°C temperature and ±5\% RH precision\textsuperscript{3,1}
+    \item \textbf{Air filtration:} HEPA filtration systems preventing cross-contamination\textsuperscript{7}
+    \item \textbf{Biosafety protocols:} BSL-1 containment level with integrated quarantine procedures\textsuperscript{13,3}
+\end{itemize}
+
+\textbf{Specialized areas:}
+
+\textbf{1. Parental Colonies Room (200 m²)}
+\begin{itemize}
+    \item 50 maintenance cages (80×60×60 cm) with anti-aphid mesh\textsuperscript{3,12}
+    \item Automated feeding system for adults (honey + water)\textsuperscript{13,7}
+    \item Reproductive control with 500 females and 200 males per cage\textsuperscript{5,12}
+    \item Quarterly genetic renewal with certified wild material\textsuperscript{19,3}
+\end{itemize}
+
+\textbf{2. Oviposition Room (300 m²)}
+\begin{itemize}
+    \item 100 oviposition devices with fresh meat stimulant\textsuperscript{13,3}
+    \item Egg collection system every 6 hours\textsuperscript{12}
+    \item Surface treatment with 0.5\% sodium hypochlorite\textsuperscript{3,7}
+    \item Capacity: 50 million eggs per week\textsuperscript{19,12}
+\end{itemize}
+
+\textbf{3. Larviculture Room (800 m²)}
+\begin{itemize}
+    \item 500 larval development trays (40×30×8 cm)
+    \item Automated artificial diet (40\% bovine blood, 20\% casein, 5\% agar)
+    \item Density control: 1.5 ml of eggs per tray
+    \item Controlled temperature 27±1°C, complete development in 7 days
+\end{itemize}
+
+\textbf{4. Pupation Room (400 m²)}
+\begin{itemize}
+    \item Vibratory sieves for pupae-diet separation
+    \item Maturation trays with sterile vermiculite
+    \item Manual sexing by differential pupae size
+    \item Refrigerated storage 15°C until irradiation
+\end{itemize}
+
+\textbf{5. Artificial Diet Plant (300 m²)}
+\begin{itemize}
+    \item Industrial mixer of 500 kg per batch
+    \item Autoclave for sterilization at 121°C for 15 minutes
+    \item Refrigerated warehouse for ingredients (0-4°C)
+    \item Capacity: 50 tons of diet per week
+\end{itemize}
+
+\subsection{Gamma Irradiation Plant}
+
+\textbf{Radiological safety design:}
+
+\textbf{Cobalt-60 Source}
+\begin{itemize}
+    \item \textbf{Initial activity:} 37 PBq (1,000 Curie)\textsuperscript{3,1}
+    \item \textbf{Configuration:} Pencil-type source in hexagonal arrangement according to IAEA standards\textsuperscript{2}
+    \item \textbf{Useful life:} 15 years with programmed recharge every 10 years\textsuperscript{3}
+    \item \textbf{Dose rate:} 2,000 Gy/hour at 30 cm distance\textsuperscript{1,2}
+\end{itemize}
+
+\textbf{Irradiation system}
+\begin{itemize}
+    \item \textbf{Automated conveyor:} Variable speed 0.5-5 m/min\textsuperscript{1}
+    \item \textbf{Dosimetry:} Radiochromic film + thermoluminescent dosimeters\textsuperscript{16,2}
+    \item \textbf{Dose uniformity:} ±10\% in target volume (60-90 Gy optimal)\textsuperscript{19,5}
+    \item \textbf{Capacity:} 250 million pupae per week\textsuperscript{7,12}
+\end{itemize}
+
+\textbf{Shielding and safety}
+\begin{itemize}
+    \item \textbf{Main bunker:} Barytic concrete thickness 2.1 m according to Mexican regulations\textsuperscript{16}
+    \item \textbf{Access maze:} "L" design for radiation attenuation\textsuperscript{2}
+    \item \textbf{Safety systems:} Radiation detectors + alarms according to IAEA\textsuperscript{3,1}
+    \item \textbf{Personnel monitoring:} Individual dosimeters required by CNSNS\textsuperscript{16}
+\end{itemize}
+
+\subsection{Specialized Ground Vehicles}
+
+\textbf{Ground release specifications:}
+
+\textbf{All-terrain vehicles adapted for sterile organism release (8 units)}
+\begin{itemize}
+    \item \textbf{Configuration:} 4x4 vehicles with specialized refrigeration systems
+    \item \textbf{Autonomy:} 8 continuous operational hours (400 km)
+    \item \textbf{Load capacity:} 500 kg of refrigerated sterile flies
+    \item \textbf{Operational speed:} 30-50 km/h in release routes
+\end{itemize}
+
+\textbf{Manual release system}
+\begin{itemize}
+    \item \textbf{Portable containers:} 20 units of 5 kg each per vehicle
+    \item \textbf{Mechanism:} Controlled manual dispersion with chronometer
+    \item \textbf{Release rate:} 2,500 flies/point at 500m intervals
+    \item \textbf{Coverage area:} 1 km² grids with 4 points per grid
+\end{itemize}
+
+\textbf{Navigation and georeferencing}
+\begin{itemize}
+    \item \textbf{Differential GPS:} ±2 meter precision
+    \item \textbf{GIS system:} Digital mapping of ground release routes
+    \item \textbf{Telemetry:} Real-time monitoring of vehicular routes
+\end{itemize}
+
+% ========================================
+% INTEGRATED OPERATIONAL MODEL
+% ========================================
+\section{Integrated Operational Model}
+
+\subsection{Biphase Implementation Strategy}
+
+The operational framework employs a resource-optimization model that maximizes utilization of existing infrastructure while developing long-term production capacities, consistent with internationally validated best practices from successful SIT programs\textsuperscript{19,17,10}.
+
+\textbf{Sanitary Emergency Phase - Immediate Production (Q1-Q3 2026)}
+
+\textbf{1. SSY Infrastructure Utilization}
+\begin{itemize}
+    \item \textbf{Available Wolbaki irradiator:} Capacity 6.6 million pupae/week
+    \item \textbf{Specialized canisters:} 2 cylinders with 1,764 cm³ useful volume
+    \item \textbf{Technical personnel:} Operators trained in irradiation
+    \item \textbf{Validated protocols:} Verified sterilization procedures
+\end{itemize}
+
+\textbf{2. UADY Capabilities Integration}
+\begin{itemize}
+    \item \textbf{Biological Control Laboratory:} Facilities for mass rearing
+    \item \textbf{Scientific personnel:} 3 SNI specialized researchers
+    \item \textbf{Standardized protocols:} Experience in insect production
+    \item \textbf{Quality control:} Genetic monitoring systems
+\end{itemize}
+
+\textbf{3. SEDER Dispersion Network}
+\begin{itemize}
+    \item \textbf{Specialized personnel:} 26 Veterinarians in the field
+    \item \textbf{Vehicle fleet:} 20 vehicles with guaranteed fuel
+    \item \textbf{Optimized routes:} Systematic coverage of state territory
+    \item \textbf{Operational experience:} Personnel with terrain knowledge
+\end{itemize}
+
+\textbf{Scaling Phase - Complete Biofactory (2028-2030)}
+
+\textbf{1. UADY Biofactory Construction}
+\begin{itemize}
+    \item \textbf{Federal financing:} \$25 Million MXN for specialized infrastructure
+    \item \textbf{Modular design:} Facilities for 250 million flies/week
+    \item \textbf{Cobalt-60 technology:} Large-scale irradiation systems
+    \item \textbf{Automation:} Controlled processes for consistent quality
+\end{itemize}
+
+\textbf{2. Total Operational Integration}
+\begin{itemize}
+    \item \textbf{Centralized production:} UADY biofactory as operations center
+    \item \textbf{Dual irradiation:} SSY for emergencies + Cobalt-60 for volume
+    \item \textbf{Ground dispersion:} Specialized fleet for mass releases
+    \item \textbf{Integrated monitoring:} SEDER + UADY network for follow-up
+\end{itemize}
+
+\subsection{Interinstitutional Coordination Protocols}
+
+\textbf{Governance Structure}
+\begin{itemize}
+    \item \textbf{Technical rector:} SENASICA as national sanitary authority
+    \item \textbf{Operational executor:} OREF Yucatán for field coordination
+    \item \textbf{Scientific support:} UADY for research and development
+    \item \textbf{State implementation:} SEDER + SSY for resources and personnel
+\end{itemize}
+
+\textbf{Coordination Mechanisms}
+\begin{itemize}
+    \item \textbf{Framework agreement:} Binding interinstitutional accord
+    \item \textbf{Technical committee:} Monthly follow-up meetings
+    \item \textbf{Operational protocols:} Standardized manuals by function
+    \item \textbf{Reporting systems:} Integrated indicators dashboard
+\end{itemize}
+
+% ========================================
+% IMPLEMENTATION SCHEDULE
+% ========================================
+\section{Implementation Schedule 2026-2030}
+
+\subsection{Sanitary Emergency Schedule - Accelerated Model}
+
+\textbf{International References for Rapid Implementation:}
+\begin{itemize}
+    \item \textbf{Chiapas 2024-2025:} 100M flies/week operational in 18 months
+    \item \textbf{Metapa de Domínguez:} 100M weekly plant with APHIS-USDA support
+    \item \textbf{Cumulative releases:} +4,000 million flies since 2024
+    \item \textbf{Mobile plants:} Additional 20M with modular technology
+    \item \textbf{Proven model:} Existing infrastructure + rapid scaling
+\end{itemize}
+
+\subsection{Accelerated Project Phases}
+
+\textbf{PHASE I - Immediate Start (January-April 2026)}
+\begin{itemize}
+    \item \textbf{January:} Release \$25 Million MXN + request extraordinary APHIS-USDA support
+    \item \textbf{February:} Establishment of parental colonies (Tapachula/Texas material)
+    \item \textbf{March:} UADY laboratory adaptation + SSY irradiator validation
+    \item \textbf{April:} First pilot production 500K flies/week
+\end{itemize}
+
+\textbf{PHASE II - Operational Scaling (May-August 2026)}
+\begin{itemize}
+    \item \textbf{May:} Scaling to 2 million flies/week + start modular construction
+    \item \textbf{June:} Production 5 million/week + mass dispersion preparation
+    \item \textbf{July:} Protocol validation + DVM team training
+    \item \textbf{August:} \textcolor{red}{\textbf{START MASS RELEASES - Northern Yucatán Zone}}
+\end{itemize}
+
+\textbf{PHASE III - Consolidation and Evaluation (Sept-Dec 2026)}
+\begin{itemize}
+    \item \textbf{September:} Systematic releases 10M flies/week
+    \item \textbf{October:} Intensive monitoring + epidemiological impact evaluation
+    \item \textbf{November:} Coverage expansion + release efficiency optimization
+    \item \textbf{December:} Annual evaluation + 2027 scaling preparation
+\end{itemize}
+
+\textbf{PHASE IV - Expansion and Consolidation (2027-2028)}
+\begin{itemize}
+    \item \textbf{Q1-Q2 2027:} Definitive biofactory construction + Cobalt-60 installation
+    \item \textbf{Q3-Q4 2027:} Production scaling to 100M flies/week + state coverage
+    \item \textbf{2028:} Intensive surveillance + sterile fly population maintenance
+    \item \textbf{Goal 2028:} SENASICA-APHIS NWS-free zone certification
+\end{itemize}
+
+\subsection{Critical Schedule 2026 - Sanitary Emergency}
+
+\begin{table}[H]
+\centering
+\caption{Monthly Schedule 2026 - Q3 Releases}
+\scriptsize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Activity} & \textbf{J} & \textbf{F} & \textbf{M} & \textbf{A} & \textbf{M} & \textbf{J} & \textbf{J} & \textbf{A} & \textbf{S} & \textbf{O} & \textbf{N} & \textbf{D} \\
+\hline
+Budget Release & \cellcolor{green!40}$\bullet$ & & & & & & & & & & & \\
+\hline
+Colony Setup & & \cellcolor{yellow!40}$\bullet$ & & & & & & & & & & \\
+\hline
+Infrastructure & & & \cellcolor{yellow!40}$\bullet$ & & & & & & & & & \\
+\hline
+Pilot Production & & & & \cellcolor{blue!40}$\bullet$ & & & & & & & & \\
+\hline
+Production Scale & & & & & \cellcolor{blue!40}2M & \cellcolor{blue!40}5M & & & & & & \\
+\hline
+Protocol Valid. & & & & & & & \cellcolor{orange!40}$\bullet$ & & & & & \\
+\hline
+Mass Releases & & & & & & & & \cellcolor{red!40}$\bullet$ & \cellcolor{red!40}$\bullet$ & \cellcolor{red!40}$\bullet$ & \cellcolor{red!40}$\bullet$ & \cellcolor{red!40}$\bullet$ \\
+\hline
+Monitoring & & & & & & & & \cellcolor{purple!40}$\bullet$ & \cellcolor{purple!40}$\bullet$ & \cellcolor{purple!40}$\bullet$ & \cellcolor{purple!40}$\bullet$ & \cellcolor{purple!40}$\bullet$ \\
+\hline
+\end{tabular}%
+}
+\end{table}
+
+% ========================================
+% CONSOLIDATED BUDGET
+% ========================================
+\section{Consolidated Budget}
+
+\subsection{Total Investment Breakdown}
+
+\begin{table}[H]
+\centering
+\caption{Investment by Component 2026-2030}
+\begin{tabular}{|p{6cm}|r|r|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Component} & \textbf{Investment (Million MXN)} & \textbf{Percentage} \\
+\hline
+Mass Rearing Laboratory & 120.0 & 57.1\% \\
+\hline
+Gamma Irradiation Plant & 75.0 & 35.7\% \\
+\hline
+Ground Release System & 15.0 & 7.1\% \\
+\hline
+Five-Year Operation & 15.0 & 7.1\% \\
+\hline
+\rowcolor{sadergreen!10}
+\textbf{TOTAL PROJECT} & \textbf{210.0} & \textbf{100.0\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Annual Investment Schedule}
+
+\begin{table}[H]
+\centering
+\caption{Annual Budget Distribution 2026-2030}
+\footnotesize
+\begin{tabular}{|p{4cm}|r|r|r|r|r|r|}
+\hline
+\rowcolor{sadergreen!20}
+\textbf{Component} & \textbf{2026} & \textbf{2027} & \textbf{2028} & \textbf{2029} & \textbf{2030} & \textbf{Total} \\
+\hline
+Laboratory & 25.0 & 40.0 & 35.0 & 15.0 & 5.0 & 120.0 \\
+\hline
+Irradiation & 15.0 & 25.0 & 20.0 & 10.0 & 5.0 & 75.0 \\
+\hline
+Ground Releases & 5.0 & 3.0 & 3.0 & 2.0 & 2.0 & 15.0 \\
+\hline
+Operations & 2.0 & 3.0 & 3.0 & 3.5 & 3.5 & 15.0 \\
+\hline
+\rowcolor{sadergreen!10}
+\textbf{Annual Total} & \textbf{47.0} & \textbf{71.0} & \textbf{61.0} & \textbf{30.5} & \textbf{15.5} & \textbf{225.0} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{Financing Sources}
+
+\textbf{Interinstitutional Cooperation Model}
+\begin{itemize}
+    \item \textbf{SADER-SENASICA:} Technical leadership and international protocols
+    \item \textbf{SEDER Yucatán:} Primary financial resource and operations
+    \item \textbf{SSY:} Specialized irradiation technology and infrastructure
+    \item \textbf{UADY:} Scientific infrastructure and research capabilities
+\end{itemize}
+
+% ========================================
+% PERFORMANCE INDICATORS
+% ========================================
+\section{Performance Indicators and Results}
+
+\subsection{Technical Indicators}
+
+\textbf{Production Capacity}
+\begin{itemize}
+    \item \textbf{Initial:} 6.6 million sterile flies/week (Q3-2026)
+    \item \textbf{Intermediate:} 50 million sterile flies/week (Q4-2027)
+    \item \textbf{Full capacity:} 250 million sterile flies/week (2028)
+    \item \textbf{Quality:} Sterility verified $\geq$99\%
+\end{itemize}
+
+\textbf{Territorial Coverage}
+\begin{itemize}
+    \item \textbf{Phase I:} Northern Yucatán (20\% state territory)
+    \item \textbf{Phase II:} Central and Eastern zones (60\% territory)
+    \item \textbf{Phase III:} Complete state coverage (100\% territory)
+    \item \textbf{Release density:} 2,500 sterile flies/km² weekly
+\end{itemize}
+
+\subsection{Economic Impact Indicators}
+
+\textbf{Direct Benefits}
+\begin{itemize}
+    \item \textbf{Export recovery:} \$50 million USD annually (2028+)
+    \item \textbf{Treatment cost reduction:} \$15 million MXN annually
+    \item \textbf{Mortality prevention:} 8-12\% livestock saved
+    \item \textbf{Productivity increase:} 15-25\% weight gain recovery
+\end{itemize}
+
+\textbf{Indirect Benefits}
+\begin{itemize}
+    \item \textbf{Market access:} USMCA preferential treatment
+    \item \textbf{Investment attraction:} International livestock projects
+    \item \textbf{Employment generation:} 150 direct jobs
+    \item \textbf{Technology transfer:} Regional capacity building
+\end{itemize}
+
+\subsection{International Certification}
+
+\textbf{Regulatory Milestones}
+\begin{itemize}
+    \item \textbf{2026:} SENASICA operational certification
+    \item \textbf{2027:} APHIS-USDA protocol compliance
+    \item \textbf{2028:} OIE NWS-free zone recognition
+    \item \textbf{2029:} USMCA unrestricted export status
+\end{itemize}
+
+% ========================================
+% RISK ANALYSIS AND MITIGATION
+% ========================================
+\section{Risk Analysis and Mitigation}
+
+\subsection{Technical Risks}
+
+\textbf{1. Production Quality Risk}
+\begin{itemize}
+    \item \textbf{Risk:} Sterility rates below 99\%
+    \item \textbf{Impact:} Reduced field effectiveness
+    \item \textbf{Mitigation:} Rigorous quality control protocols, backup irradiation systems
+    \item \textbf{Responsibility:} SSY + UADY technical teams
+\end{itemize}
+
+\textbf{2. Infrastructure Failure Risk}
+\begin{itemize}
+    \item \textbf{Risk:} Irradiator equipment failure
+    \item \textbf{Impact:} Production interruption
+    \item \textbf{Mitigation:} Preventive maintenance, backup Wolbaki system
+    \item \textbf{Responsibility:} SSY technical services
+\end{itemize}
+
+\subsection{Operational Risks}
+
+\textbf{1. Personnel Training Risk}
+\begin{itemize}
+    \item \textbf{Risk:} Insufficient technical capacity
+    \item \textbf{Impact:} Operational delays
+    \item \textbf{Mitigation:} Intensive SENASICA training, international exchanges
+    \item \textbf{Responsibility:} SENASICA + UADY
+\end{itemize}
+
+\textbf{2. Coordination Risk}
+\begin{itemize}
+    \item \textbf{Risk:} Interinstitutional conflicts
+    \item \textbf{Impact:} Implementation delays
+    \item \textbf{Mitigation:} Clear governance agreements, regular monitoring
+    \item \textbf{Responsibility:} SENASICA leadership
+\end{itemize}
+
+\subsection{Financial Risks}
+
+\textbf{1. Budget Execution Risk}
+\begin{itemize}
+    \item \textbf{Risk:} Resource availability delays
+    \item \textbf{Impact:} Timeline extension
+    \item \textbf{Mitigation:} Interinstitutional agreements, backup funding
+    \item \textbf{Responsibility:} SEDER financial coordination
+\end{itemize}
+
+% ========================================
+% CONCLUSIONS
+% ========================================
+\section{Conclusions}
+
+Implementation of the Sterile Fly Production Plant is projected to establish Yucatán as a regional center for animal health innovation and livestock export capacity in southeastern Mexico. Definitive eradication of the New World Screwworm through SIT methodology will eliminate the current sanitary constraint resulting from the late 2024 outbreak while enabling market access to high-value international destinations, thereby transforming the state's rural economic structure\textsuperscript{17,10,11}.
+
+The project framework extends beyond immediate economic returns to establish a replicable model for sustainable technological development, international cooperation protocols, and institutional capacity enhancement applicable to other regions\textsuperscript{19,2}.
+
+\textbf{Current temporal parameters indicate optimal conditions for implementation to achieve maximal sectoral transformation impact\textsuperscript{16,18}.}
+
+% ========================================
+% BIBLIOGRAPHY
+% ========================================
+\clearpage
+\section{Bibliography}
+
+\begin{enumerate}
+\item Concha, C., Palabrica, F., \& Car, M. (2016). A cold chain system for sterile insect technique implementation. \textit{Food and Agriculture Organization of the United Nations}. Rome, Italy.
+
+\item Dyck, V. A., Hendrichs, J., \& Robinson, A. S. (Eds.). (2021). \textit{Sterile Insect Technique: Principles and Practice in Area-Wide Integrated Pest Management} (3rd ed.). CRC Press. DOI: 10.1201/9781003035572
+
+\item International Atomic Energy Agency. (2017). \textit{Guidelines for Colonization of Cochliomyia hominivorax}. Insect Pest Control Section. Vienna, Austria.
+
+\item Klassen, W., \& Curtis, C. F. (2005). History of the sterile insect technique. In \textit{Sterile Insect Technique} (pp. 3-36). Springer Netherlands. DOI: 10.1007/1-4020-4051-2\_1
+
+\item Krafsur, E. S. (1998). Sterile insect technique for suppressing and eradicating insect population: 55 years and counting. \textit{Journal of Agricultural Entomology}, 15(4), 303-317.
+
+\item Lindquist, D. A., Abusowa, M., \& Hall, M. J. (1992). The New World screwworm fly in Libya: a review of its introduction and eradication. \textit{Medical and Veterinary Entomology}, 6(1), 2-8. DOI: 10.1111/j.1365-2915.1992.tb00029.x
+
+\item Mastrangelo, T., \& Welch, J. B. (2012). An overview of the components of AW-IPM campaigns against the New World screwworm. \textit{Insects}, 3(4), 930-955. DOI: 10.3390/insects3040930
+
+\item Moya, P., Flores, S., Ayala, I., Sanchis, P., Miclo, A., \& Chueca, P. (2010). Integrating the sterile insect technique with biological control of the Mediterranean fruit fly \textit{Ceratitis capitata}. \textit{Pest Management Science}, 66(6), 583-588. DOI: 10.1002/ps.1915
+
+\item Pan American Health Organization. (2001). \textit{New World Screwworm Eradication Protocol in the Americas}. Public Health Veterinary Program. Washington, D.C.
+
+\item Phillips, P. L., Welch, J. B., \& Kramer, M. (2004). Economics of transgenic sterile insect technique versus classical sterile insect technique for medfly eradication. \textit{Biotechnology and Genetic Engineering Reviews}, 21(1), 17-28.
+
+\item Scudder, P. M., Garcia, A., Cooper, M. L., \& Harwood, J. (2019). Economic analysis of screwworm infestations and their control costs in developing countries. \textit{Preventive Veterinary Medicine}, 162, 89-96. DOI: 10.1016/j.prevetmed.2018.11.012
+
+\item Scott, M. J., Concha, C., Welch, J. B., Phillips, P. L., \& Skoda, S. R. (2017). Research advances in the screwworm eradication programme. \textit{Medical and Veterinary Entomology}, 31(3), 245-254. DOI: 10.1111/mve.12224
+
+\item SENASICA. (2019). \textit{Technical Manual for New World Screwworm Control through Sterile Insect Technique}. National Service for Health, Safety and Agri-Food Quality. Mexico.
+
+\item Skoda, S. R., Phillips, P. L., \& Welch, J. B. (2018). Screwworm (Diptera: Calliphoridae) in the United States: Response to and elimination of the 2016-2017 outbreak in Florida. \textit{Journal of Medical Entomology}, 55(4), 777-786. DOI: 10.1093/jme/tjy049
+
+\item Thomas, D. B., Mangan, R. L., \& Moreno, A. (2004). Strip spraying for New World screwworm (Diptera: Calliphoridae) fly control in Mexico. \textit{Journal of Economic Entomology}, 97(3), 1024-1033. DOI: 10.1603/0022-0493-97.3.1024
+
+\item USDA-APHIS. (2020). \textit{Screwworm Emergency Management System - Technical Manual}. United States Department of Agriculture, Animal and Plant Health Inspection Service. Riverdale, MD.
+
+\item Vargas-Terán, M., Hofmann, H. C., \& Tweddle, N. E. (2005). Impact of screwworm eradication programmes using the sterile insect technique. In \textit{Sterile Insect Technique} (pp. 629-650). Springer. DOI: 10.1007/1-4020-4051-2\_24
+
+\item World Organisation for Animal Health (OIE). (2021). \textit{Terrestrial Animal Health Code - Chapter 8.12: Infestation with screwworms}. Paris, France.
+
+\item Wyss, J. H. (2000). Screwworm eradication in the Americas. \textit{Annals of the New York Academy of Sciences}, 916(1), 186-193. DOI: 10.1111/j.1749-6632.2000.tb05292.x
+
+\item Wyss, J. H. (2002). History of Classical Biological Control in the New World screwworm eradication programme. In \textit{Classical Biological Control of Bemisia tabaci in the United States} (pp. 107-123). Springer.
+
+\end{enumerate}
+
+\end{document}
