@@ -1,0 +1,487 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{lastpage}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{amsmath}
+\usepackage{ragged2e}
+
+% Colores SADER
+\definecolor{saderblue}{RGB}{0,51,102}
+\definecolor{sadergreen}{RGB}{34,139,34}
+\definecolor{sadergray}{RGB}{128,128,128}
+\definecolor{sadergold}{RGB}{255,215,0}
+
+% Márgenes exactos SADER
+\geometry{top=2.5cm,bottom=2.5cm,left=3cm,right=3cm,headheight=20pt}
+
+% Encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\begin{document}
+
+% ========================================
+% PORTADA OFICIAL
+% ========================================
+\begin{titlepage}
+    \centering
+    \vspace*{1.5cm}
+    
+    \vspace{0.4cm}
+    {\normalsize\bfseries Perfil Profesional y Descripción Técnica:\par}
+    \vspace{0.6cm}
+    
+    {\LARGE\bfseries DIRECTOR DE\par}
+    {\LARGE\bfseries DESARROLLO PECUARIO SUSTENTABLE\par}
+    \vspace{0.5cm}
+    {\Large Apoyo Técnico al Macroproyecto Renacimiento Ganadero Maya:\par}
+    \vspace{0.3cm}
+    {\normalsize • Sistemas Silvopastoriles Intensivos\par}
+    {\normalsize • Escuelas de Campo Adaptativas\par}
+    {\normalsize • Biofábricas Prediales con Microorganismos Benéficos\par}
+    {\normalsize • Especies Forrajeras Nativas Validadas\par}
+    {\normalsize • Bioeconomía Circular Ganadera\par}
+    \vspace{0.5cm}
+    {\Large Yucatán 2026-2030\par}
+    \vspace{0.3cm}
+    {\normalsize\textit{Puesto de Nueva Creación por Coyuntura Estratégica}\par}
+    
+    \vfill
+    
+    {\normalsize Mérida, Yucatán, 11 de diciembre de 2025\par}
+    \vspace{0.2cm}
+    {\normalsize GOBIERNO DEL ESTADO DE YUCATÁN\par}
+    {\normalsize Secretaría de Desarrollo Rural (SEDER)\par}
+    \vspace{0.2cm}
+    {\normalsize Código: DDP-SEDER-YUC-001\par}
+    {\normalsize Consultor Independiente/Comisionado por SEDER Yucatán\par}
+\end{titlepage}
+
+% ========================================
+% ÍNDICE AUTOMÁTICO
+% ========================================
+\clearpage
+\thispagestyle{empty}
+\vspace*{3cm}
+{\large\bfseries Contenido}\\[2cm]
+
+\tableofcontents
+
+\clearpage
+\setcounter{page}{3}
+
+% ========================================
+% CONTENIDO
+% ========================================
+
+\section{Justificación de Creación del Puesto}
+
+\justifying
+
+\subsection{Contexto de Oportunidad Estratégica}
+
+La creación de la \textit{Dirección de Desarrollo Pecuario Sustentable} responde a una coyuntura estratégica excepcional caracterizada por:
+
+\begin{itemize}
+    \item \textbf{Nueva Ley Ganadera Yucatán 2025:} El Decreto 129/2025 (publicado 28 nov 2025) establece 69 coincidencias directas con el proyecto, especialmente en trazabilidad (53 menciones) y sanidad animal (47 menciones)
+    \item \textbf{Oportunidad federal excepcional:} Disponibilidad de recursos extraordinarios para el sector ganadero a través del Macroproyecto \textit{Renacimiento Ganadero Maya}
+    \item \textbf{Necesidad directiva emergente:} La nueva ley menciona 16 veces "dirección" como nivel organizacional, validando la escala directiva requerida
+    \item \textbf{Complejidad técnica del programa:} La implementación simultánea de sistemas silvopastoriles, repoblamiento ganadero, campañas sanitarias y certificación digital requiere un perfil técnico dedicado exclusivamente a estas actividades
+    \item \textbf{Demanda de coordinación territorial optimizada:} La necesidad de supervisar actividades en las 4 regiones ganaderas prioritarias del estado con un equipo técnico especializado y optimizado de 5 profesionales
+\end{itemize}
+
+\subsection{Propuesta de Valor del Puesto}
+
+Este puesto permitirá al Secretario de Desarrollo Rural:
+\begin{itemize}
+    \item Mantener su función directiva y de representación institucional sin verse sobrecargado por actividades técnicas operativas
+    \item Contar con un enlace técnico especializado que coordine la implementación de campo
+    \item Disponer de reportes técnicos detallados para la toma de decisiones estratégicas
+    \item Optimizar la ejecución del macroproyecto mediante delegación efectiva de funciones técnicas
+\end{itemize}
+
+\section{Caracterización Institucional del Puesto}
+
+\subsection{Identificación Administrativa}
+
+\begin{table}[H]
+\centering
+\caption{Datos Generales del Puesto Especializado}
+\label{tab:datos_generales}
+\begin{tabular}{p{5cm}p{8cm}}
+\toprule
+\rowcolor{sadergreen!20}
+\textbf{Campo} & \textbf{Especificación Técnica} \\
+\midrule
+Denominación oficial & Director de Desarrollo Pecuario Sustentable \\
+Código de identificación & DDP-SEDER-YUC-001 \\
+Dependencia jerárquica & Secretaría de Desarrollo Rural (SEDER) -- Gobierno del Estado de Yucatán \\
+Línea de reporte directo & Secretario de Desarrollo Rural del Estado de Yucatán \\
+Ámbito territorial & Estado de Yucatán (106 municipios, 39,524 km²) \\
+Categoría de plaza & Nivel directivo N14 SEDER con estructura de dirección \\
+Estructura directiva asignada & Director (\$52.0K mensual) + 3 Subdirectores: Sistemas Silvopastoriles (\$38.5K), Sanidad y Certificación (\$38.5K), Genética y Repoblamiento (\$38.5K), + 5 coordinadores técnicos regionales (\$28.5K c/u), distribuidos estratégicamente en 4 regiones ganaderas \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Contexto Programático}
+
+La Dirección se enmarca dentro del Macroproyecto Estratégico Concurrente \textit{Renacimiento Ganadero Maya} 2026-2030, constituyendo una unidad directiva especializada habilitada por la Nueva Ley Ganadera Yucatán 2025 (Decreto 129/2025) para liderar la ejecución del Macroproyecto optimizado \textit{Renacimiento Ganadero Maya}. El puesto surge como respuesta a la coyuntura estratégica y oportunidad de coinversión federal-estatal para el desarrollo ganadero sustentable, requiriendo coordinación técnica especializada de un equipo optimizado de 5 profesionales distribuidos eficientemente en las 4 regiones ganaderas prioritarias.
+
+% ========================================
+% MARCO CONCEPTUAL
+% ========================================
+\section{Marco Conceptual y Objetivo Estratégico}
+
+\subsection{Fundamentación Teórica del Puesto}
+
+El diseño de la \textit{Dirección de Desarrollo Pecuario Sustentable} se fundamenta en el liderazgo estratégico y la coordinación directiva de programas ganaderos estatales de gran escala, bajo mandato directo del Secretario de Desarrollo Rural, enfocándose en la dirección ejecutiva, supervisión de subdirectores especializados y representación institucional.
+
+La posición requiere la aplicación de competencias técnicas en:
+
+\begin{enumerate}
+    \item Implementación de sistemas productivos pecuarios sustentables
+    \item Ejecución de protocolos sanitarios de campo
+    \item Asistencia técnica directa a productores
+    \item Supervisión de equipo técnico especializado
+    \item Seguimiento y reporte de actividades técnicas
+\end{enumerate}
+
+\subsection{Objetivo Estratégico del Puesto}
+
+\textbf{Objetivo general:} Dirigir y liderar la ejecución estratégica del Macroproyecto \textit{Renacimiento Ganadero Maya} 2026-2030 bajo mandato del Secretario de Desarrollo Rural, supervisando la implementación estatal de los componentes estratégicos que resuelven simultáneamente:
+
+\begin{itemize}
+    \item El despoblamiento acelerado del hato bovino (-35\% 2017-2025)
+    \item Las barreras sanitarias T-MEC por tuberculosis bovina
+    \item La baja productividad en ganadería lechera tropical
+    \item La subutilización del Centro Genético de Tizimín
+    \item Las limitaciones para acceso a mercados de exportación premium por falta de certificación digital y trazabilidad APHIS-USDA
+\end{itemize}
+
+Todo bajo un paradigma de sistemas silvopastoriles intensivos y en plena alineación con la Directriz 4.1.1 del Plan Estatal de Desarrollo Renacimiento Maya 2024-2030.
+
+\subsection{Indicadores de Desempeño del Puesto}
+
+\begin{table}[H]
+\centering
+\caption{Métricas Clave de Desempeño (KPIs) del Puesto}
+\label{tab:kpis}
+\begin{tabular}{p{6cm}p{3cm}p{3cm}}
+\toprule
+\rowcolor{sadergreen!20}
+\textbf{Indicador} & \textbf{Meta 2030} & \textbf{Medición} \\
+\midrule
+Porcentaje de ejecución presupuestal federal & $\geq$95\% & Anual \\
+UPP beneficiadas directamente & 1,075 & Quinquenal \\
+Hectáreas convertidas a SSPi & 6,000 ha & Quinquenal \\
+Vaquillas F1 distribuidas & 12,000 cabezas & Quinquenal \\
+Unidades de producción certificadas TB & 100\% & Anual \\
+Productores atendidos/mes por técnico & 11-14 UPP & Mensual \\
+Eventos de capacitación & 2 talleres/mes/técnico & Mensual \\
+Nivel de satisfacción del equipo técnico & $\geq$85\% & Semestral \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ========================================
+% RESPONSABILIDADES PRINCIPALES
+% ========================================
+\section{Responsabilidades Principales}
+
+El titular del puesto será responsable directo de:
+
+\subsection{Coordinación Técnica Integral}
+
+\textbf{1. Dirigir bajo mandato del Secretario de Desarrollo Rural} la ejecución estratégica del Macroproyecto \textit{Renacimiento Ganadero Maya}, liderando la implementación estatal de los seis componentes integrados:
+
+\begin{itemize}
+    \item \textbf{Componente 1:} Transformación a Sistemas Silvopastoriles Intensivos (6,000 hectáreas con \textit{Leucaena leucocephala})
+    \item \textbf{Componente 2:} Repoblamiento Ganadero Estratégico (12,000 vaquillas F1 certificadas)
+    \item \textbf{Componente 3:} Refundación del Centro de Mejoramiento Genético de Tizimín (certificación OIE/ISO-17025)
+    \item \textbf{Componente 4:} Desarrollo Lechero Tropical (+40\% producción mediante 75 módulos tecnificados)
+    \item \textbf{Componente 5:} Meliponicultura Sustentable Maya (500 beneficiarios: 350 mujeres, 115 jóvenes)
+    \item \textbf{Componente 6:} Plataforma Digital de Seguimiento Sanitario (sistema CESO-APHIS + certificación T-MEC)
+\end{itemize}
+
+\subsection{Gestión de Equipos y Recursos}
+
+\textbf{2. Supervisar estructura directiva} de 3 Subdirectores + 5 Coordinadores Técnicos Regionales, garantizando la coordinación estratégica, supervisión de metas (mínimo 120 jornadas/año) y seguimiento de indicadores directivos:
+
+\begin{itemize}
+    \item \textbf{Subdirector Sistemas Silvopastoriles (Nivel N12 - \$38.5K):} Supervisa SSPi, desarrollo lechero, especies forrajeras, \textit{Leucaena leucocephala}
+    \item \textbf{Subdirector Sanidad y Certificación (Nivel N12 - \$38.5K):} Supervisa TBC, CESO Digital, protocolos APHIS-SENASICA
+    \item \textbf{Subdirector Genética y Repoblamiento (Nivel N12 - \$38.5K):} Supervisa Centro Tizimín, distribución F1, mejoramiento genético
+\end{itemize}
+
+\textbf{3. Elaborar los anteproyectos} de presupuesto anual y administrar los recursos asignados, incluyendo:
+   \begin{itemize}
+       \item Formulación de presupuestos por componente técnico
+       \item Gestión de gastos de operación del equipo técnico
+       \item Supervisión de la correcta aplicación de los recursos federales
+       \item Coadyuvar con el Secretario de Desarrollo Rural en la gestión presupuestal estatal
+       \item Rendición de cuentas ante las instancias correspondientes
+   \end{itemize}
+
+\subsection{Coordinación Interinstitucional}
+
+\textbf{4. Ejecutar acciones técnicas de campo} con técnicos de SENASICA, INIFAP, UADY-FMVZ, asociaciones ganaderas locales y productores, bajo la supervisión y coordinación del Secretario de Desarrollo Rural.
+
+\textbf{5. Rendir informes técnicos} semanales al Secretario de Desarrollo Rural sobre avances de campo, elaborar reportes mensuales de actividades del equipo técnico y participar en las reuniones técnicas que sean convocadas por la Secretaría.
+
+% ========================================
+% PERFIL DEL PUESTO
+% ========================================
+\section{Perfil del Puesto}
+
+\subsection{Requisitos Académicos y Experiencia}
+
+\begin{table}[H]
+\centering
+\caption{Requisitos del Puesto}
+\label{tab:requisitos}
+\begin{tabular}{p{4cm}p{9cm}}
+\toprule
+\rowcolor{sadergreen!20}
+\textbf{Requisito} & \textbf{Detalle} \\
+\midrule
+Formación académica & Médico Veterinario Zootecnista o Ingeniero Agrónomo con especialidad pecuaria. Maestría OBLIGATORIA. Doctorado o especialidad directiva deseable \\
+Experiencia mínima & 12 años en dirección de programas ganaderos >\$500 MDP, 8 años en liderazgo de equipos multidisciplinarios >10 personas \\
+Conocimientos indispensables & Sistemas silvopastoriles intensivos, sanidad animal (TB bovina), trazabilidad SINIIGA, T-MEC, OIE, mejora genética tropical, manejo de proyectos $>$\$200 MDP \\
+Idiomas & Inglés técnico avanzado (interacción APHIS-USDA) \\
+Habilidades & Liderazgo técnico, planeación estratégica, gestión de equipos multidisciplinarios, uso de SIG, elaboración de proyectos, negociación con productores \\
+Disponibilidad & Para viajar 60\% del tiempo al interior del estado \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Competencias Técnicas Específicas}
+
+\textbf{Competencias obligatorias:}
+\begin{itemize}
+    \item Diseño y evaluación de sistemas silvopastoriles intensivos
+    \item Protocolos sanitarios binacionales (México-EE.UU.)
+    \item Trazabilidad y certificación ganadera
+    \item Gestión de presupuestos federales complejos
+    \item Coordinación interinstitucional multi-nivel
+\end{itemize}
+
+\textbf{Competencias deseables:}
+\begin{itemize}
+    \item Certificación en metodologías de captura de carbono
+    \item Experiencia en programas de cooperación internacional
+    \item Conocimiento de normatividad OIE e ISO-17025
+    \item Manejo de sistemas de información geográfica
+\end{itemize}
+
+% ========================================
+% CONDICIONES LABORALES
+% ========================================
+\section{Condiciones Laborales}
+
+\subsection{Condiciones Generales}
+
+\begin{itemize}
+    \item \textbf{Base:} Mérida, Yucatán (oficinas SEDER)
+    \item \textbf{Viajes:} Frecuentes al interior del estado (vehículo oficial y viáticos con cargo a gastos de operación)
+    \item \textbf{Disponibilidad:} Para guardias sanitarias emergentes (TB) y supervisión de equipo técnico
+    \item \textbf{Modalidad de contratación:} Plaza de nueva creación directa SEDER con financiamiento estatal
+    \item \textbf{Sueldo bruto mensual:} \$52,000 MXN + prestaciones (\$624,000 MXN anuales - Nivel N14 directivo SEDER)
+    \item \textbf{Duración del contrato:} 2026-2030 con posibilidad de extensión según evaluación de resultados
+    \item \textbf{Horario:} Lunes a viernes + guardias eventuales + supervisión de campo
+\end{itemize}
+
+\subsection{Prestaciones y Beneficios}
+
+\begin{itemize}
+    \item Prestaciones de ley federal
+    \item Seguro de gastos médicos mayores institucional
+    \item Seguro de vida
+    \item Vehículo oficial para comisiones
+    \item Viáticos para trabajo de campo
+    \item Capacitación técnica especializada
+\end{itemize}
+
+% ========================================
+% MARCO LEGAL Y FINANCIERO
+% ========================================
+\section{Marco Legal y Financiero del Puesto}
+
+\subsection{Fundamento Jurídico del Financiamiento}
+
+El presente puesto se crea bajo el marco jurídico del convenio de colaboración Federación-Estado para la ejecución del Macroproyecto \textit{Renacimiento Ganadero Maya}, sustentado en:
+
+\begin{itemize}
+    \item \textbf{Marco legal estatal:} Ley Orgánica de la Administración Pública del Estado de Yucatán
+    \item \textbf{Presupuesto directo SEDER:} Recursos estatales asignados para estructura técnica especializada
+    \item \textbf{Convenio de colaboración Federal-Estatal:} Marco legal para la ejecución compartida coordinada por SEDER Yucatán
+    \item \textbf{Normatividad de gastos de operación:} Lineamientos estatales para estructura técnica y operativa de programas estratégicos
+\end{itemize}
+
+\subsection{Estructura de Rendición de Cuentas}
+
+El titular del puesto será responsable ante:
+
+\begin{enumerate}
+    \item \textbf{Secretaría de Desarrollo Rural (SEDER):} Reportes mensuales de ejecución técnica y avance físico-financiero
+    \item \textbf{Secretaría de Administración y Finanzas del Estado:} Informes trimestrales presupuestales
+    \item \textbf{Órganos de control federal y estatal:} Auditorías y verificaciones de la aplicación de recursos
+    \item \textbf{Comité Técnico Estatal del Macroproyecto:} Evaluación de resultados e impactos
+\end{enumerate}
+
+% ========================================
+% ESTRUCTURA DEL EQUIPO TÉCNICO
+% ========================================
+\section{Estructura del Equipo Técnico}
+
+\subsection{Marco Organizacional del Equipo}
+
+El equipo técnico optimizado está conformado por 5 profesionales especializados (incluyendo al Jefe de Programa), organizados para brindar asistencia técnica directa especializada por componente en campo bajo la supervisión del Secretario de Desarrollo Rural y la coordinación operativa del Jefe de Programa, generando mayor eficiencia técnica con menor costo operativo.
+
+\subsection{Perfiles Técnicos del Equipo}
+
+Los siguientes perfiles técnicos operan bajo la supervisión del Jefe de Programa:
+
+\begin{enumerate}
+    \item \textbf{Jefe de Programa (N11 - \$425,376 MXN anuales)} - Supervisión técnica del equipo y enlace con Secretario SEDER
+    \item \textbf{Técnico Zootecnista A (O21 - \$298,740 MXN anuales)} - Sistemas silvopastoriles intensivos y pastoreo
+    \item \textbf{Técnico Zootecnista B (O21 - \$298,740 MXN anuales)} - Biofábricas prediales y especies forrajeras
+    \item \textbf{Técnico Agrónomo A (O21 - \$298,740 MXN anuales)} - Transferencia tecnológica y capacitación
+    \item \textbf{Técnico Agrónomo B (O21 - \$298,740 MXN anuales)} - Suelos tropicales y sistemas de riego
+    \item \textbf{MVZ Sanidad Animal (O21 - \$298,740 MXN anuales)} - Campañas sanitarias TBC
+\end{enumerate}
+
+\subsection{Competencias Transversales del Equipo}
+
+Todos los miembros del equipo técnico deben cumplir con competencias mínimas transversales:
+\begin{itemize}
+    \item Conocimiento del contexto ganadero yucateco
+    \item Manejo de sistemas de información (SINIIGA, plataformas digitales)
+    \item Habilidades de comunicación con productores rurales
+    \item Disponibilidad para trabajo de campo (60\% del tiempo)
+    \item Capacidad de trabajar bajo presión y metas cuantificables
+    \item Experiencia mínima de 5 años en desarrollo rural o sectores afines
+\end{itemize}
+
+% ========================================
+% CONCLUSIONES
+% ========================================
+\section{Plan de Trabajo del Jefe de Programa}
+
+\subsection{Cronograma de Implementación 2026-2030}
+
+\textbf{Año 1 (2026): Establecimiento y Arranque}
+\begin{itemize}
+    \item \textbf{Ene-Mar:} Conformación y capacitación del equipo técnico optimizado (4 profesionales especializados)
+    \item \textbf{Abr-Jun:} Establecimiento de sistemas de información y protocolos de campo
+    \item \textbf{Jul-Sep:} Inicio de conversión de primeras 1,200 hectáreas a SSPi
+    \item \textbf{Oct-Dic:} Implementación de 20 biofábricas piloto y capacitación de 250 productores
+\end{itemize}
+
+\textbf{Años 2-4 (2027-2029): Escalamiento}
+\begin{itemize}
+    \item \textbf{2027:} 2,400 ha SSPi + 3,600 vaquillas F1 + 300 UPP atendidas
+    \item \textbf{2028:} 4,200 ha SSPi + 7,200 vaquillas F1 + 650 UPP atendidas  
+    \item \textbf{2029:} 5,700 ha SSPi + 10,800 vaquillas F1 + 950 UPP atendidas
+\end{itemize}
+
+\textbf{Año 5 (2030): Consolidación}
+\begin{itemize}
+    \item \textbf{Ene-Jun:} Finalización de conversión (6,000 ha SSPi total)
+    \item \textbf{Jul-Sep:} Certificación final TBC del 100\% del hato
+    \item \textbf{Oct-Dic:} Evaluación integral y sistematización de experiencias
+\end{itemize}
+
+\subsection{Rutina de Trabajo Mensual}
+
+\textbf{Semana 1: Planificación y Coordinación}
+\begin{itemize}
+    \item Reunión semanal con Secretario de Desarrollo Rural (lunes)
+    \item Planificación de actividades técnicas con el equipo (martes)
+    \item Revisión de avances y ajustes de rutas (miércoles-viernes)
+\end{itemize}
+
+\textbf{Semana 2-3: Ejecución de Campo}
+\begin{itemize}
+    \item Supervisión directa de actividades técnicas en las 4 regiones
+    \item Asistencia técnica directa a productores prioritarios
+    \item Seguimiento de implementación de SSPi y biofábricas
+\end{itemize}
+
+\textbf{Semana 4: Evaluación y Reporte}
+\begin{itemize}
+    \item Consolidación de reportes técnicos del equipo
+    \item Elaboración de informe mensual al Secretario SEDER
+    \item Evaluación de desempeño del equipo técnico
+\end{itemize}
+
+\subsection{Indicadores de Desempeño Mensual}
+
+\begin{table}[H]
+\centering
+\caption{Metas Mensuales del Jefe de Programa}
+\label{tab:metas_mensuales}
+\begin{tabular}{p{6cm}p{2.5cm}p{2.5cm}}
+\toprule
+\rowcolor{sadergreen!20}
+\textbf{Indicador Operativo} & \textbf{Meta/Mes} & \textbf{Acumulado Anual} \\
+\midrule
+Hectáreas convertidas a SSPi & 100 ha & 1,200 ha \\
+Productores capacitados & 20-25 & 300 \\
+Vaquillas F1 distribuidas & 200 & 2,400 \\
+Biofábricas establecidas & 3-4 & 40 \\
+Visitas técnicas de campo & 80-100 & 1,200 \\
+Reportes técnicos entregados & 1 & 12 \\
+Reuniones con Secretario SEDER & 4-5 & 60 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Conclusiones Técnicas}
+
+El perfil profesional \textit{Jefe de Programa de Desarrollo Pecuario Sustentable} constituye una posición técnica especializada de nueva creación, diseñada para apoyar operativamente al Secretario de Desarrollo Rural en la ejecución estatal del Macroproyecto \textit{Renacimiento Ganadero Maya} 2026-2030.
+
+La complejidad multidisciplinaria del cargo requiere competencias únicas en gestión de sistemas adaptativos complejos, coordinación interinstitucional y liderazgo técnico de un equipo multidisciplinario optimizado de 5 profesionales especializados por componente (incluido el Jefe de Programa), maximizando la eficiencia operativa y el impacto técnico.
+
+El éxito del macroproyecto depende críticamente tanto de la selección de un Jefe de Programa que reúna las competencias técnicas y gerenciales necesarias, como del reclutamiento y desarrollo de un equipo técnico altamente especializado capaz de ejecutar efectivamente los seis componentes estratégicos integrados con metas físicas cuantificables.
+
+La estructura organizacional propuesta garantiza la especialización técnica requerida mientras mantiene la coordinación integral necesaria para un proyecto de \$926.5 millones MXN distribuido en 106 municipios.
+
+% ========================================
+% VALIDACIÓN
+% ========================================
+\section{Validación Institucional}
+
+El presente perfil profesional ha sido elaborado por consultor independiente comisionado por SEDER Yucatán, en cumplimiento de los lineamientos de recursos humanos especializados para programas estratégicos estatales.
+
+\vspace{2cm}
+
+\noindent\textbf{Secretario de Desarrollo Rural del Estado de Yucatán}
+
+\vspace{1cm}
+
+\noindent\textbf{Subsecretario de Desarrollo Pecuario - SEDER Yucatán}
+
+\vspace{1cm}
+
+\noindent\textbf{Director de Recursos Humanos - SEDER Yucatán}
+
+\vspace{2cm}
+
+\noindent\textit{Mérida, Yucatán, a 11 de diciembre de 2025}
+
+\end{document}

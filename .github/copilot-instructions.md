@@ -1,26 +1,30 @@
 # AI Agent Instructions: Macroproyecto Renacimiento Ganadero Maya
 
 ## Project Overview
-This workspace contains documentation for a comprehensive agricultural strategic program in Yucatán, Mexico (2026-2030). The "Renacimiento Ganadero Maya" macroproject is a **$1,087.9 million MXN** strategic program prepared by **MVZ Sergio Muñoz de Alba Medrano, Independent Consultant**, commissioned by **Prof. Edgardo Medina, Secretary of Rural Development (SEDER) of Yucatán State Government**. The project focuses on sustainable livestock transformation, cattle repopulation with intensive silvopastoral systems, animal health certification, and international export capabilities. The project integrates six interdependent components designed to position Yucatán as Mexico's leader in climate-smart livestock production.
+This workspace contains documentation for a comprehensive agricultural strategic program in Yucatán, Mexico (2026-2030). The "Renacimiento Ganadero Maya" macroproject is a **$1,087.9 million MXN** strategic program prepared by **MVZ Sergio Muñoz de Alba Medrano, Independent Consultant**. The project focuses on sustainable livestock transformation, cattle repopulation with intensive silvopastoral systems, animal health certification, and international export capabilities. The project integrates six interdependent components designed to position Yucatán as Mexico's leader in climate-smart livestock production.
 
-**AUTHORSHIP NOTE**: Document prepared as independent consultant work commissioned by SEDER Yucatán, not as federal SADER employee. Branding emphasizes Yucatán State Government and SEDER (Secretaría de Desarrollo Rural del Gobierno del Estado de Yucatán).
+**AUTHORSHIP NOTE**: Document prepared as independent consultant work coto be presented to SEDER Yucatán, not as federal SADER employee. No institucional branding as of yet, as it is independent consultancy. However, the institutional structure is as follows: 
+SADER, SENASICA, and OREF retain their institutional coordination and funding facilitation roles for the paripassu federal-state funding scheme, while the primary institutional authority commissioning the work is the Gobierno del Estado de Yucatán through SEDER with Prof. Edgardo Medina as Secretary.
+Please ensure all documents reflect this institutional structure appropriately. Remove logos on title pages that imply federal authorship; also remove logos on all other pages (remove the logos from headers). ### ** 
 
 **INSTITUTIONAL STRUCTURE**:
-- **Primary Leadership**: Gobierno del Estado de Yucatán and SEDER with Prof. Edgardo Medina as the commissioning authority
+- **Primary Leadership**: This is an independant proposal, to be presented to the Yucatán State Government, specically to the head of Secretaria de Desarollo Rural (SEDER) by its author.
 - **Federal Coordination Role**: SADER and OREF maintaining their essential coordination and funding facilitation role for the paripassu federal-state funding scheme
 - **Independent Authorship**: MVZ Sergio Muñoz de Alba Medrano, Independent Consultant, commissioned by SEDER Yucatán
 
-This structure properly acknowledges that while the consultant is now independent, the federal agencies still have their institutional coordination and funding roles, which is essential for a project requesting federal funds through the concurrence scheme. The emphasis is on state government leadership while maintaining the necessary federal partnership for implementation. The branding correctly positions the Yucatán State Government and SEDER as the primary institutional authorities commissioning the work, with federal agencies in their appropriate coordination and funding facilitation role.
+This structure properly acknowledges that while the consultant is now independent, the federal agencies still have their institutional coordination and funding roles, which is essential for a project requesting federal funds through the concurrence scheme. The emphasis is on state government leadership while maintaining the necessary federal partnership for implementation. There should be no branding but the institutional governance correctly positions the Yucatán State Government and SEDER as the primary institutional authorities proposed to lead the work, with federal agencies in their appropriate coordination and funding facilitation role.
 
 ## Core Architecture & Components
 
-### Six Integrated Strategic Components ($926.5 million MXN total)
-1. **Intensive Silvopastoral Systems** - $132.6M (6,000 ha conversion, 120 UPP, $12,100/ha technical package with Leucaena leucocephala at 40,000-53,000 plants/ha, 6.0 kg/ha seeding rate)
+### Six Integrated Strategic Components ($1,035.1 million MXN productive investments)
+1. **Intensive Silvopastoral Systems (SSPi)** - $500.1M hybrid financing ($333.4M subsidio + $166.7M crédito, 6,000 ha conversion, 120 UPP, $55,573/ha technical package with Leucaena leucocephala at 40,000-53,000 plants/ha, 6.0 kg/ha seeding rate)
 2. **Cattle Repopulation Program** - $150.1M (12,000 F1 heifers, 1,075 UPP, strategic livestock replacement)
 3. **Genetic Improvement Center (Tizimín)** - $150.0M (Center refoundation, ISO/IEC 17025:2017 certification, OIE accreditation, 120,000 semen doses/year)
 4. **Tropical Dairy Development** - $89.5M (75 technified modules, +40% milk production increase, specialized silvopastoral systems)
-5. **Sterile Fly Plant (Screwworm Eradication)** - $300.0M (250M sterile flies/week capacity, Co-60 irradiation facility, aerial release fleet)
-6. **Tuberculosis Certification + Digital Platform** - $51.5M (T-MEC compliance, APHIS-USDA protocols, CESO digital traceability)
+5. **Sustainable Maya Meliponiculture** - $42.5M (500 producers, 350 women beneficiaries, native bee conservation with Melipona beecheii)
+6. **Digital Sanitary Platform (CESO)** - $51.5M (T-MEC compliance, APHIS-USDA protocols, digital traceability)
+
+**NOTE**: Component 5 "Sterile Fly Plant" appears as separate strategic component in `MOSCA ESTERIL/` directory with independent $300M budget. Current main document reflects 6 components optimized structure.
 
 ### Updated Investment Breakdown (Corrected Values with Hybrid Financing)
 - **Productive Investments**: $1,035.1M (95.1%)
@@ -33,29 +37,41 @@ This structure properly acknowledges that while the consultant is now independen
 
 ### Key File Structure
 - `Proyecto Estrategico/`: Core strategic documents
-  - `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex`: Executive integrated proposal (60 pages, APA citations, calculation memories)
-  - `MACROPROYECTO ESTRATÉGICO CONCURRENTE FEDERACIÓN – ESTADO.md`: Master strategic plan
+  - `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex`: Main executive document (LaTeX, 60+ pages, APA citations, calculation memories)
+  - `BASE_TECNICA_INTEGRAL_RENACIMIENTO_GANADERO_MAYA.tex`: Technical foundation document
+  - `RESUMEN_EJECUTIVO_*.tex`: Multiple executive summaries (telegraphic pitch, epic storytelling, standard)
+  - `MEMORIA_CALCULO_PAQUETE_TECNOLOGICO_SSPi.tex`: SSPi technical calculation memories
+  - `ESTRUCTURA_PRESUPUESTARIA_CORRECTA.md`: Consolidated budget structure
   - `Analisis Pareto Ganadero Yucatan.tex`: Territorial focusing analysis (11 municipalities = 80.3% concentration)
+- `ANALISIS Y SCRIPTS/`: Python data analysis tools
+  - `budget_analysis.py`: Budget coherence verification with SIAP data integration
+  - `extraccion_detallada_sspi.py`: PDF text extraction for SSPi research analysis
+  - `analisis_sspi_pdfs.py`: Scientific literature mining tool
 - `Descripcion de Puesto. Jefe de Programa/`: Program management documentation
-  - `DescripcionPuesto_JefePrograma_LATEX.tex`: Technical coordinator profile (8-person team, $43k/month + team)
+  - `DescripcionPuesto_JefePrograma_LATEX.tex`: Technical coordinator profile (8-person team)
 - `DOCS REFERENCIA/`: Supporting documentation, SIAP data, scientific articles
+  - `2025. padron ganadero nacional yucatan detallado por municipios.gsheet`: Official livestock census
   - `2025. siap. datos pecuarios/`: Official livestock inventory data
   - `articulos lecheros/`: Scientific references for tropical dairy systems
+  - `guia metodologica para la incorporacion de escuelas de campo de sistemas silvopastoriles (colombia).pdf`: SSPi implementation methodology
+- `MOSCA ESTERIL/`: Separate strategic component for screwworm eradication ($300M independent project)
+- `Centro de Mejoramento Genetico/`: Genetic improvement center documentation
+- `SANIDADES/`: Animal health certification protocols
 
 ## Document Conventions
 
 ### LaTeX Document Standards
 - **CRITICAL**: Always compile LaTeX documents TWICE using `pdflatex` to properly populate table of contents and cross-references
+- **Terminal Command**: `cd "Proyecto Estrategico" && pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex && pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex`
 - **Document Class**: Use `\documentclass[12pt,letterpaper,titlepage]{article}` with UTF-8 encoding and Spanish/Mexico babel
-- **Page Layout**: Geometry with left=3cm, right=2.5cm, top=3cm, bottom=3cm margins
-- **Typography**: Use libertinus, lmodern, or times packages for professional government-style fonts
-- **Colors**: Define official colors: yucatangreen RGB(0,102,51), yucatangray RGB(80,80,80), maintaining SADER color palette for compatibility
-- **Headers/Footers**: Fancy headers with project title, 0.4pt rule, centered small text emphasizing Yucatán state branding
-- **Title Formatting**: Large green sections, normal bold subsections, italic subsubsections
-- **Lists**: Bullet points with proper margins and bullet symbols
-- **Institutional Logos**: Emphasize Yucatán State Government logo (logo yucatan.jpg) with SEDER branding as primary institutional identity
-- **Professional Structure**: Titlepage → table of contents → numbered sections with cross-references
-- Use tables extensively for financial data, timelines, and metrics with professional formatting
+- **Essential Packages**: geometry, graphicx, fancyhdr, booktabs, xcolor, colortbl, pgfgantt, tabularx, float, multirow, lastpage
+- **Page Layout**: Geometry with left=3cm, right=2.5cm, top=3cm, bottom=3cm margins, headheight=20pt
+- **Colors**: Define SADER palette: sadergreen RGB(0,102,51), sadergris RGB(80,80,80), sadergold RGB(204,153,0), saderblue RGB(0,51,102)
+- **Headers/Footers**: ALL documents MUST use fancy headers with document title centered and fancy footers with "Página X de Y" format using LastPage reference. Format: `\fancyhead[C]{\textcolor{sadergris}{\footnotesize DOCUMENT TITLE}}` and `\fancyfoot[C]{\textcolor{sadergris}{\small Página \thepage\ de \pageref{LastPage}}}`
+- **Title Pages**: Include institutional hierarchy, authorship, investment totals, component summary
+- **Tables**: Extensive use with rowcolor alternation (sadergreen!20, sadergold!30), booktabs formatting
+- **Gantt Charts**: Use pgfgantt package for timeline visualization with component dependencies
+- **Professional Structure**: Titlepage → table of contents → sections with decimal numbering (1., 1.1., 1.1.1.)
 
 ### Scientific Citation Requirements
 - **APA Citation System**: All quantitative claims must include numbered superscript citations (\textsuperscript{1,2,3})
@@ -125,12 +141,21 @@ This structure properly acknowledges that while the consultant is now independen
 ## Development Workflow
 
 ### Document Generation
-- Use institutional templates emphasizing Yucatán State Government branding with SEDER as primary authority
+- Use institutional templates with NO BRANDING/LOGOS as independent consultant work for SEDER Yucatán
 - **AUTHORSHIP**: All documents prepared by MVZ Sergio Muñoz de Alba Medrano, Independent Consultant, commissioned by SEDER Yucatán
 - **MANDATORY**: Compile all LaTeX documents twice (pdflatex) to properly populate table of contents and cross-references
 - Include PDF and Markdown versions of all strategic documents with complete scientific rigor
 - Maintain Spanish language for official documents with technical English terms where appropriate
 - Implement comprehensive APA citation system with numbered superscript references
+
+### Python Data Analysis Workflow
+- **Primary Tools**: pandas, PyPDF2, re for data extraction and analysis
+- **Base Path Convention**: Use relative paths from project root for cross-platform compatibility
+- **SIAP Data Integration**: Load livestock census from `DOCS REFERENCIA/2025. padron ganadero nacional yucatan detallado por municipios.csv`
+- **Data Cleaning Protocol**: Remove quotes and commas from numeric columns, convert to integers for calculations
+- **Budget Verification**: Cross-reference macro-project totals with individual component calculations
+- **PDF Text Extraction**: Use PyPDF2 for mining scientific literature and extracting quantitative data
+- **Pareto Analysis**: Implement 80/20 rule for territorial focusing (top 11 municipalities = 80.3% cattle concentration)
 
 ### Planning Documents
 - 5-year strategic timelines with annual milestones and Gantt chart integration

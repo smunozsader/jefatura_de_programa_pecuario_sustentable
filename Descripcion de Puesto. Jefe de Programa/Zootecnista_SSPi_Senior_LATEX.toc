@@ -1,0 +1,18 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Caracterización Institucional del Puesto}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Identificación Administrativa}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Contexto Programático Específico}{3}{}%
+\contentsline {section}{\numberline {2}Responsabilidades Principales}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Diseño e Implementación de SSPi}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Pastoreo Racional y Manejo Animal}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Captura de Carbono y Servicios Ecosistémicos}{4}{}%
+\contentsline {section}{\numberline {3}Perfil del Puesto}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Requisitos Académicos y Experiencia}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Competencias Técnicas Específicas}{5}{}%
+\contentsline {section}{\numberline {4}Indicadores de Desempeño}{6}{}%
+\contentsline {section}{\numberline {5}Metodología de Trabajo}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Cronograma Anual de Actividades}{6}{}%
+\contentsline {section}{\numberline {6}Coordinación Técnica}{7}{}%
+\contentsline {section}{\numberline {7}Condiciones Laborales}{7}{}%
+\contentsline {subsection}{\numberline {7.1}Condiciones Específicas}{7}{}%
+\contentsline {section}{\numberline {8}Conclusiones Técnicas}{7}{}%

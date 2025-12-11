@@ -1,0 +1,23 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Caracterización Institucional del Puesto}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Identificación Administrativa}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Contexto Programático Específico}{3}{}%
+\contentsline {section}{\numberline {2}Responsabilidades Principales}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Caracterización de Suelos Tropicales}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Sistemas de Riego Tecnificado}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Fertilidad y Nutrición Vegetal}{4}{}%
+\contentsline {section}{\numberline {3}Perfil del Puesto}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Requisitos Académicos y Experiencia}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Competencias Técnicas Específicas}{5}{}%
+\contentsline {section}{\numberline {4}Indicadores de Desempeño}{6}{}%
+\contentsline {section}{\numberline {5}Metodología de Trabajo}{6}{}%
+\contentsline {subsection}{\numberline {5.1}Protocolo de Caracterización Edáfica}{6}{}%
+\contentsline {subsection}{\numberline {5.2}Cronograma Anual de Actividades}{7}{}%
+\contentsline {section}{\numberline {6}Coordinación Técnica}{8}{}%
+\contentsline {section}{\numberline {7}Equipamiento Especializado}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Instrumentos de Campo}{8}{}%
+\contentsline {section}{\numberline {8}Condiciones Laborales}{8}{}%
+\contentsline {subsection}{\numberline {8.1}Condiciones Específicas}{8}{}%
+\contentsline {section}{\numberline {9}Impacto Esperado}{9}{}%
+\contentsline {subsection}{\numberline {9.1}Contribución al Macroproyecto}{9}{}%
+\contentsline {section}{\numberline {10}Conclusiones Técnicas}{9}{}%
