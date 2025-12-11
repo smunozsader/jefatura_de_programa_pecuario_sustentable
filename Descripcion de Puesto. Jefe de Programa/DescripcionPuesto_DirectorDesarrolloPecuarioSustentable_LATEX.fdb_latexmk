@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1765485380.76071 "h:/My Drive/2025. 1.0 JEFATURA PROGRAMA/Descripcion de Puesto. Jefe de Programa/DescripcionPuesto_JefePrograma_LATEX.tex" "DescripcionPuesto_JefePrograma_LATEX.pdf" "DescripcionPuesto_JefePrograma_LATEX" 1765485382.49603 0
+["pdflatex"] 1765486103.08331 "h:/My Drive/2025. 1.0 JEFATURA PROGRAMA/Descripcion de Puesto. Jefe de Programa/DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.tex" "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.pdf" "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX" 1765486104.99753 0
   "C:/Users/smuno/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1765473103 185646 e51b1299b3d474196e9594bb73a1b665 ""
   "C:/Users/smuno/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcbx1200.pk" 1762898843 15080 e13a65362874014e21229465d96c9e3a ""
   "C:/Users/smuno/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1762898813 14064 528b32dfba3dcb37e62ee2a3091d5461 ""
@@ -13,6 +13,7 @@
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
+  "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
@@ -23,6 +24,7 @@
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
@@ -76,13 +78,13 @@
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/tex/latex/tools/longtable.sty" 1761901070 16014 dfa4b4d4e04a78a3f05a90c19711737a ""
   "C:/Users/smuno/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "DescripcionPuesto_JefePrograma_LATEX.aux" 1765485382 5140 416bb2600b0d4d5902547da44c1cf24f "pdflatex"
-  "DescripcionPuesto_JefePrograma_LATEX.tex" 1765485331 24097 87b9802a696ee4dfab84b753253d174f ""
-  "DescripcionPuesto_JefePrograma_LATEX.toc" 1765485382 2736 86653c55063e05ec3182ca7fed9e8886 "pdflatex"
-  "h:/My Drive/2025. 1.0 JEFATURA PROGRAMA/Descripcion de Puesto. Jefe de Programa/DescripcionPuesto_JefePrograma_LATEX.tex" 1765485331 24097 87b9802a696ee4dfab84b753253d174f ""
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.aux" 1765486104 4505 3603d412ad989fb1654afce115604d97 "pdflatex"
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.tex" 1765486098 21023 aea1ea5a4858cb367aba5152b1208954 ""
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.toc" 1765486104 2314 49f9f46af4a194bd3a15aaaffc3ef8a8 "pdflatex"
+  "h:/My Drive/2025. 1.0 JEFATURA PROGRAMA/Descripcion de Puesto. Jefe de Programa/DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.tex" 1765486098 21023 aea1ea5a4858cb367aba5152b1208954 ""
   (generated)
-  "DescripcionPuesto_JefePrograma_LATEX.aux"
-  "DescripcionPuesto_JefePrograma_LATEX.log"
-  "DescripcionPuesto_JefePrograma_LATEX.pdf"
-  "DescripcionPuesto_JefePrograma_LATEX.toc"
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.aux"
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.log"
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.pdf"
+  "DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX.toc"
   (rewritten before read)

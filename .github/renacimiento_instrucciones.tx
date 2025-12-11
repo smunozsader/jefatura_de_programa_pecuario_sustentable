@@ -3,7 +3,7 @@
 % Macroproyecto Renacimiento Ganadero Maya + Instrucciones de redacción
 %======================================================================
 
-\documentclass[12pt,a4paper,titlepage]{article}
+\documentclass[12pt,letterpaper,titlepage]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,mexico]{babel}

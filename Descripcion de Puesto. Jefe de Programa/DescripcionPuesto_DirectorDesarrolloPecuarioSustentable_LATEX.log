@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.25)  11 DEC 2025 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.25)  11 DEC 2025 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -471,22 +471,22 @@ Underfull \hbox (badness 1490) in paragraph at lines 192--192
  []
 
 [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
 []|\OT1/cmr/m/n/12 M^^Sedi-co Ve-te-ri-na-rio Zoo-tec-nis-ta o In-ge-nie-ro
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 266--266
+Underfull \hbox (badness 3861) in paragraph at lines 275--275
 []|\OT1/cmr/m/n/12 Conocimientos in-dis-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 267--268
+Underfull \hbox (badness 4120) in paragraph at lines 276--277
 []|\OT1/cmr/m/n/12 Ingl^^Ses t^^Secni-co avan-za-do (in-ter-ac-ci^^Son APHIS-
  []
 
 [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 []|\OT1/cmr/bx/n/12 Acumulado
  []
 
@@ -504,7 +504,7 @@ L3 programming layer <2025-11-06>
 Here is how much of TeX's memory you used:
  6386 strings out of 467871
  104963 string characters out of 5418375
- 547579 words of memory out of 5000000
+ 548579 words of memory out of 5000000
  35171 multiletter control sequences out of 15000+600000
  634580 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -520,7 +520,7 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/smuno/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/smun
 o/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on DescripcionPuesto_DirectorDesarrolloPecuarioSustentable_LATEX
-.pdf (12 pages, 135012 bytes).
+.pdf (12 pages, 136025 bytes).
 PDF statistics:
  88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

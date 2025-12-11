@@ -15,15 +15,15 @@
 \contentsline {subsection}{\numberline {4.3}Coordinación Interinstitucional}{7}{}%
 \contentsline {section}{\numberline {5}Perfil del Puesto}{7}{}%
 \contentsline {subsection}{\numberline {5.1}Requisitos Académicos y Experiencia}{7}{}%
-\contentsline {subsection}{\numberline {5.2}Competencias Técnicas Específicas}{7}{}%
+\contentsline {subsection}{\numberline {5.2}Competencias Técnicas Específicas}{8}{}%
 \contentsline {section}{\numberline {6}Condiciones Laborales}{8}{}%
 \contentsline {subsection}{\numberline {6.1}Condiciones Generales}{8}{}%
-\contentsline {subsection}{\numberline {6.2}Prestaciones y Beneficios}{8}{}%
+\contentsline {subsection}{\numberline {6.2}Prestaciones y Beneficios}{9}{}%
 \contentsline {section}{\numberline {7}Marco Legal y Financiero del Puesto}{9}{}%
 \contentsline {subsection}{\numberline {7.1}Fundamento Jurídico del Financiamiento}{9}{}%
 \contentsline {subsection}{\numberline {7.2}Estructura de Rendición de Cuentas}{9}{}%
-\contentsline {section}{\numberline {8}Plan de Trabajo del Director}{9}{}%
-\contentsline {subsection}{\numberline {8.1}Cronograma de Implementación 2026-2030}{9}{}%
+\contentsline {section}{\numberline {8}Plan de Trabajo del Director}{10}{}%
+\contentsline {subsection}{\numberline {8.1}Cronograma de Implementación 2026-2030}{10}{}%
 \contentsline {subsection}{\numberline {8.2}Indicadores de Desempeño Mensual}{10}{}%
 \contentsline {section}{\numberline {9}Conclusiones Técnicas}{10}{}%
 \contentsline {section}{\numberline {10}Validación Institucional}{11}{}%
