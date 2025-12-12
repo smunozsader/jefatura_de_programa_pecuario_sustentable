@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.16" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" maxScale="0" minScale="100000000" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0">
-  <renderer-v2 symbollevels="0" enableorderby="0" type="categorizedSymbol" attr="pareto_ganadero_yucatan_FINAL_pareto_grupo" forceraster="0">
+  <renderer-v2 symbollevels="0" enableorderby="0" type="categorizedSymbol" attr="pareto_grupo" forceraster="0">
     <categories>
       <category render="true" symbol="0" value="Pareto" label="11 Municipios PARETO (80.3% concentración)"/>
       <category render="true" symbol="1" value="Nivel2" label="9 Municipios NIVEL 2 (hasta 94.8%)"/>
@@ -60,9 +60,9 @@
   <!-- Etiquetas para municipios Pareto -->
   <labeling type="rule-based">
     <rules key="{a85c4044-1234-1234-1234-123456789abc}">
-      <rule key="{b85c4044-5678-5678-5678-123456789def}" filter="&quot;pareto_ganadero_yucatan_FINAL_pareto_grupo&quot; = 'Pareto'">
+      <rule key="{b85c4044-5678-5678-5678-123456789def}" filter="&quot;pareto_grupo&quot; = 'Pareto'">
         <settings calloutType="simple">
-          <text-style fontSize="8" textOrientation="horizontal" fontCapitals="0" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Arial" fontStrikeout="0" textOpacity="1" fontLetterSpacing="0" fontSizeUnit="Point" blendMode="0" fontItalic="0" fontWordSpacing="0" textColor="255,255,255,255" previewBkgrdColor="255,255,255,255" fieldName="pareto_ganadero_yucatan_FINAL_municipio" fontWeight="75" fontKerning="1" namedStyle="Bold" multilineHeight="1" isExpression="0" useSubstitutions="0">
+          <text-style fontSize="8" textOrientation="horizontal" fontCapitals="0" fontUnderline="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Arial" fontStrikeout="0" textOpacity="1" fontLetterSpacing="0" fontSizeUnit="Point" blendMode="0" fontItalic="0" fontWordSpacing="0" textColor="255,255,255,255" previewBkgrdColor="255,255,255,255" fieldName="municipio" fontWeight="75" fontKerning="1" namedStyle="Bold" multilineHeight="1" isExpression="0" useSubstitutions="0">
             <text-buffer bufferSize="1.0" bufferSizeUnits="MM" bufferColor="0,0,0,255" bufferNoFill="0" bufferOpacity="0.8" bufferJoinStyle="128" bufferDraw="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0"/>
           </text-style>
           <text-format autoWrapLength="0" wrapChar="" formatNumbers="0" decimals="3" placeDirectionSymbol="0" addDirectionSymbol="0" multilineAlign="3" useMaxLineLengthForAutoWrap="1" leftDirectionSymbol="&lt;" rightDirectionSymbol=">" reverseDirectionSymbol="0" plussign="0"/>

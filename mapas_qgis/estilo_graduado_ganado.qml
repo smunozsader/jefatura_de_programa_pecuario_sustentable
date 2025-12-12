@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.16" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" maxScale="0" minScale="100000000" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0">
-  <renderer-v2 graduatedMethod="GraduatedColor" symbollevels="0" enableorderby="0" type="graduatedSymbol" attr="pareto_ganadero_yucatan_FINAL_superficie_ha" forceraster="0">
+  <renderer-v2 graduatedMethod="GraduatedColor" symbollevels="0" enableorderby="0" type="graduatedSymbol" attr="superficie_ha" forceraster="0">
     <ranges>
       <!-- Muy Alto: 100,000+ ha (Tizimín, Panabá) - Rojo intenso -->
       <range render="true" symbol="0" lower="100000.000000" upper="300000.000000" label="Muy Alto (100,000+ ha)"/>
