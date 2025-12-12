@@ -1,0 +1,21 @@
+municipio,cvegeo,organizacion,superficie_ha,upp,vientres,vaquillas,sementales,porcentaje_acumulado,rank_pareto,nivel_prioridad
+Tizimín,31094,UGROY,260595,2183,89394,8903,5234,35.2,1,Nivel_1_Pareto
+Panabá,31060,UGROY,100026,539,23902,2883,1167,48.1,2,Nivel_1_Pareto
+Tekax,31085,UGRY,78245,343,7019,896,360,54.3,3,Nivel_1_Pareto
+Buctzotz,31015,UGROY,74793,492,15855,2049,809,59.6,4,Nivel_1_Pareto
+Dzilam González,31032,UGROY,55102,248,6569,760,348,63.5,5,Nivel_1_Pareto
+Tzucacab,31098,UGRY,50688,411,7910,1383,408,67.0,6,Nivel_1_Pareto
+Cenotillo,31019,UGROY,43279,294,8127,1000,441,70.0,7,Nivel_1_Pareto
+Peto,31062,UGRY,41168,212,5151,773,236,72.8,8,Nivel_1_Pareto
+Sucilá,31088,UGROY,39712,276,7840,982,367,75.6,9,Nivel_1_Pareto
+Izamal,31040,UGRY,33903,319,4275,607,292,78.0,10,Nivel_1_Pareto
+San Felipe,31073,UGROY,33203,144,5841,676,266,80.3,11,Nivel_1_Pareto
+Temozon,31089,UGROY,27754,494,6373,847,549,82.3,12,Nivel_2_Complementario
+Tunkas,31095,UGRY,27262,257,3246,568,241,84.2,13,Nivel_2_Complementario
+Yaxcaba,31106,UGRY,25045,33,350,76,32,85.9,14,Nivel_2_Complementario
+Kinchil,31044,UGRY,25378,101,1575,336,93,87.6,15,Nivel_2_Complementario
+Valladolid,31102,UGROY,23992,260,3095,490,340,89.2,16,Nivel_2_Complementario
+Maxcanú,31050,UGRY,23180,75,1002,117,74,90.7,17,Nivel_2_Complementario
+Sotuta,31087,UGRY,21142,61,1029,167,65,92.1,18,Nivel_2_Complementario
+Calotmul,31016,UGROY,20638,238,4992,572,283,93.5,19,Nivel_2_Complementario
+Espita,31033,UGROY,19442,202,3277,398,184,94.8,20,Nivel_2_Complementario

@@ -1,0 +1,6 @@
+nombre,tipo,municipio,lat,lon,inversion_mdp,componente,beneficiarios
+Centro Mejoramiento Genético Tizimín,Infraestructura,Tizimín,21.1472,-88.1375,150.0,Comp2_Genetica,1075
+Hub Regional UGROY Panabá,Coordinación,Panaba,21.2833,-88.0167,25.0,Coord_Regional,540
+Centro Lechero Tropical Tekax,Producción,Tekax,20.1833,-89.2667,89.5,Comp4_Lechero,75
+Módulo Sanitario Buctzotz,Sanidad,Buctzotz,21.1667,-88.3167,15.0,Comp6_Sanidad,320
+Laboratorio CESO Izamal,Digital,Izamal,20.9306,-89.0194,51.5,Comp6_Digital,1320

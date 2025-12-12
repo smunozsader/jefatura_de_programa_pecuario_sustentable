@@ -40,38 +40,46 @@ This structure properly acknowledges that while the consultant is now independen
   - `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex`: Main executive document (LaTeX, 60+ pages, APA citations, calculation memories)
   - `BASE_TECNICA_INTEGRAL_RENACIMIENTO_GANADERO_MAYA.tex`: Technical foundation document
   - `RESUMEN_EJECUTIVO_*.tex`: Multiple executive summaries (telegraphic pitch, epic storytelling, standard)
-  - `MEMORIA_CALCULO_PAQUETE_TECNOLOGICO_SSPi.tex`: SSPi technical calculation memories
-  - `ESTRUCTURA_PRESUPUESTARIA_CORRECTA.md`: Consolidated budget structure
+  - `MEMORIA_CALCULO_PAQUETE_TECNOLOGICO_SSPi.tex`: SSPi technical calculation memories with cost scenarios
+  - `RECALCULO_MACROPROYECTO_BECERROS_YUCATAN.tex`: Beef calf economic model validation
+  - `Calculo_Carga_Animal_Yucatan_SIAP.tex`: Livestock density verification using official SIAP data
   - `Analisis Pareto Ganadero Yucatan.tex`: Territorial focusing analysis (11 municipalities = 80.3% concentration)
 - `ANALISIS Y SCRIPTS/`: Python data analysis tools
   - `budget_analysis.py`: Budget coherence verification with SIAP data integration
   - `extraccion_detallada_sspi.py`: PDF text extraction for SSPi research analysis
   - `analisis_sspi_pdfs.py`: Scientific literature mining tool
+  - `verificacion_cifras.py`: Cross-validation of financial calculations
+  - `generar_capas_qgis.py`: Geographic analysis automation
 - `Descripcion de Puesto. Jefe de Programa/`: Program management documentation
   - `DescripcionPuesto_JefePrograma_LATEX.tex`: Technical coordinator profile (8-person team)
+  - `Especialista_SIG_Carbono_LATEX.tex`: GIS/Carbon specialist role specifications
 - `DOCS REFERENCIA/`: Supporting documentation, SIAP data, scientific articles
-  - `2025. padron ganadero nacional yucatan detallado por municipios.gsheet`: Official livestock census
-  - `2025. siap. datos pecuarios/`: Official livestock inventory data
+  - `2025. padron ganadero nacional yucatan detallado por municipios.csv`: Official livestock census (CSV for analysis)
+  - `2025. siap. datos pecuarios/`: Official livestock inventory time series (2014-2023)
   - `articulos lecheros/`: Scientific references for tropical dairy systems
   - `guia metodologica para la incorporacion de escuelas de campo de sistemas silvopastoriles (colombia).pdf`: SSPi implementation methodology
 - `MOSCA ESTERIL/`: Separate strategic component for screwworm eradication ($300M independent project)
 - `Centro de Mejoramento Genetico/`: Genetic improvement center documentation
 - `SANIDADES/`: Animal health certification protocols
+- `mapas_qgis/`: Geographic analysis and territorial focusing maps
+- `marco_geoestadistico_inegi/`: Official territorial boundaries for analysis
 
 ## Document Conventions
 
 ### LaTeX Document Standards
 - **CRITICAL**: Always compile LaTeX documents TWICE using `pdflatex` to properly populate table of contents and cross-references
 - **Terminal Command**: `cd "Proyecto Estrategico" && pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex && pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex`
+- **Windows PowerShell**: Use absolute paths: `cd "H:\My Drive\2025. 1.0 JEFATURA PROGRAMA\Proyecto Estrategico"`
 - **Document Class**: Use `\documentclass[12pt,letterpaper,titlepage]{article}` with UTF-8 encoding and Spanish/Mexico babel
-- **Essential Packages**: geometry, graphicx, fancyhdr, booktabs, xcolor, colortbl, pgfgantt, tabularx, float, multirow, lastpage
+- **Essential Packages**: geometry, graphicx, fancyhdr, booktabs, xcolor, colortbl, pgfgantt, tabularx, float, multirow, lastpage, amsmath, tikz, pgfplots, natbib
 - **Page Layout**: Geometry with left=3cm, right=2.5cm, top=3cm, bottom=3cm margins, headheight=20pt
-- **Colors**: Define SADER palette: sadergreen RGB(0,102,51), sadergris RGB(80,80,80), sadergold RGB(204,153,0), saderblue RGB(0,51,102)
+- **Colors**: Define SADER palette: sadergreen RGB(0,102,51), sadergris RGB(80,80,80), sadergold RGB(204,153,0), saderblue RGB(0,51,102), projectgreen RGB(34,139,34), projectblue, alertred RGB(178,34,34)
 - **Headers/Footers**: ALL documents MUST use fancy headers with document title centered and fancy footers with "Página X de Y" format using LastPage reference. Format: `\fancyhead[C]{\textcolor{sadergris}{\footnotesize DOCUMENT TITLE}}` and `\fancyfoot[C]{\textcolor{sadergris}{\small Página \thepage\ de \pageref{LastPage}}}`
 - **Title Pages**: Include institutional hierarchy, authorship, investment totals, component summary
-- **Tables**: Extensive use with rowcolor alternation (sadergreen!20, sadergold!30), booktabs formatting
+- **Tables**: Extensive use with rowcolor alternation (sadergreen!20, sadergold!30, projectblue!20, projectgreen!30), booktabs formatting
 - **Gantt Charts**: Use pgfgantt package for timeline visualization with component dependencies
 - **Professional Structure**: Titlepage → table of contents → sections with decimal numbering (1., 1.1., 1.1.1.)
+- **Cost Analysis Tables**: Standard format with highlighted totals, scenarios comparison, and viability assessments
 
 ### Scientific Citation Requirements
 - **APA Citation System**: All quantitative claims must include numbered superscript citations (\textsuperscript{1,2,3})
@@ -150,12 +158,18 @@ This structure properly acknowledges that while the consultant is now independen
 
 ### Python Data Analysis Workflow
 - **Primary Tools**: pandas, PyPDF2, re for data extraction and analysis
+- **Environment Setup**: Use virtual environment `.venv` activated with `& "H:/My Drive/2025. 1.0 JEFATURA PROGRAMA/.venv/Scripts/Activate.ps1"`
 - **Base Path Convention**: Use relative paths from project root for cross-platform compatibility
 - **SIAP Data Integration**: Load livestock census from `DOCS REFERENCIA/2025. padron ganadero nacional yucatan detallado por municipios.csv`
-- **Data Cleaning Protocol**: Remove quotes and commas from numeric columns, convert to integers for calculations
-- **Budget Verification**: Cross-reference macro-project totals with individual component calculations
+- **Data Cleaning Protocol**: Standard pattern for numeric columns:
+  ```python
+  df[col] = df[col].astype(str).str.replace('"', '').str.replace(',', '').astype(int)
+  ```
+- **Budget Verification**: Cross-reference macro-project totals with individual component calculations using `budget_analysis.py`
 - **PDF Text Extraction**: Use PyPDF2 for mining scientific literature and extracting quantitative data
 - **Pareto Analysis**: Implement 80/20 rule for territorial focusing (top 11 municipalities = 80.3% cattle concentration)
+- **QGIS Integration**: Generate geographic layers with `generar_capas_qgis.py` for territorial analysis
+- **Validation Scripts**: Use `verificacion_cifras.py` for cross-validation of financial calculations between documents
 
 ### Planning Documents
 - 5-year strategic timelines with annual milestones and Gantt chart integration
@@ -178,5 +192,59 @@ This structure properly acknowledges that while the consultant is now independen
 - **Revision Standards**: Conduct iterative reviews with Mexican Spanish grammar correctors and expert validation from INIFAP, UADY
 - **Quality Control**: Correct accents, orthography, repetitions; ensure smooth transitions between sections
 - **Audience Targeting**: For investors emphasize ROI metrics, for authorities highlight regulatory compliance, include technical glossaries when necessary
+
+## Critical Development Workflows
+
+### LaTeX Compilation Workflow (Essential)
+```powershell
+# Navigate to project directory
+cd "H:\My Drive\2025. 1.0 JEFATURA PROGRAMA\Proyecto Estrategico"
+
+# ALWAYS compile twice for proper cross-references
+pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex
+pdflatex MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex
+```
+
+### Data Analysis Integration Pattern
+1. **Load SIAP Data**: Always use `DOCS REFERENCIA/2025. padron ganadero nacional yucatan detallado por municipios.csv` as authoritative source
+2. **Clean Numeric Columns**: Apply standard pattern to remove quotes/commas before analysis
+3. **Cross-Validate**: Use `budget_analysis.py` to verify financial coherence across documents
+4. **Generate Outputs**: LaTeX tables with proper rowcolor formatting for document integration
+
+### Cost Scenario Analysis Workflow
+- **SSPi Technical Package**: Three validated scenarios in `MEMORIA_CALCULO_PAQUETE_TECNOLOGICO_SSPi.tex`
+  - Technical Complete: $128,995/ha (unfeasible within budget)
+  - **Recommended**: $55,573/ha (optimal balance, used in main project)
+  - Simplified: $33,773/ha (budget-compatible backup)
+- **Economic Validation**: Beef calf weaning model with 4.0:1 credit payment capacity ratio
+- **Territorial Focusing**: Pareto analysis concentrating 80% resources in 11 priority municipalities
+
+### Document Interdependencies (Critical)
+- **Main Document**: `MACROPROYECTO_INTEGRADO_GANTT_2026-2030.tex` integrates all component calculations
+- **Technical Memories**: `MEMORIA_CALCULO_*` files provide scientific justification for main document figures
+- **Validation Documents**: `RECALCULO_*` and `Calculo_Carga_Animal_*` cross-verify financial and technical assumptions
+- **Executive Summaries**: Multiple versions (telegraphic, epic, standard) maintain consistency with main document
+
+### Version Control & Quality Assurance
+- **Scientific Traceability**: Every quantitative claim must have numbered superscript citation with source in anexes
+- **Financial Coherence**: All budget figures must cross-validate between component documents and main macro-project
+- **Institutional Accuracy**: NO BRANDING - independent consultant work for SEDER Yucatán presentation
+- **Language Standards**: Mexican Spanish formal technical language with proper institutional terminology
+
+## Project-Specific Integration Points
+
+### Multi-Component Dependencies
+1. **Sterile Fly Plant**: Must precede livestock health certification (T-MEC compliance requires screwworm-free status)
+2. **SSPi Implementation**: Enables increased cattle carrying capacity for repopulation program
+3. **Genetic Center**: Provides semen doses for F1 heifer production and genetic improvement
+4. **Digital Platform (CESO)**: Required for traceability and APHIS-USDA export certification
+5. **Meliponiculture**: Provides pollination services for silvopastoral systems
+6. **Dairy Development**: Utilizes SSPi infrastructure for specialized milk production modules
+
+### External System Integration
+- **SIAP Data**: Official livestock statistics for baseline establishment and validation
+- **SINIIGA/SINIDA**: Digital traceability integration for T-MEC compliance
+- **APHIS-USDA**: Binational protocols for screwworm eradication and export certification
+- **FOFAY**: Fiduciary mechanism for tripartite funding (60% federal, 30% state, 10% producers)
 
 When working with this codebase, prioritize understanding the integrated nature of the six components and their interdependencies. The program manager role serves as the technical coordinator for federal execution across all components simultaneously, not as separate projects. All work must maintain scientific rigor with full traceability of data sources and calculation methodologies.
