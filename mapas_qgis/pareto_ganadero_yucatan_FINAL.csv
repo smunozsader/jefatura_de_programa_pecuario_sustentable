@@ -1,15 +1,24 @@
-CVEGEO,municipio,ganado_bovino,organizacion,pareto_grupo
-31096,Tizimín,131108,UGROY,Pareto
-31102,Valladolid,80146,UGROY,Pareto
-31050,Mérida,58514,UGRY,Pareto
-31048,Maxcanú,51362,UGRY,Pareto
-31089,Ticul,47377,UGRY,Pareto
-31079,Tekax de Álvaro Obregón,40613,UGRY,Pareto
-31038,Hunucmá,38686,UGRY,Pareto
-31101,Umán,37734,UGRY,Pareto
-31052,Motul,37243,UGRY,Pareto
-31041,Kanasín,36649,UGRY,Pareto
-31056,Oxkutzcab,36407,UGRY,Pareto
+CVEGEO,municipio,superficie_ha,organizacion,pareto_grupo,porcentaje_acumulado
+31096,Tizimín,260595,UGROY,Pareto,35.2
+31057,Panabá,100026,UGROY,Pareto,48.1
+31079,Tekax de Álvaro Obregón,78245,UGRY,Pareto,54.3
+31006,Buctzotz,74793,UGROY,Pareto,59.6
+31029,Dzilam González,55102,UGROY,Pareto,63.5
+31098,Tzucacab,50688,UGRY,Pareto,67.0
+31012,Cenotillo,43279,UGROY,Pareto,70.0
+31058,Peto,41168,UGRY,Pareto,72.8
+31070,Sucilá,39712,UGROY,Pareto,75.6
+31040,Izamal,33903,UGRY,Pareto,78.0
+31065,San Felipe,33203,UGROY,Pareto,80.3
+31085,Temozón,27754,UGROY,Nivel2,82.3
+31097,Tunkás,27262,UGRY,Nivel2,84.2
+31104,Yaxcabá,25045,UGRY,Nivel2,85.9
+31044,Kinchil,25378,UGRY,Nivel2,87.6
+31102,Valladolid,23992,UGROY,Nivel2,89.2
+31048,Maxcanú,23180,UGRY,Nivel2,90.7
+31069,Sotuta,21142,UGRY,Nivel2,92.1
+31008,Calotmul,20638,UGROY,Nivel2,93.5
+31032,Espita,19442,UGROY,Nivel2,94.8
 31001,Abalá,15966,UGRY,Resto
 31002,Acanceh,8985,UGRY,Resto
 31003,Akil,6240,UGRY,Resto

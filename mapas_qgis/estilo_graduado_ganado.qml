@@ -1,19 +1,19 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.16" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" maxScale="0" minScale="100000000" labelsEnabled="1" simplifyMaxScale="1" simplifyAlgorithm="0">
-  <renderer-v2 graduatedMethod="GraduatedColor" symbollevels="0" enableorderby="0" type="graduatedSymbol" attr="pareto_ganadero_yucatan_FINAL_ganado_bovino" forceraster="0">
+  <renderer-v2 graduatedMethod="GraduatedColor" symbollevels="0" enableorderby="0" type="graduatedSymbol" attr="pareto_ganadero_yucatan_FINAL_superficie_ha" forceraster="0">
     <ranges>
-      <!-- Muy Alto: 80,000+ cabezas (Tizimín, Valladolid) - Rojo intenso -->
-      <range render="true" symbol="0" lower="80000.000000" upper="150000.000000" label="Muy Alto (80,000+ cabezas)"/>
-      <!-- Alto: 50,000-79,999 cabezas - Rojo medio-alto -->
-      <range render="true" symbol="1" lower="50000.000000" upper="79999.000000" label="Alto (50,000-79,999 cabezas)"/>
-      <!-- Medio-Alto: 35,000-49,999 cabezas - Rojo medio -->
-      <range render="true" symbol="2" lower="35000.000000" upper="49999.000000" label="Medio-Alto (35,000-49,999 cabezas)"/>
-      <!-- Medio: 20,000-34,999 cabezas - Rojo claro -->
-      <range render="true" symbol="3" lower="20000.000000" upper="34999.000000" label="Medio (20,000-34,999 cabezas)"/>
-      <!-- Bajo: 10,000-19,999 cabezas - Rosa -->
-      <range render="true" symbol="4" lower="10000.000000" upper="19999.000000" label="Bajo (10,000-19,999 cabezas)"/>
-      <!-- Muy Bajo: 1-9,999 cabezas - Rosa muy claro -->
-      <range render="true" symbol="5" lower="1.000000" upper="9999.000000" label="Muy Bajo (1-9,999 cabezas)"/>
+      <!-- Muy Alto: 100,000+ ha (Tizimín, Panabá) - Rojo intenso -->
+      <range render="true" symbol="0" lower="100000.000000" upper="300000.000000" label="Muy Alto (100,000+ ha)"/>
+      <!-- Alto: 50,000-99,999 ha - Rojo medio-alto -->
+      <range render="true" symbol="1" lower="50000.000000" upper="99999.000000" label="Alto (50,000-99,999 ha)"/>
+      <!-- Medio-Alto: 30,000-49,999 ha - Rojo medio -->
+      <range render="true" symbol="2" lower="30000.000000" upper="49999.000000" label="Medio-Alto (30,000-49,999 ha)"/>
+      <!-- Medio: 20,000-29,999 ha - Rojo claro -->
+      <range render="true" symbol="3" lower="20000.000000" upper="29999.000000" label="Medio (20,000-29,999 ha)"/>
+      <!-- Bajo: 10,000-19,999 ha - Rosa -->
+      <range render="true" symbol="4" lower="10000.000000" upper="19999.000000" label="Bajo (10,000-19,999 ha)"/>
+      <!-- Muy Bajo: 1-9,999 ha - Rosa muy claro -->
+      <range render="true" symbol="5" lower="1.000000" upper="9999.000000" label="Muy Bajo (1-9,999 ha)"/>
     </ranges>
     <symbols>
       <!-- Muy Alto: Rojo intenso #B22222 -->

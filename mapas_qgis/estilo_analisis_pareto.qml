@@ -3,8 +3,8 @@
   <renderer-v2 symbollevels="0" enableorderby="0" type="categorizedSymbol" attr="pareto_ganadero_yucatan_FINAL_pareto_grupo" forceraster="0">
     <categories>
       <category render="true" symbol="0" value="Pareto" label="11 Municipios PARETO (80.3% concentración)"/>
-      <category render="true" symbol="1" value="Resto" label="95 Municipios RESTO (19.7% concentración)"/>
-      <category render="true" symbol="2" value="" label="Sin datos"/>
+      <category render="true" symbol="1" value="Nivel2" label="9 Municipios NIVEL 2 (hasta 94.8%)"/>
+      <category render="true" symbol="2" value="" label="86 Municipios RESTO (5.2% concentración)"/>
     </categories>
     <symbols>
       <!-- Municipios PARETO - Rojo intenso para destacar -->
@@ -23,34 +23,34 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <!-- Municipios RESTO - Verde claro -->
-      <symbol force_rhr="0" alpha="0.6" clip_to_extent="1" name="1" type="fill">
+      <!-- Municipios NIVEL 2 - Naranja -->
+      <symbol force_rhr="0" alpha="0.85" clip_to_extent="1" name="1" type="fill">
         <layer enabled="1" class="SimpleFill" locked="0" pass="0">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="color" v="144,238,144,180"/>
+          <prop k="color" v="255,140,0,220"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
-          <prop k="outline_color" v="85,107,47,255"/>
+          <prop k="outline_color" v="255,215,0,255"/>
           <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.3"/>
+          <prop k="outline_width" v="0.5"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <!-- Sin datos - Gris -->
-      <symbol force_rhr="0" alpha="0.3" clip_to_extent="1" name="2" type="fill">
+      <!-- Municipios RESTO - Gris claro -->
+      <symbol force_rhr="0" alpha="0.4" clip_to_extent="1" name="2" type="fill">
         <layer enabled="1" class="SimpleFill" locked="0" pass="0">
           <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="color" v="211,211,211,100"/>
+          <prop k="color" v="224,224,224,100"/>
           <prop k="joinstyle" v="bevel"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="128,128,128,255"/>
           <prop k="outline_style" v="solid"/>
-          <prop k="outline_width" v="0.1"/>
+          <prop k="outline_width" v="0.2"/>
           <prop k="outline_width_unit" v="MM"/>
           <prop k="style" v="solid"/>
         </layer>
